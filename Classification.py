@@ -94,13 +94,11 @@ for sample_size in sample_sizes:
     X_train, y_train = train_df['sentences'], train_df['label']
     train_dataset, eval_dataset, test_dataset = turn_into_dataset(X_train, y_train, X_val, y_val, X_test, y_test)
 
-    if sample_size == 3:
-        subprocess.run(['git', 'add', './test_dataset_SVC.csv', './eval_dataset_SVC.csv'])
-
     # Save data for reproducibility
     if sample_size == 3:
         save_dataset(test_dataset, 'test_dataset_SVC')
         save_dataset(eval_dataset, 'eval_dataset_SVC')
+        subprocess.run(['git', 'add', './test_dataset_SVC.csv', './eval_dataset_SVC.csv'])
 
     # Initiate trainer
     trainer = Trainer(
