@@ -11,11 +11,12 @@ from optuna import Trial
 from typing import Dict, Any, Union
 import warnings
 import time
+import subprocess
 
 # ========================== Preparations ==========================
-warnings.simplefilter("ignore")
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
+warnings.simplefilter('ignore')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print(f'Using device: {device}')
 
 # ========================== Data Import ==========================
 full_data_set = pd.read_csv('/Users/xeniamarlenezerweck/Documents/Verzeichnis/Master/Thesis/Daten/numbers_files/data.csv', sep=';') # len(full_data_set) = 3497
@@ -45,8 +46,8 @@ def turn_into_dataset(X_train, y_train, X_val, y_val, X_test, y_test):
 # Model initialisation
 def model_init(params: Dict[str, Any]) -> SetFitModel:
     params = params or {}
-    max_iter = params.get("max_iter", 100)
-    model_body = SentenceTransformer("sentence-transformers/all-mpnet-base-v2") # https://huggingface.co/sentence-transformers/all-mpnet-base-v2, https://www.sbert.net/docs/sentence_transformer/pretrained_models.html
+    max_iter = params.get('max_iter', 100)
+    model_body = SentenceTransformer('sentence-transformers/all-mpnet-base-v2') # https://huggingface.co/sentence-transformers/all-mpnet-base-v2, https://www.sbert.net/docs/sentence_transformer/pretrained_models.html
     model_head = SVC(max_iter=max_iter, class_weight = class_weights_dict) # https://huggingface.co/docs/setfit/how_to/classification_heads
     model = SetFitModel(model_body=model_body, model_head=model_head)
     return model
@@ -89,8 +90,12 @@ for sample_size in sample_sizes:
     train_df = train_df.groupby('label').apply(lambda x: x.sample(n=sample_size)).reset_index(drop=True)
     if sample_size == 3:
         train_df.to_csv('./train_dataset_SVC.csv')
+        subprocess.run(['git', 'add', './train_dataset_SVC.csv'])
     X_train, y_train = train_df['sentences'], train_df['label']
     train_dataset, eval_dataset, test_dataset = turn_into_dataset(X_train, y_train, X_val, y_val, X_test, y_test)
+
+    if sample_size == 3:
+        subprocess.run(['git', 'add', './test_dataset_SVC.csv', './eval_dataset_SVC.csv'])
 
     # Save data for reproducibility
     if sample_size == 3:
@@ -107,11 +112,18 @@ for sample_size in sample_sizes:
     )
 
     # Save best run 
-    best_run = trainer.hyperparameter_search(direction="maximize", hp_space=hp_space_for_optuna, n_trials=50)
+    best_run = trainer.hyperparameter_search(direction='maximize', hp_space=hp_space_for_optuna, n_trials=50)
     trainer.apply_hyperparameters(best_run.hyperparameters, final_model=True)
     trainer.train()
     model_name = f'LinearSVC_model_{sample_size}_samples_per_label'
     trainer.model.save_pretrained(model_name)
+
+    # Push to git
+    subprocess.run(['git', 'add', f'{model_name}'])
+    commit_message = f'Add {model_name} and datasets for sample size {sample_size}'
+    subprocess.run(['git', 'commit', '-m', commit_message])
+    
+    subprocess.run(['git', 'push'])
 
     # End time count
     end_time = time.time()
