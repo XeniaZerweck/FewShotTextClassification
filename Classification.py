@@ -115,7 +115,7 @@ for sample_size in sample_sizes:
     best_run = trainer.hyperparameter_search(direction='maximize', hp_space=hp_space_for_optuna, n_trials=50)
     trainer.apply_hyperparameters(best_run.hyperparameters, final_model=True)
     trainer.train()
-    model_name = f'LinearSVC_model_{sample_size}_samples_per_label'
+    model_name = f'SVC_model_{sample_size}_samples_per_label'
     trainer.model.save_pretrained(model_name)
 
     # Push to git
