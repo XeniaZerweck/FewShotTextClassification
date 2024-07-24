@@ -19,7 +19,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f'Using device: {device}')
 
 # ========================== Data Import ==========================
-full_data_set = pd.read_csv('/Users/xeniamarlenezerweck/Documents/Verzeichnis/Master/Thesis/Daten/numbers_files/data.csv', sep=';') # len(full_data_set) = 3497
+full_data_set = pd.read_csv('data.csv', sep=';') # len(full_data_set) = 3497
 full_data_set = full_data_set.dropna(axis=0, how='any') # len(full_data_set) = 3496
 
 # ========================== Splitting Data ==========================
