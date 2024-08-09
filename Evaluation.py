@@ -46,19 +46,19 @@ Gradient_model = SetFitModel.from_pretrained(f'Catchy1282/SVC_model_{max(Gradien
 LR_model = SetFitModel.from_pretrained(f'Catchy1282/SVC_model_{max(LogisticRegression_dict, key=LogisticRegression_dict.get)}_samples_per_label') # max = 50
 
 
-
-
-
+# Example of how to continue
 
 
 test_dataset = pd.read_csv('./test_dataset_LogisticRegression.csv')
 
 texts = test_dataset['text'].tolist()  # Input texts for prediction
 true_labels = test_dataset['label'].tolist()  # True labels
-predicted_labels = model.predict(texts)
+
+
+predicted_labels = LR_model.predict(texts)
 
 # Generate a confusion matrix
-conf_matrix = confusion_matrix(true_labels, predicted_labels)
+conf_matrix = confusion_matrix(true_labels, predicted_labels, normalize='all')
 disp = ConfusionMatrixDisplay(confusion_matrix=conf_matrix)
 
 # Plot the confusion matrix
