@@ -1,0 +1,283 @@
+,sentences,label
+0,"Editor note: This is #17139
+
+----
+
+Thank you AshStuff!",0
+1,"I need exactly the opposite
+
+becomes this useless lot in the tooltip, hiding the usefull infirmation that is in the jsdoc header
+
+!",0
+2,"Please change if required.
+
+!",0
+3,"> 
+> Solution (in settings.json):
+> 
+> 1.",0
+4,Is there any working solution for this without removing system wide CUDNN installation?,0
+5,still relevant,0
+6,"Hi **** ,
+TensorFlow 2.16.1 introduced a new installation method for Linux that allows installing the necessary NVIDIA CUDA libraries through pip.",0
+7,"Currently when I triple-click a word, the whole line gets selected.",0
+8,"The only one that ""worked"" is the `Expand/ExpandAll` type  shared.",0
+9,I agree this feature is necessary.,0
+10,I am running on GPU.,0
+11,"So VS Code is not in a position to introduce a ""terminal group"" property in all launch configs.",0
+12,I would also disagree with that choice (using standard ops).,0
+13,"Design choices:
+- Choose how to compute the inverse needed in the gradient formula in general, as one of the most compelling use cases of the exponential is when its argument is skew-symmetric, and in this case computing the inverse is just computing the transpose.",0
+14,"Also, I am fine with adding this pattern from `std.const` to `hlo.const` but it should not be part of the HLO to LHLO set of patterns because that is not what it does.",0
+15,"<details><summary>Click to expand!</summary> 
+ 
+ ### Issue Type
+Support
+### Have you reproduced the bug with TF nightly?",0
+16,"In order words, `torch.sparse.sampled_addmm` is defined for masked semantics where the mask is defined by the input tensor indices.",0
+17,Please refer the Note section in the document [here]( and let us know if this helps.,0
+18,> This is blocking the TensorFlow Rust release.,0
+19,When I checked it on Mac M1 i found the reported error as you.,0
+20,"The function `sampled_addmm` is parametrized by `self` and not by a pair `(self, mask=self != 0)`.",0
+21,[ti 05 april12:02:57+02002022](,0
+22,"> So std dialect ops are going to be in the legal target set for these conversions - hlo to lhlo, and already lhlo to linalg.",0
+23,### Relevant log output,0
+24,I would like to get results like this from a shuffled dataset.,0
+25,"Better alternatives:
+4.",0
+26,"On the second-and-later matches within the same file, the match line _does_ have a highlighted background across the width of the text editor panel.",0
+27,"Same here for CP850 - this is really bad, since i have to seek for Regex-Patterns and can't seek for my language specific characters due to this issue.",0
+28,"Note that the script on the OP already correctly fallsback to eager, so at least there is no correctness issue there.",0
+29,"- ublock origin (I've turned it for that page)
+- dustman
+- zenhub",0
+30,", thank you for mentioning that repo.",0
+31,It's cleared when any decoration on the model changes.,0
+32,They’re kinda different issues and this has been open for 2 years now so I’d rather leave this open until it gets fixed,0
+33,"If you want to see the whole huge thing, it's just:
+
+
+So we have the bulk of memory used by 6 x `BartEncoderLayer` and 6 x `BartDecoderLayer`, plus some other components.",0
+34,"Hi SuryanarayanaY,
+Your solution works well for accessing data from a specific epoch.",0
+35,"The build_tf_flex.sh file is a customized file I made by taking the build_aar.sh file from tensorflow source code and modifying it to:
+
+      - Build the tensorflowlite.so with the command: 
+      bazel ${CACHE_DIR_FLAG} build -c opt --cxxopt='--std=c++17' --config=${TARGET_ARCHS} //tmp:tensorflowlite --verbose_failures
+      
+      - Build the tensorflowlite_flex.so with the command:
+      bazel ${CACHE_DIR_FLAG} build -c opt --cxxopt='--std=c++17' --config=${TARGET_ARCHS} --host_crosstool_top=//tools/cpp:toolchain //tmp:tensorflowlite_flex --verbose_failures
+
+The tensorflowlite.so file is successfully created, but at the tensorflowlite_flex.so building step I obtain the mentioned error:
+`fatal error: dnnl.hpp: No such file or directory`
+
+This is the log file: 
+[error_logs](",0
+36,I would prefer `provideAssociatedTests(symbol: vscode.DocumentSymbol): ProviderResult<vscode.TestItem>`.,0
+37,Conversion don't need to be one-way: for example we have a conversion from TF->HLO and from HLO->TF.,0
+38,But it would be better to try to get rid of that and figure out how to hide the search decoration only when the cursor moves.,0
+39,"If std.constant (and other ops) are presented in a mix with HLO, we can add this pattern separately after calling `populateHLOToLHLOConversionPattern`.",0
+40,"Yes, because the all of the color syntax colors were create to work against the editor background color.",0
+41,"> 
+> > `densify` is not needed at all.",0
+42,I need this to run with just a subset of the tf_ops set since I have a bigger model that I need to optimize for a mobile app.,0
+43,"Hey , this issue might need further attention.",0
+44,"I thought you already implemented, as mentioned above.",0
+45,It's still listed under `REQUIRED_PACKAGES` for [2.12]( and on the master branch.,0
+46,2) Use custom operator API to add 'aten::scaled_dot_product_attention' support on your older pytorch and keep using the desired torch and onnxruntime-directml.,0
+47,"This is an interesting topic, here are some context FWIW:
+
+* TorchArrow starts with implementing those columns (`StringColumn` in your example, but also other nested data like `ListColumn/MapColumn`) backed by [Velox]( This is the current implementation in TorchArrow GitHub repo (essentially a pybind over [Velox Vector]( ).",0
+48,"so maybe like this,hope to help you!",0
+49,"Just tested, your server works fine.",0
+50,Simply centering the screen around the match was sufficient.,0
+51,"here it is for reference 
+Note that it is only available in the nightly build, not in 0.4.1",0
+52,"Another reason to prefer unweighted mean reduction is that (I imagine) people expect the mini-batch mean to be an unbiased estimated of the full gradient*, which the weighted mean reduction breaks.",0
+53,I have received some negative feedback on the whole approach e.g.,0
+54,"`import multiprocessing`
+`p = multiprocessing.Process(target=your_train_task,args=(a,)`
+`p.start()`
+`p.join()`",0
+55,Contributions are welcome.,0
+56,<br> Feel free to remove the `Stale` label if you feel this was a mistake.,0
+57,I tried out your suggestion .....,0
+58,I cannot commit on a timeline for it.,0
+59,"So for Gradient clipping, anyways for big models we're not going to do the allgather anyways and we can just apply per parameter Gradient clipping.",0
+60,What is the default device in that example?,1
+61,Also it looks like some pytorch and apex ops are buggy and one has to use the deprecated `torch.cuda.set_device` to overcome corrupt memory and illegal memory access failures when using multiple devices as moving all parts `.to()` device doesn't seem to be enough in those cases.,1
+62,Is anything really bad going to happen if we don't remove it?,1
+63,what's the fastest way(easiest way) for building on windows?,1
+64,"I am not aware of a specific way to figure this, the problem here is that we also want to identify the mounted paths.",1
+65,"like... What is your model where this happens (especially which ops are included), and after how many times does it start working?",1
+66,"> densify will still test a wrong function in the numeric path,
+
+This does not make sense to me.",1
+67,This is surprising to me.,1
+68,"> , I trust I can figure out the new API, but if there are existing examples/tutorials that always helps to save time.",1
+69,I guess that function just has to append to the specific parameter attribute that FSDP is looking for?,1
+70,> Is it being applied only to differentiable inputs?,1
+71,It might be hard to add that kind of logging directly into the PyTorch code since it may not be what all users want.,1
+72,"If we do this as a conversion pattern in HLO to LHLO, wouldn't it fail?",1
+73,How else would the user trust in sparse if the grads are potentially broken for a lot of functions in the `torch.sparse` namespace?,1
+74,"What's weird is that even though I'm feeding the same size of data on both PC and mobile, this error only appears on the mobile.",1
+75,"the issue was posted to Keras git (link shared - 12 days before), but till today, no solution.",1
+76,"However, there are no tests to verify it is correct.",1
+77,- **Feedback**: do we need this handler -- who's interested in it?,1
+78,Could someone please help me out ?,1
+79,In will try it out and give feedback.,1
+80,"Unfortunately, I can't determine which test cases cover which parts of the code simply by looking at the coverage UI.",1
+81,"Back to you captain, this sounds to me like a service worker issue or issue with how we setup vscode.dev.",1
+82,would you know?,1
+83,"Where `(1, 62)` are the preserved dims and `3` because we collapsed 3 dimensions?",1
+84,"also, at the end of your gif you don't scroll - what happens if scroll with the mouse wheel?",1
+85,> Can I have a differentiable function `undensify` so that I could test `g(x):=f(undensify(x))` before feeding into gradcheck?,1
+86,I will look into how best to document things.,1
+87,I was curious how logging is related to gradient clipping?,1
+88,This might be due to the fact that Mac M1 has Arm Architecture and probably there is no corresponding pip wheel for nvidia-cudnn-cu11==8.6.0.163.,1
+89,"I was able to narrow down the source of issue, the crash only happens when using `fs.watch` to monitor files from SMB.",1
+90,Also fragmentation between the operation of integrated terminals for tasks and launch configurations doesn't seem good?,1
+91,Why does the above command posted only work as the root user in a Python3.9 Anaconda activated environment?,1
+92,Has the libtensorflow build for Windows been deprecated?,1
+93,what is the situation in the new (inspector) protocol?,1
+94,How detailed should the logging be?,1
+95,I will investigate and get back to you.,1
+96,"But this API isn't in stable Chrome or Node yet, and I don't know if it will be fast enough to call on every step.",1
+97,I understand it's not the priority but if I was to try to extract VSCode's terminal and make it run without VSCode where should I start?,1
+98,I am not sure there is an expectation to mix dialects as in your example.,1
+99,"This might""
+    491         "" indicate you are trying to use an unsupported feature.",1
+100,I think it would be tough to enable this for all pickers so we might need an option here for the extension to enable this.,1
+101,Would it be something along the lines of related?,1
+102,"I can see in the development tips that it should be possible to skip cuda, but I don't know how.",1
+103,"For diagonalizable matrices, this way of doing matrix power may also be faster (for large powers).",1
+104,Would it be fast enough to call on every step?,1
+105,"you cannot assume that [`lifecycleMainService.onWillShutdown`]( is ever called, the application might crash leaving a stale lock file around (cc  who just implemented a locking solution that avoids these kind of issues for the extension host state process via 
+
+I don't really understand why the existing IPC socket cannot be used to figure out if an instance is running?",1
+106,"[Screenshot 2021-07-10 at 10 19 50](
+
+
+Still, to be entirely sure the instance was not crashing leaving this file around, you would probably have to check the file contents and do similar logic as Alex had to implement, otherwise it would only be a guess.",1
+107,Would it be something along the lines of `related?,1
+108,"I just tried it out, it doesn't help.",1
+109,Would something like this font-manager module ( help facilitate something like this?,1
+110,I`ve tried that already in our code but the we are still running into the issue.,1
+111,"Tried it anyway, did not work.",1
+112,> It seems that torcharrow.StringColumn might implement this.,1
+113,"However, I
+don't think this is the best way to do it.",1
+114,Will it take another 4 years to fix this?,1
+115,Can you distinguish between a stop event on the first character on the line and a stop event in the middle of the line?,1
+116,"There is the `torch.cuda.device` context manager, but this one won't move data, so perhaps there could be a different context manager that will do this instead.",1
+117,Also is there any other suggested way to resolve this problem?,1
+118,"(and most solutions are for TF1)
+
+Is there any way to release GPU memory in tensorflow 2?",1
+119,Can I have a differentiable function`undensify` so that I could test `g(x):=f(undensify(x))` before feeding into `gradcheck`?,1
+120,Really dont see either approaches being better than the other.,2
+121,Could you please provide the colab gist with the required dependencies to analyse the issue better.,2
+122,Can you confirm the commands you have used for cuda toolkit installation and path setting ?,2
+123,"(Your code will run on later if its present, but this doesn't seems the case based on collect_env you've posted",2
+124,"There are two threads at the moment:
+
+> huggingface/transformers#8771 (comment)
+> huggingface/transformers#9323 (comment)
+
+Based on this comment, it does seem like pipeline parallelism might be a good fit here since it has been used to train transformer models.",2
+125,"Apple's M1 TensorFlow release is closed-source, as you surely must know.",2
+126,"Perhaps that is too wild, but then may be there could be a context manager, so it can be pretty tightly controlled scope-wise.",2
+127,"The instance has this specifications:
+
+RAM: 32GB
+vCPU: 16
+Architecture: x86_64
+OS: Ubuntu 22.0.4 Server
+
+I use the same simple model of my first comment, previously converted and saved to a .tflite, setting _tf.lite.OpsSet.TFLITE_BUILTINS_ and _tf.lite.OpsSet.SELECT_TF_OPS_ .",2
+128,"I'm trying to keep the issue count down, there are several issues relating to this and this is how I see them:
+
+-  Pull tabs out into floating windows - This is a blocker to what you're after
+-  Tabs for terminal - This would likely be needed to pull *individual* terminals out, not the whole panel (not sure if there's an issue for pulling the panel out or not)
+
+Once both of those are implemented you would naturally get the functionality you're after for free.",2
+129,"Is there a way to unregister a new scalar type after registering it [like so here](
+
+For my specific needs, it would be very helpful if we could provide a scalar data type factory api, using which the basic setup to add a new tensor type could be done while still keeping all the heavy-lifting in the c++ extension.",2
+130,There is already an implementation using Pytorch code [here]( I think it implements both SSIM and MS-SSIM.,2
+131,>  can you post collect_env from your working PyTorch-2.1 installation?,2
+132,"Was able to reproduce your issue in Tf Nightly 2.6.0-dev20210530, please find the gist [here]( Thanks!",2
+133,The issue is still there,2
+134,i need this too.,2
+135,Issue still exists.,2
+136,"I have pushed a somewhat weak workaround to ignore any path contained in `/Volumnes` when using `fs.watch`:
+
+
+
+But I feel this is just a bandaid, because:
+* imho a native crash should never ever occur when using an official API no matter what, at the very minimum the upstream component should log an error and refuse to watch but never just crash
+* looking at all the other issues that were marked as duplicate of this one, I see users having mapped network drives on other paths than `/Volumnes` possibly using symlinks, so I doubt we would catch all cases here
+
+Back to you Deepak, I think this needs a different upstream fix if possible and better understanding of the origin of the assertion.",2
+137,could you guide,2
+138,: vscode.Location[] on the TestItem?,2
+139,I've prepared a reproducible code for the error.,2
+140,Tried running the test_torch.py file but it just says it failed to import torch.,2
+141,When is this expected to be resolved?,2
+142,It might be better to have it in std_legalize_to_lhlo.cc or maybe in the same file with a custom pass implementation where it is actually used.,2
+143,"Not using up all the memory at once sounds like a useful feature, however I am looking to clear the memory tf has already taken.",2
+144,I can verify there is an _attempt_ at getting this right.,2
+145,">  I think that nvidia-smi does not list GPU processes when used within Docker (as in my case)
+
+I see, thanks!",2
+146,Putting it into hlo to lhlo would hide the fact that the pattern transforms part of std and maybe not all users want that lowering to happen.,2
+147,"However, when you press RUN, the model in question is loaded, and you should see the error that occurs when loading the model on Logcat in Android Studio.",2
+148,"However, (B) is not fitting well on the data and by looking at some of the predictions, it looks like (B) is fixated on learning the average, while predictions by (A) is much more meaningful.",2
+149,"Other than that, I am sure there is a file Chrome creates for locking (possibly for their various Index DBs on disk) which maybe we could probe on?",2
+150,Let me know if you have ideas on how to improve this and I can reopen,2
+151,"-israyelyan No, it is not, but the Keras guys asked us to open an issue back on Tensorflow repo, which you probably can do (since you are the creator of this issue).",2
+152,"If it did, its valid lowering for codegen would have to again pass through loops, which are themselves not in the std dialect.",2
+153,I will shortly experiment with saving the dataset iterator with imagenet training and would give my stats here with and without iterator.,2
+154,"Well, I believe this is incorrect...",2
+155,Can anyone reopen?,2
+156,-eph  Need your input here - please see comment history above as well as the PR.,2
+157,Just wanted to know if you tried with just `--config=andorid_arm64` without monolithic build?,2
+158,"Any chance you could update Firefox to latest and try again, reloading with devtools opened?",2
+159,>  perhaps calling it `reduction='unweighted_mean'` would be more informative?,2
+160,"I think for practical use in compaction of strings in datasets, the no-padding format is needed (although for parallelized hashing the fixed-length strings may be easier).",2
+161,Could you please check this issue?,2
+162,"Tracing our code, looks like we use it from `NodeJSWatcherService` when relying on non-recursive watching mode  
+
+
+There are two solutions:
+
+1) Resort to recursive file watchers for network drive files
+2) Use `fs.watchFile` in non-recursive watcher for network drive files",2
+163,"No, I don't think the inspector protocol has anything to help here.",2
+164,"Also, since it's an error during model loading, the input data size should not be an issue here.",2
+165,"> 
+> I got bored of trying after a week or so of trying to get it to work.",2
+166,It still hasn't been resolved?,2
+167,"These sort of issues, among others, are really problematic for tensorflow, and if it is true that Pytorch is as mature as I've been hearing, then I won't look back",2
+168,"That should be a sufficient enough indicator to figure out if an instance is running.
+
+!",2
+169,I was able to reproduce the error in tf 2.6 .,2
+170,"Failure after conversion
+Model produces correct results on my PC, but an error occurs when tyring to load it on an Android device.",2
+171,You need to set it to False explicitly that can probably fixes the issue.,2
+172,I'm happy to document its pain points but I imagine you already have a query in your GitHub Issues Notebooks somewhere.,2
+173,"Done well, I think this would be a _killer feature for VS Code vs other IDEs_.",2
+174,"It looks like recently a `mainLockfile` was added to signal whether a user data dir is in use or not ( I see numerous issues with that:
+* writing a file on startup slows down startup, especially if the process has to wait for that to happen.",2
+175,"Same problem in CUDA 12.2 + CUDNN 8.9.7 + torch 2.2.0
+
+reinstall torch == 2.1.x solve the problem",2
+176,"I have tried in colab with TF version 2.2 and was able to reproduce the issue.However i am seeing same output with model(A) but i am seeing the error message with model(B).Please, find the gist [here](",2
+177,I do think it would be valuable to have something like `relatedSymbols?,2
+178,This could be similar to the search functionality in [Textmate]( where you have the option to see all occurrence as an output in a single page and you can then do extra actions like copying those returned occurrence as rawtext.,2
+179,"In fact if you look at the first 3 lines of:
+
+
+
+it's very ambiguous and doesn't tell me anything.",2

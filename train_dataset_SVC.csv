@@ -1,0 +1,14 @@
+,sentences,label
+0,Other pip packages can be downloaded at speeds of ~400KB/s to ~2MB/s with no problem,0
+1,"It is quite frustrating, since I perform this action many times each day and it results in both the file/folder not getting created/updated as well as text (what I wanted the new/updated file/folder name to be) getting placed where I do not expect it to, since the focus is not moved properly.",0
+2,"The commit (b39e513d8bf3667545f3b09f97f46d63d5a1c2ca, 32629d3d4f0152470573a8d2a373b0d179b80242, f5c6122c4e71a2d0b33a59b516879454c8fcd3e4, c0754377f71acb7f0222d1ecd9aea3cdac14542e) is not authorized under a signed CLA.",0
+3,We used to have only `masked=True` before right?,1
+4,Is it related to the CDN problems?,1
+5,"If pipeline parallelism is not the right strategy for you, we'd love to understand what sort of model parallelism scheme would fit your needs best.",1
+6,"So almost two years after this request, no love for this basic but yet very important feature ?",2
+7,"At some point, I decided to finally move to TF 2.x with Keras integrated into TF (`tf.keras`) and then clearing GPU memory apparently became an impossible thing to do!",2
+8,"The IPC handle is statically computed based on some properties that can all be determined by reading `package.json` and or `product.json`:
+
+
+ 
+I hope we can find a different solution for this.",2

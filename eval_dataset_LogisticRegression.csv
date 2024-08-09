@@ -1,0 +1,3101 @@
+,text,label
+0,"0 -> 10sec I'm showing that after toggling panel, scrollbar disappears, just like previously
+2. after that I'm showing that I maximize panel, and you can see that there is no scrollbar because the content is not enough, so add couple of more lines
+3. after that I show that with scrollbar in maximize mode in half mode scrollbar starts to work - opposite what we saw at the begining of video
+4. however, it is not fully working (as mentioned in my previous comment).",2
+1,Use to work fine.,0
+2,> > My compilation ended up with logs below.,0
+3,As mentioned the shuffle method has an argument `reshuffle_each_iteration` which is True by default.,0
+4,I need it for CP 852.,0
+5,If your issue lies with the TF-Core area please comment back with your explanation and we can look into it further.,2
+6,"In Go, examples are treated as tests, and are linked to functions or methods by matching the name.",0
+7,"Ok, I'll keep this open to track that, then.",0
+8,"And as it can be seen very quickly from the [mp tutorial]( that kind of code looks already hairy in simple examples, and for complex models it quickly becomes a mess.",0
+9,I'm not sure why this is stale.,1
+10,"Something I found very neat was that they by default use dicts for batches, loved that for customising models / handing information through models.",0
+11,"I cannot find a related GitHub issue, but am sure I've seen if before,
+
+Thanks  for your prompt reply!",1
+12,"The usage of densify is a problem since I cannot test what I want with masked=False
+> 
+> I think the fix to the backward formula would be a good way to get some attention to your suggestion as it would provide a reproducer for the possible gradcheck problem.",0
+13,: ),0
+14,This follows from the sparse semantics that implies `self.indices == (self + perturbation_of_self).indices`.,0
+15,and freeing the RAM using numba.cuda will put the GPU in an unhealthy state.,0
+16,"Thanks
+### Versions
+Collecting environment information...
+PyTorch version: 2.0.0+cpu
+Is debug build: False
+CUDA used to build PyTorch: None
+ROCM used to build PyTorch: N/A
+
+OS: Microsoft Windows 11 Pro
+GCC version: Could not collect
+Clang version: Could not collect
+CMake version: Could not collect
+Libc version: N/A
+
+Python version: 3.10.13 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:24:38) [MSC v.1916 64 bit (AMD64)] (64-bit runtime)
+Python platform: Windows-10-10.0.22631-SP0
+Is CUDA available: False
+CUDA runtime version: No CUDA
+CUDA_MODULE_LOADING set to: N/A
+GPU models and configuration: No CUDA
+Nvidia driver version: No CUDA
+cuDNN version: No CUDA
+HIP runtime version: N/A
+MIOpen runtime version: N/A
+Is XNNPACK available: True
+
+CPU:
+Architecture=9
+CurrentClockSpeed=4201
+DeviceID=CPU0
+Family=107
+L2CacheSize=8192
+L2CacheSpeed=
+Manufacturer=AuthenticAMD
+MaxClockSpeed=4201
+Name=AMD Ryzen 7 7800X3D 8-Core Processor
+ProcessorType=3
+Revision=24834
+
+Versions of relevant libraries:
+[pip3] numpy==1.23.5
+[pip3] onnx==1.15.0
+[pip3] onnxruntime==1.17.0
+[pip3] onnxruntime-directml==1.17.0
+[pip3] open-clip-torch==2.20.0
+[pip3] pytorch-lightning==1.9.4
+[pip3] torch==2.0.0
+[pip3] torch-directml==0.2.0.dev230426
+[pip3] torchdiffeq==0.2.3
+[pip3] torchmetrics==0.10.3
+[pip3] torchsde==0.2.6
+[pip3] torchvision==0.15.1
+[conda] Could not collect",0
+17,Downloading 25% of the 537MB of pytorch took more than 20mn.,0
+18,5.,0
+19,"**System information**
+- Have I written custom code (as opposed to using a stock example script provided in TensorFlow): Yes
+- OS Platform and Distribution (e.g., Linux Ubuntu 16.04): Windows 10
+- Mobile device (e.g.",0
+20,As py_function has some limits (see Doc) you could explore also what I've suggested in,2
+21,Just wanted to add that I've come up with something of a workaround for this using editor group and editor terminals.,0
+22,In such a case I can have a balanced dataset of cats and dogs but say a **weight of 5 for cats and 1 for dogs**.,0
+23,"I added more information the same day, but saw no way to change the ""needs information"" label.",2
+24,"OTOH, tensors are value types and one can argue for having constant ops defining them in std.",0
+25,Depends on,0
+26,Having a **VSTerm** would give us something we know works.,0
+27,Makes sense and thanks for the details.,0
+28,"Once the jupyter kernel crashes, the memory stays taken up.",0
+29,I had the same problem once and found I had to unset the option search.useRipgrep to have it working.,0
+30,"Related: 
+
+TensorDicts from   seem to be an instantiation of this basic dataframe idea  but do not support strings yet.",2
+31,"Hi -arm 
+
+I did observe that it does not add Quantize/Dequantize stubs for intermittent runs.",0
+32,TL;DR: running a `tf.kerasModel` through `tf.keras.models.load(model.save)` does not properly preserve the state of optimizers for certain optimizers (see #42749 for more details).,0
+33,"Sorry, I gave you wrong link last time.",0
+34,I think the right direction is to move toward supporting `register_post_accumulate_grad_hook` so that the user can customize as desired.,0
+35,"If you are not covered, a bot will leave a new comment with a link to sign.",0
+36,"Hi  ,
+
+I see from error log it seems CUDA driver was missing.",2
+37,The _second_ time the highlight stays.,0
+38,The issue is still there,2
+39,Upvote!,0
+40,Each terminal in the static arrangement could itself be a group - possibly empty (a placeholder) and awaiting its first dynamic member (task or launch config starting).,0
+41,"- the implementation seems to take advantage of upper triangular matrices, and there are some optimized calculations done for the same.",0
+42,"isn't the right design choice, and it's certainly going in the direction of actually using std dialect ops inside those regions since you'd just want to express those computations on elemental types and not force 0-d memrefs.",0
+43,"### System information
+- Custom code; nothing exotic though.",0
+44,"I would like to be able to take the
+state from the Dataloader, save it and from the checkpoint resume with the
+shuffle done in the same order.",0
+45,"Code
+
+_#### Model Definition ---------_
+
+
+_#### Model Saving ------------_
+
+
+_#### Model Conversion -----------_
+
+
+
+---------------------------------------------------------------------------
+
+> 
+> ConverterError                            Traceback (most recent call last)
+> 
+> [<ipython-input-88-4a7f170f3f72>]( in <cell line: 47>()
+>      45 #converter.allow_custom_ops=True
+>      46 
+> ---> 47 tflite_model = converter.convert()
+>      48 
+>      49 with open('cpp_tf_test.tflite', 'wb') as f:
+> 
+> 7 frames
+> 
+> [/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/lite.py]( in wrapper(self, *args, **kwargs)
+>     960   def wrapper(self, *args, **kwargs):
+>     961     # pylint: disable=protected-access
+> --> 962     return self._convert_and_export_metrics(convert_func, *args, **kwargs)
+>     963     # pylint: enable=protected-access
+>     964 
+> 
+> [/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/lite.py]( in _convert_and_export_metrics(self, convert_func, *args, **kwargs)
+>     938     self._save_conversion_params_metric()
+>     939     start_time = time.process_time()
+> --> 940     result = convert_func(self, *args, **kwargs)
+>     941     elapsed_time_ms = (time.process_time() - start_time) * 1000
+>     942     if result:
+> 
+> [/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/lite.py]( in convert(self)
+>    1245           graph_def)
+>    1246 
+> -> 1247     return self._convert_from_saved_model(graph_def)
+>    1248 
+>    1249 
+> 
+> [/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/lite.py]( in _convert_from_saved_model(self, graph_def)
+>    1128     converter_kwargs.update(quant_mode.converter_flags())
+>    1129 
+> -> 1130     result = _convert_saved_model(**converter_kwargs)
+>    1131     return self._optimize_tflite_model(
+>    1132         result, quant_mode, quant_io=self.experimental_new_quantizer)
+> 
+> [/usr/local/lib/python3.10/dist-packages/tensorflow/lite/python/convert_phase.py]( in wrapper(*args, **kwargs)
+>     210         else:
+>     211           report_error_message(str(converter_error))
+> --> 212         raise converter_error from None  # Re-throws the exception.",0
+46,"right now i have two theories: cublas is somehow broken for 4060 (which would be very surprising) or that CUDA-12 that you have installed locally is incompatible with one you have in /usr/local/cuda
+
+cc:",1
+47,"Keeping in mind that the final loss is actually the sum (or mean) of all the samples in the dataset, we don't expect minibatches (after reduction) to have very different values as that would mean you are doing a pretty bad job at approximating the true loss.",0
+48,"Thanks for the suggestions, this is the only change I plan to make here right now.",0
+49,I wonder if `EBADF` or `ENOENT` should be ignored like [here]( or perhaps the error/badfd can be detected earlier/there and invalidated.,1
+50,I have followed the instructions given on the CuDNN and the Cuda Toolkit page.,0
+51,"> 
+> Anyhow, could you point me to a good example / tutorial for the subprocess approach if you know of any?",2
+52,The integrated term in VS Code is the best implementation that I have found and it would be great to be able to use the same terminal everyone that I use a command line.,0
+53,Past-used alternatives of which I am not fond.,0
+54,"As for the how-to, it largely depends on your use case (e.g., grid search training, inference with multiple models, etc.)",0
+55,"When I run nvidia-smi I can see the memory is still used, but there is no process using a GPU.",0
+56,Lets have that discussion there though.,0
+57,"But for a very long line of code, like if you're stepping through minified code, it can take 1s or more to return.",0
+58,"> 
+> I was referring to your bug reproduction script.",0
+59,Could one add an op rewrite pattern as part of a dialect conversion?,0
+60,Thanks for working on it!,0
+61,The result of this is that I frequently wind up with random variables and imports as a result of the correct result disappearing after I type more letters that should only increase its weight.,0
+62,"> > 
+> 
+> This is most likely due to your current openmpi library is not CUDA-aware.",2
+63,But it is not able to search the full workspace.,0
+64,"My problem was finally because I have two ""settings.json""
+The first is located in [Drive]:\USERS\[User]\AppData\Roaming\Code\User
+The second is in the folder .vscode located in the root folder of the git directory
+
+The modification given by  must be done in both files!",0
+65,TextMate isn't sufficient for many languages.,0
+66,"As far as I know, that naming convention isn't used for test and benchmark functions, but that's probably because those aren't included in documentation.",1
+67,Thank you for your assistance.,0
+68,"I use CUDA 9.2, cuDNN 7.2.1, llvm 9.0.",0
+69,"While `mask` depends on `s`, it is non-differentiable, and autograd will ignore it because `mask.dtype` is non-float/non-complex.",0
+70,"Yes, sorry for the typo.",0
+71,You can place different model shards (groups of layers) on specific devices using the [RPC framework]( and maintain references to each shard.,0
+72,not enough bandwidth for science?,1
+73,"> Cannot debug because an existing debug session was found
+
+Can you grab a gif of this?",2
+74,"Yes, I think it indeed points to the already known cuDNN issue.",1
+75,"### Other info
+
+The conversion started failing with version TF 2.12.0.",0
+76,I am trying to understand the code from other classes like `_ConstantPadNd()` and `_ReplicationPadNd` that are already built but I encounter terms like 'constant' and 'replicate' in the `F.pad` function.,1
+77,"Okay, so... for me using torch-2.2.1 and only having onnxruntime-directml installed fixed the issue.",0
+78,**3.,0
+79,What does the c10 refactoring timeline look like?,1
+80,"Also, you need to see of the data chunk being passed is of 81920.",0
+81,"If you can, then you only show the inline instruction pointer when the column is inside the line.",0
+82,Are there any updates on this?,1
+83,"Hi  ,
+
+In Tensorflow we have Two Seeds one at Global level and another at Op level.When included both it shall create reproducible results.Please refer to the [source]( for examples on how it works.",0
+84,"I'd be interested in that, too.",2
+85,2) Use custom operator API to add 'aten::scaled_dot_product_attention' support on your older pytorch and keep using the desired torch and onnxruntime-directml.,0
+86,"Once we nail a name down, we'd accept a PR providing provide this reduction mode, as it's difficult to calculate manually in certain cases (e.g.",0
+87,!,0
+88,"Transforming std.const to lhlo.const isn't thus a substitute for something missing: if const tensor -> memref is where you are going, you either need lhlo or linalg, and I see this conversion as best fitting the hlo to lhlo lowering.",0
+89,We also had no issues with this until TF 2.10 was released.,0
+90,Maybe transparent by default is a good idea?,1
+91,Descend from confident incorrect faster than to confident correct.,0
+92,Is there any other setting to change?,1
+93,And meanwhile I have much improved versions of the bring-data-to-the-right-device magical and explicit versions of the wrappers.,0
+94,"Related: 
+- 
+
+For model hosting, it's often useful to be able to store single strings in tensors and arrays of strings
+
+Triton inference server supports TYPE_STRING:  (appearing just a uint8 bytes tensor under the hood - so needs to be decoded with some user-provided encoding)
+
+it would be nice that PyTorch supports natively some sort of string dtype (both for encoding a single string and (at least readonly) lists of strings)",0
+95,Have you tried `workbench.view.search` (default keybinding <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>f</kbd>)?,0
+96,"> On the Python side there is no way to automatically or easily infer which tests are related to a specific piece of code (no naming conventions), so we would probably not use this feature as it stands right now.",2
+97,any updates on this issue?,1
+98,> How would the API for this look like?,1
+99,std.constant may not be a HLO op but it does provides values at the leaves to xla_hlo ops.,0
+100,">  
+> I have been struggling with this issue for an amount of time that is way beyond reasonable at this point as well... PyTorch did have working solutions for this already two years ago, but I am stuck with TF for now... if you can make the switch, I can warmly recommend it.",2
+101,"The IPC handle is statically computed based on some properties that can all be determined by reading package.json and or product.json
+
+This involves writing VS Code-specific logic into the generic js-debug that duplicates the [name-generation process]( that VS Code does.",0
+102,The main problem is that they are not trainable.,0
+103,My Cuda Toolkit version is also the latest.,0
+104,: vscode.DocumentSymbol[]`.,0
+105,"); new platforms use UTF8 and C++17, for example.",0
+106,"I think the decorator I proposed here is a small step towards such automation, but surely more can be done.",1
+107,"It seems to be driver related so maybe with the next driver release for RTX the issue will go away... no idea, we'll see, but at this point, I don't expect much.",0
+108,just to clarify: are you running this on CPU or GPU?,1
+109,"As per our [GitHub Policy]( we only address code/doc bugs, performance issues, feature requests and build/installation issues on GitHub.",0
+110,Which increases the usefulness and usability of both integrated terminals and tasks/debug configs.,0
+111,Run a search over a largish set of sources.,0
+112,2.,0
+113,Yeea I couldn't get it to work either..,1
+114,-varma any ideas on how to make this API compatible with gradient clipping?,1
+115,Setting this argument to `False` might resolve your error.,0
+116,I also removed builtin extensions to reduce the whole volume of the repo as well as the size of installer.,0
+117,> My compilation ended up with logs below.,0
+118,"A way to implement rotatory embeddings:  More generally, these questions are better suited for the forums:",0
+119,"This one didn’t work for me (nothing shows up in the types panel), but that one seems to be doing fine: 
+
+Example screenshot:
+
+<img width=""956"" alt=""Screenshot 2023-10-18 at 17 33 22"" src=""
+
+(I’m not affiliated in any way with the extension developer.)",2
+120,do you mind running `bt` in gdb as well as sharing output of `echo $LD_LIBRARY_PATH` command?,2
+121,"If including tracebacks, please include the full
+traceback.",0
+122,"I would be most grateful if they were made tunable from the beginning, as their use as a loss function is very helpful for image reconstruction tasks.",0
+123,"So you could write ""subroutines"".",0
+124,Presumed  or the like had the needed privilege.,2
+125,I also cannot find anything for controlling double-click behaviour.,1
+126,In the sense that it means that Microsoft can write language modes that can do things that other people can't....,0
+127,The speed of other downloading tasks is fast.,0
+128,"FYI, I've experimented with a tree view that will show all current find matches.",0
+129,"So yeah, I think it would be totally possible to use this to decide when to show the indicator.",0
+130,I've made a change so that the lock file is acquired asynchronously which should address the startup time concern.,0
+131,Just so happens that  just did this  😁,0
+132,"This is what I did, in order",0
+133,> I use this to release memory.,0
+134,Can you create a new issue for Safari?,0
+135,It also works in patches before 2.12.0.,0
+136,IIRC I think this was a layering problem.,2
+137,"[image](
+
+Of course there is no need to compute it analytically and the plots for various batch sizes are given below
+
+!",0
+138,I have added svg search icon to find all button using correct color scheme.,0
+139,"your example has many typos but when eliminating these and taking into account that `gradcheck` uses the 2nd-order central finite differences for computing numerical jacobian, then `J[f_11,x_11](x)` is actually approaching `1`, not `inf` (`f(x)` is never evaluated, instead, `f(x+p)` and `f(x-p)` are evaluated)).",0
+140,"Compute F.cross_entropy(input_t,target_t,weight=weight_t)
+3.",0
+141,"To modify the platforms list, please include a line in the issue body, like below.",0
+142,Now i wanted to try out onnx for optimizing the models for my GPU.,0
+143,Therefor I'd 💕💕💕 to see the VS Code terminal as a stand-alone application as well.,0
+144,Yep I came to the exact same conclusion but it's hard to move big projects which rely so much on TF/Keras to Pytorch.,0
+145,The original issue was of making the -hlo to lhlo pass deal with this input.,0
+146,"Of course, Windows 10 needs a feature to allow the built in terminal to be replaced by a custom terminal.",0
+147,"First, the line-highlight when it does appear, is nearly imperceptible.",0
+148,"From the Apple HIG: _Triple-clicking selects the next logical unit, as defined by the application.",0
+149,It’s yet another thread where the maintainers have gone silent on the issue.,0
+150,"When `masked=True`, it evaluates `func` while applying perturbations only in the directions of specified elements along a corresponding subset of the canonical basis.",0
+151,"so maybe like this,hope to help you!",0
+152,"For example, does your graph contain several parallel branches such that you can execute it in parallel across multiple devices without needing pipelining?",1
+153,"(see   
+Monarch would be a huge improvement, allowing better language support for more complicated/nuanced languages.",0
+154,"Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+[1,1]<stderr>:type_id: TFT_OPTIONAL
+[1,1]<stderr>:args {
+[1,1]<stderr>:  type_id: TFT_PRODUCT
+[1,1]<stderr>:  args {
+[1,1]<stderr>:    type_id: TFT_TENSOR
+[1,1]<stderr>:    args {
+[1,1]<stderr>:      type_id: TFT_HALF
+[1,1]<stderr>:    }
+[1,1]<stderr>:  }
+[1,1]<stderr>:}
+[1,1]<stderr>: is neither a subtype nor a supertype of the combined inputs preceding it:
+[1,1]<stderr>:type_id: TFT_OPTIONAL
+[1,1]<stderr>:args {
+[1,1]<stderr>:  type_id: TFT_PRODUCT
+[1,1]<stderr>:  args {
+[1,1]<stderr>:    type_id: TFT_TENSOR
+[1,1]<stderr>:    args {
+[1,1]<stderr>:      type_id: TFT_INT32
+[1,1]<stderr>:    }
+[1,1]<stderr>:  }
+[1,1]<stderr>:}
+[1,1]<stderr>:
+[1,1]<stderr>:	while inferring type of node 'cond_39/output/_23'
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 7865, errno = 1
+[1,2]<stderr>:[2cf69587bce7:07011] Read -1, expected 9529, errno = 1
+[1,1]<stderr>:[2cf69587bce7:07010] Read -1, expected 9529, errno = 1
+[1,3]<stderr>:[2cf69587bce7:07012] Read -1, expected 9529, errno = 1
+[1,3]<stderr>:2022-10-21 06:40:27.716307: W tensorflow/core/common_runtime/forward_type_inference.cc:231] Type inference failed.",0
+155,"But then without a collation (I think that's the term) to flatten for example é, è ê and ë to e (and also capitals), the search would fail in most cases, so I don't know to what extent it would be useful.",2
+156,"> 
+> 
+
+This is most likely due to your current openmpi library is not CUDA-aware.",2
+157,I would also disagree with that choice (using standard ops).,0
+158,> My suggested fix: just raise a warning for the user if we detect that gradient accumulation is being used with apply_optimizer_in_backward.,2
+159,It creates a flexible way of _expressing the relationships between terminals and tasks/debug configs that use them_.,0
+160,Also if I understand it correctly the documentation says that the converter should throw an error if an operation cannot be quantized?,2
+161,"> 
+> As you know, memrefs aren't necessarily contiguous and can have arbitrary affine layouts, striding, padding, and so an op that stores a constant to a memref just cannot live in the std dialect!",0
+162,"😑
+Because external disks are also mounted to this path by default.",0
+163,**4.,0
+164,Not stale.,0
+165,"If autorun is enabled, then I can configure it to run related tests automatically, so I can edit the function, save, and then see the test results immediately (after the test completes).",0
+166,"Sounds like this issue was resolved, please reopen if not.",1
+167,", , please help let me know if any comments on this.",2
+168,> But to me it's all infuriating.,0
+169,"It might be nice to gate this behind a modifier key, so we can toggle between expanded and unexpanded while the tooltip is up.",0
+170,"> Also if someone has experience and ideas wrt easier MP, we have been discussing this subject matter about the ongoing MP-implementation in transformers - t5 and gpt2 have already been ported to MP by  and we are trying to generalize the approach to other architectures.",0
+171,"Ah, right.",0
+172,Please confirm the output result.,2
+173,What other conversions do you foresee that to have?,1
+174,It isn't obvious from the user's perspective.,0
+175,"So yes, probably there will need to be some in-source hacking of PyTorch for the forseeable future.",2
+176,See my comment here:,0
+177,I don't understand?,1
+178,"> 
+> > I am not sure that such a fix will cut it.",1
+179,"Hi  
+
+It is hard to say from the error log, I can guess that there is a problem with the input data being passed with android.",1
+180,multiple threads hitting the same line).,0
+181,"+1 
+!",0
+182,What are your current insights on this ?,1
+183,But that's exactly what I provided above - it's a 2-line MLIR standalone test input.,0
+184,"Hi, is there any news about this?",1
+185,Please use [this notebook]( The issue can be replicated with TF 2.9 running on CPUs.,0
+186,But i do think that this issue is still relevant.,2
+187,"This seems like a nice feature, but not relevant to my problem.",0
+188,"### Standalone code to reproduce the issue
+### Relevant log output
+</details>",0
+189,Thank you for your work on the project.,0
+190,"When you have a small target in a large space, you need a visual aid.",0
+191,You can use `torch.amax()` that does support multiple dims though:,0
+192,Bump.,0
+193,Please refer and come back if more details needed.,0
+194,Also can you please try running 2.2 with LD_LIBRARY_PATH defined to some bening value would resolve the issue.,2
+195,Symbolicated trace,0
+196,"I am greatly looking forward to using SSIM on Pytorch for my projects, which mostly involve image reconstruction for now.",0
+197,`fs.watch` can be unreliable for network filesystems on both posix and windows but currently we are only observing the crash on macOS.,2
+198,"This, however, does not happen:
+
+
+As per 's insight, this happens during the densification process in gradcheck.",0
+199,As we don't want user code to run in the render process we went for declarative tokenizers.,0
+200,"What Joel was mentioning above is that, beyond the question of which one we want to have as a default, there is some backward compatibility constraints that we have.",0
+201,"> 
+> Please find the reproducible [gist]( in TF 2.13.",0
+202,"Please verify that your test name looks correct, e.g., `test_cuda_assert_async (__main__.TestCuda)`.",0
+203,See [here]( for the original paper on the merits of using SSIM and MS-SSIM as loss functions.,0
+204,"> Abort in libuv from here 
+
+I'm guessing (haven't confirmed it yet) that the issue is that an event is fired (e.g.",0
+205,"Check my preliminary work out:  Also, there is an installer for win32-x64:  
+
+What I have done:
+1.",0
+206,Any additional `bfloat16` functionality will be added in the future on a need basis.,0
+207,we only show the scrollbar on hover/focus,0
+208,"> I can't speak for v2 but the last time I tried Hyper it was really slow & buggy, especially under Windows.",0
+209,We still need DAP support for something like this.,0
+210,"The filesystem is a shared object (`.so`, `.dylib`, `.dll`, depending on operating system) that is then loaded by TF on import,if present.",0
+211,"Oh, I feel like I should just reference  instead of trying to explain here how gradcheck works with sparse inputs in detail.",0
+212,"Not to mention the ""center"" will be _somewhere_ in the top half of the screen, if near top of file.",0
+213,"If not, please ensure you're on version 1a9dd758530782ee4bb09a15bdc484f3dcb9b5a3 of Insiders (today's or later - you can use `Help: About` in the command palette to check), and leave a comment letting us know what isn't working as expected.",0
+214,"the last print shows 4, but it should 3+4=7
+
+**Other info / logs** Include any logs or source code that would be helpful to
+diagnose the problem.",0
+215,"Like I said, my CuDNN version is version 12.",0
+216,"> what an IR generator can ""choose"" to generate?",1
+217,"Just want to make sure, so the suggested way to this problem is either to remove the local cuDNN path from `LD_LIBRARY_PATH`, or to wait for cuDNN 0.9 to be available on PyPI?",1
+218,-arm Did you try with the latest TF version 2.13 and let us know the outcome?,2
+219,So I suppose the race condition would be the same.,2
+220,"For further question, please post them in Stackoverflow as there is a large community to support this kind of questions.",0
+221,The eye could find the match with little trouble.,0
+222,"I thought you already implemented, as mentioned above.",0
+223,Hello everyone.,0
+224,"Met similar problem on TF 2.9/2.10
+
+2022-10-05 14:05:12.123396: W tensorflow/core/common_runtime/forward_type_inference.cc:231] Type inference failed.",2
+225,I did rebase.,0
+226,"For instance, if I were to experiment between two alternative implementations of the type — one using uint16_t as in my current write-up and the other using a quantized float, is there a way to start off with an interface of a base class definition for bfloat16 and supply an overloaded definition as part of the extension?",1
+227,Same here in India ...,2
+228,This indicates an invalid graph that escaped type checking.,2
+229,"If matches are just selected I can see way less matches - for example, if I have 1000 lines file with matched at begin and at end I will see only one match at once, while in VS or in search sidebar in VSCode I will see both matches and can compare them.",0
+230,"Hey , thanks for this RFC!",0
+231,I don't know how related this is.,1
+232,"I try to increase my batch size to see how much my model can handle, but then when I reach that point, any batch size gives an OOM error.",0
+233,"I was able to replicate this issue in TF Nightly 2.12.0-dev20221127, please find the attached gist [here]( Thank you.",2
+234,"> Another torch/arrow related dataframe package with StringColumn support: 
+
+cc",0
+235,Unfortunately I don't have another solution for this right now.,1
+236,"If anybody has any recommendations, I would be appreciate a ton!",0
+237,"With the gruvbox theme (dark variant) it is hard to see currently active cell see image:
+!",0
+238,"> Btw, the title ""gradcheck produces false positives.."" may be misleading as the reported issue depends on the backward formula of `sampled_addmm` and the `gradcheck` numerical path does not use the backward formula at all.",0
+239,See  for details.,0
+240,For reference only.,0
+241,> We do not show the inline instruction pointer when the stop event has a column.,0
+242,"We do have a benchmark here that you can look at as an example in the meantime: 
+
+> We also have PP in fairscale and deepspeed which we are now being integrating into the HF trainer, perhaps we could use those if there will be an objection to requiring pt-1.8, since it might be easier to ask for a specific version of the 3rd-party module if someone wants to use MP/PP.",0
+243,No amount of refreshing will load this page.,0
+244,I ended up installing Ubuntu 18.04 and this allowed me initially to get around this error (but install did not show up in the conda env).,2
+245,I haven't had the time to work on this.,0
+246,"58   from tensorflow.python.keras.layers import deserialize  # pylint: disable=g-import-not-at-top
+---> 59   return deserialize(config, custom_objects=custom_objects)
+     60 
+     61 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py in deserialize(config, custom_objects)
+    157   """"""
+    158   populate_deserializable_objects()
+--> 159   return generic_utils.deserialize_keras_object(
+    160       config,
+    161       module_objects=LOCAL.ALL_OBJECTS,
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py in deserialize_keras_object(identifier, module_objects, custom_objects, printable_module_name)
+    666 
+    667       if 'custom_objects' in arg_spec.args:
+--> 668         deserialized_obj = cls.from_config(
+    669             cls_config,
+    670             custom_objects=dict(
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/engine/sequential.py in from_config(cls, config, custom_objects)
+    495     model = cls(name=name)
+    496     for layer_config in layer_configs:
+--> 497       layer = layer_module.deserialize(layer_config,
+    498                                        custom_objects=custom_objects)
+    499       model.add(layer)
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/layers/serialization.py in deserialize(config, custom_objects)
+    157   """"""
+    158   populate_deserializable_objects()
+--> 159   return generic_utils.deserialize_keras_object(
+    160       config,
+    161       module_objects=LOCAL.ALL_OBJECTS,
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/utils/generic_utils.py in deserialize_keras_object(identifier, module_objects, custom_objects, printable_module_name)
+    651     # In this case we are dealing with a Keras config dictionary.",0
+247,"Yes, it would be great to customize n-click actions in VSCode.",0
+248,"This hack is the best option I’ve found, but if you or anybody else knows of a better solution please post it.",1
+249,would capture current and future options relating to the group feature and other terminal display choices and ensure we don't have this discussion about alignment again.,0
+250,"(The paper is just about a particular faster matrix square root approximation scheme - I agree, it can go to contrib.)",0
+251,"## Alternatives
+
+This behaviour can still be done using the current methods by first using a 1-pixel `ReplicationPadXd()` and add the `ReflectionPadXd()` after that, but it is quite cumbersome.",0
+252,"So if you press RUN, the app itself will work fine.",0
+253,"The PR is opened,  Unfortunately, I may not keep maintaining it due to my busy schedule.",0
+254,"I'm (from India) using this command :
+conda install pytorch==0.4.1 -c pytorch
+After 2 hrs it's only 62% finished!",0
+255,"I have tried in colab with TF version 2.3, nightly version(`2.5.0-dev20201108`).Please, find the gist [here]( are also seeing the same behavior?",2
+256,"During lowering, we gradually introduce std/linalg/whatever operations into the HLO/LHLO mix.",0
+257,Abort in libuv from here,0
+258,"Yeah I did see that register_post_accumulate_grad_hook exists but saw that
+FSDP is explicitly looking for this attr
+
+so thought maybe in this function we can do some kind of logging there -?",2
+259,I am training a model made of LSTMs with masks and with one dense layer before the output.,0
+260,"[snip_20161103091325](
+
+## VS Code
+
+!",0
+261,2023-05-23 14:23:20.166452: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.,0
+262,Is that really the case?,1
+263,"With PS strategy this timeframe is really small, because we can start the server upfront, so we have this race condition but it is not a real issue.",0
+264,Your build page  does not say anything about not supporting M1.,2
+265,"***>
+napisał(a):
+> Hi  < ,
+> shuffle function uses its local seed and it has no control on global seed
+> set by tf.random.set_seed.",0
+266,> This is a known issue and also reported [here](  narrowed it down already with us to a `dlopen` call inside `libcudnn` preferring the system-wide libs over the ones coming from the PyPI package.,2
+267,"-->
+<!-- 🔧 Launch with `code --disable-extensions` to check.",0
+268,"you added this, I guess we do this because we don't know whether this decoration will conflict with other decorations?",1
+269,It's a different color than the normal line hightlight.,0
+270,"`gradcheck` should be agnostic to any hidden parametrizations which is currently the case with strided inputs, and `densify` replaces one parametrization with another not necessarily equivalent.",0
+271,You can see a few patches strip out certain dependencies.,0
+272,Could someone please help me out ?,1
+273,I'm also experiencing crashes on macOS with Google Drive mounted files #130568.,2
+274,"If I start new_model.fit(), stop it, and then check new_model.optimizer.iterations, it shows the proper number.",0
+275,This was 5½ years ago 👆🏼 I understand TextMate is probably as much as a thorn in your side as for extension authors judging by some of the 's logged issues.,2
+276,The conversion looks backwards intuitively.,0
+277,We still haven't quite finalized that map.,0
+278,"I hacked away a simple extension for my needs, very crude, maybe it can help/inspire someone.",0
+279,"Hey , 
+
+Thanks for the work.",0
+280,"Click through the matches in the SEARCH panel, and try to find the matching source editor line.",0
+281,I'm happy to document its pain points but I imagine you already have a query in your GitHub Issues Notebooks somewhere.,2
+282,Issue still exists.,2
+283,"I tried to come up with another gist to run into that error ""more frequently"":
+
+
+
+I tried reproducing it with Google Colab as well, please see the gist of it [here]( It produced this error:
+
+> InvalidArgumentError: {{function_node __wrapped__IteratorGetNext_output_types_11_device_/job:localhost/replica:0/task:0/device:CPU:0}} ValueError: py_function: func=<function loading_fn at 0x7f3cd8ffa7a0> returned [B(b1=<tf.Tensor: shape=(2, 1), dtype=float32, numpy=
+array([[1.",0
+284,My compilation ended up with logs below.,0
+285,You still have to click twice to get the find-match-line highlighted.,0
+286,Should the 3 of us get together sometime or is this a good October issue?,1
+287,"Same in Java, lots of Java developers tends to append `Test(s)` at the end of the class name.",0
+288,if `ignore_index` is used).,0
+289,"Thanks
+
+
+I have uploaded the file to GitHub and the link is shared below.",0
+290,"I haven't gotten to it yet, will do soon.",0
+291,"Actual result:
+Rename text field appears without a focus highlight, and it's impossible to (re)name a file.",2
+292,"We do have a benchmark here that you can look at as an example in the meantime: 
+
+This is very helpful - thank you, !",0
+293,I was referring to your bug reproduction script.,0
+294,"I can especially recommend the combination with ray tune: 
+it is a bit tricky to figure out how to best integrate this but is a great tool for HP optimisation once it is running.",0
+295,"- I do not want to go with the approach of using the DocumentSymbol as  suggested, as this type is something that LSP/languages understands, but testing doesn't really.",0
+296,"** Then I build the docker image from my [Dockerfile](
+
+
+**5.",0
+297,"Certainly, any commentary on how things could change in the future, etc., would be very helpful.",1
+298,Please ensure this object is passed to the `custom_objects` argument.,0
+299,"[Screenshot from 2023-07-19 11-05-35](
+
+Output Model:
+
+!",0
+300,"Imagine, having a list of COCO per-image annotation objects and just giving it to some sort of dataframe constructor (maybe along with some schema/spec) and getting back a set of column tensors (with some helper accessor methods).",0
+301,I am trying to match `externalReport` which is defined on the line immediately above.,0
+302,"Following installation description from [here]( I got 
+
+
+And here the configuration:",0
+303,> All this context stuff - is this necessary?,1
+304,It's important to run this at the end of your program even if the program failed.,0
+305,I've posted the issue on Keras repo.,1
+306,Any solutions for this?,1
+307,"[record](
+Notice the IME indicator in menu bar and the key binding of toggle terminal.",0
+308,I really don't know.,1
+309,"> We don't have tutorials yet, but will have some as part of pt1.8.",0
+310,It installed cudnn version 8.5.0.96 as per pascel GPU.,0
+311,I was not aware that it is possible to propagate the cluster spec after the servers initialization.,0
+312,Looks like a mock debug issue.,0
+313,And surely such possible extension of implicit cross-device data movement (love the term!),0
+314,So I see why this has to be an IDE-specific option bag for enhanced experience with VS Code.,0
+315,Only debugger extensions could start to support this property.,0
+316,"I put it under quotes b/c changing our types to include it is not really a solution we're willing to adopt, so we keep it around as a `dev` env only tool to help debug complex types.",0
+317,"### 🚀 The feature, motivation and pitch
+
+This is useful to avoid copies related to copy-on-write (actually copy-on-read because of python's finicky ref-counters) problems with DataLoader:  A typical application: list of file names or file paths in a dataset (avoiding creating hundreds of thousands/millions of python string objects on the heap), string<>token lookup tables.",0
+318,"In my mind, the solution is one of two things:
+1.",0
+319,Highlight the line by changing the background color.,0
+320,What does the `c10` refactoring timeline look like?,1
+321,"I am just curious to know, when are you going to open PR and public your code?",2
+322,"**System information**
+- TensorFlow version (you are using): 1.12
+- Are you willing to contribute it (Yes/No): Yes
+
+
+**Describe the feature and the current behavior/state.",0
+323,Is there a way in the C-API to release everything completely?,1
+324,"And once we have the ability to autorun a test when a source range changes, it would be even more useful to support that scenario.",0
+325,"when trying to install `tflite-model-maker` i get an error:
+
+### Standalone code to reproduce the issue
+### Relevant log output
+_No response_",0
+326,So there may be something wrong with how they are being stopped normally.,1
+327,Did you checked this [comment]( ?,2
+328,"I'll leave this here for anyone else who has the same problem, but I'd still like a solution without hacks.",1
+329,It should have most of the operator overloads needed for codegen.,0
+330,"Currently, I have do to something like `torch.nonzero(torch.Tensor(input == torch.amax(input, dims, keepdim=True)))` which seems unnecessarily complex to me.",2
+331,"`
+
+
+**Describe the expected behavior**
+_Saves a probabilistic_model as a TensorFlow SavedModel_",0
+332,"[probabilistic_model_summary](
+
+**For saving the model**
+`_probabilistic_model.save('/tmp/model/probabilistic_model')_
+`
+The saving steps create the error as shown below.",0
+333,"The hack-y workaround above work, but requires applying the patch with every update.",0
+334,"I'm indeed trying to compile it from source, not import it from a release.",2
+335,An IR generator can choose to generate std.constant or you can end up with such an input through a composition of other transformations/rewrites - there isn't really a reason to not handle std.constant in conjunction given that they are isomorphic for this part with hlo.constant.,0
+336,"]], dtype=float16)>, b3=<tf.Tensor: shape=(2, 3), dtype=int8, numpy=
+array([[3, 3, 3],
+       [3, 3, 3]], dtype=int8)>, b4=<tf.Tensor: shape=(2, 4), dtype=int16, numpy=
+array([[4, 4, 4, 4],
+       [4, 4, 4, 4]], dtype=int16)>, b5=<tf.Tensor: shape=(2, 5), dtype=int32, numpy=
+array([[5, 5, 5, 5, 5],
+       [5, 5, 5, 5, 5]], dtype=int32)>, b6=<tf.Tensor: shape=(2, 6), dtype=bfloat16, numpy=
+array([[6, 6, 6, 6, 6, 6],
+       [6, 6, 6, 6, 6, 6]], dtype=bfloat16)>, b7=<tf.Tensor: shape=(2, 7), dtype=float64, numpy=
+array([[7., 7., 7., 7., 7., 7., 7.",0
+337,"!, I must have a corrupt install, this cant be true??",2
+338,"[The code]( you linked to is nice and we actually use [this]( for low level tensorflow in tf 1.15 but it doesn't seem to work anymore with tf 2 (at least all methods display as deprecated)
+
+> I see what you mean by the race condition.",0
+339,Using `as const` with different failure return types is a useful pattern.,0
+340,/cc  what do you think?,2
+341,Did a multi-file search - and I can see the match highlighting attempted but buggy.,0
+342,Git diff support and multi-file searching are broken for files with those encodings then.,0
+343,Also see [here]( for their use in image generation.,0
+344,">
+> —
+> Reply to this email directly, view it on GitHub
+> <
+> or unsubscribe
+> <
+> .",0
+345,"It seems to be achievable with vscode today, so sharing the below in case helpful.",2
+346,For me _maccenteuro_ was my non-standard encoding.,0
+347,For March we've tried to improve the heuristic in the VS Code debugger UI.,0
+348,Are there small steps we can do to slowly iterate to this point?,1
+349,"Okay, so what I've learnt so far is that you can't have both onnxruntime and onnxruntime-directml installed at the same time.",0
+350,Anyway the vscode is awesome!,0
+351,Yep!,0
+352,So looks like I am facing similar issue as well on no symmetric padding.,2
+353,It projects the ouput to handle arbitrary input grads - check!,0
+354,"Editor note: This is #7065
+
+----
+
+> > I've got the same issue under macOS 10.13.6.",2
+355,"On the first match within a file, I see that same highlight for a fraction of a second, then it disappears.",0
+356,Looks like this PR hasn't been updated in a while so we're going to go ahead and mark this as `Stale`.,0
+357,"After restoring iterations are reset as 0, which leads to wrong lr based on lr_scheduler
+
+**Describe the expected behavior**
+
+provide an option to either reset it or not, for backward compatibility maybe default to reset
+
+**[Contributing]( - Do you
+want to contribute a PR?",0
+358,It would be easier with a script to re-apply the patch until a setting is added.,0
+359,Since then we would display the inline decoration all the time (all node stop events have column specified) and that is too much noise.,0
+360,"Since DAP's ""getPossibleBreakpoints"" is now available, we should reconsider this feature request.",0
+361,Tokenizing languages where a single token might be split onto multiple lines is near impossible (without very complicated workarounds) using TextMate.,0
+362,"this is still a problem even on the latest vs code, i have disabled extensions",2
+363,"** I connect my local terminal by ssh to the AWS EC2 instance I use (RAM: 32GB, vCPU: 16, Architecture: x86_64, OS: Ubuntu 22.0.4 Server).",0
+364,I already have the Cuda driver.,0
+365,"I dont really work on the HLO -> LHLO conversion parts, but I agree with what   is saying here.",0
+366,Is there anything else to do here now that we have `breakpointLocations`?,1
+367,"Hi , yes this is still important in conda-forge.",0
+368,"I never got the cuda implementation to work, because I got stuck with some linkage to cuSOLVER.",1
+369,"Hi  ,
+
+As confirmed please use tested configurations only.CUDA driver 12 might work.But you should have cuda toolkit 11.8 and cuDNN 8.6 installed.",2
+370,can you try building from source and see if that resolves the problem?,1
+371,> Just providing some insight into the Model Parallelism aspect here - PyTorch has some primitives that allow you to enable model parallel training.,0
+372,At least as a temporary workaround until a cleaner solution is provided.,0
+373,It's a great hack; I'm not really sure of edge cases--and this feature should still ideally be added to VSCode itself given how useful it is.,1
+374,Any browser plugins/extensions installed in Firefox?,1
+375,Even the posix native [flock(2)]( doesn't remove the file on process shutdown.,0
+376,"If you can't make it work, just disable all the context menu options that don't work without focus and call it a `hotfix` until you find a way to actually make it work.",0
+377,That is different from the original form that we generate though.,0
+378,"We actually intended to have the line highlights, but this stopped working some time ago.",0
+379,We do also upload the binaries to our CloudFront / S3 powered buckets.,0
+380,"The following is my trace of error when using tf2.11 in M1 Mac:
+W tensorflow[/core/common_runtime/type_inference.cc:339]( Type inference failed.",1
+381,"](
+[**Please note**, that extension published in VS Code Marketplace will only work in Windows-x64](
+[For other operating systems, please download pre-compiled .vsix package.",0
+382,👍 for having transparent output background with a gray cell editor background.,0
+383,Welcome to submit a PR on it.,0
+384,Search should highlight matches the same as Find (in a file).,0
+385,on github in firefox),0
+386,"It's also slightly ""unfair"".",0
+387,This is a little higher priority for terminal users now that Sets was pulled from Fast Ring Windows 10 builds.,0
+388,"2023-05-05 02:37:58.944800: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-05-05 02:37:59.878527: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero.",0
+389,You can check it out here:,0
+390,Finally the file `recipe/build_pkg.sh` installs the wheel.,0
+391,I ran into this warning while writing a transformer with rotary embeddings (RoPE).,2
+392,"So we can
+   1283       # run the first trace but we should fail if variables are created.",2
+393,And a bit longer for the [protos archive]( and a few other artifacts,0
+394,"At conda-forge, we are getting close to doing option `1.` but, it is rather unmaintainable (and not yet fully documented)
+
+Option 2, in my mind, is in the interest of `tensorflow` developers as untangling the dependencies will help them maintain more architectures.",0
+395,"Modification of inputs is wrong in general, `gradcheck` should treat inputs and functions as black boxes, there is no guaranteed that this re-parametrization is equivalent, no matter whether the inputs are sparse or dense.",0
+396,"Specifically, after the first training loop, I want to be able
+to continue training for a few more epochs and then come back to the second
+epoch and continue training, with the aim of obtaining the same loss and
+accuracy as in the initial training loop.",2
+397,The first steps for this would be more flexible movement of the panel inside the workbench and pulling it into its own window.,0
+398,This is likely more efficient for implementors.,2
+399,Still doesn't work with all extensions disabled.,0
+400,Bringing this back up: where should the conversion for std.const to hlo.const live?,1
+401,"Here is `echo $LD_LIBRARY_PATH`:
+
+
+
+Note that in my `.bashrc` I have:
+
+ 
+
+Here is the backtracke:",0
+402,"### Source
+binary
+
+### Tensorflow Version
+2.9.1
+
+### OS Platform and Distribution
+Linux Ubuntu 18.04
+
+### Python version
+3.7
+
+### Current behaviour
+Run tf.keras.Model.fit() and the error shows up.",0
+403,"So I had the same issue - I save a model, then load the checkpoint in order to continue training, but my loss and accuracy are lower than they were before I saved the model.",0
+404,Run mnist test:,0
+405,"However, when you press RUN, the model in question is loaded, and you should see the error that occurs when loading the model on Logcat in Android Studio.",2
+406,3. end user experience (see previous paragraph).,0
+407,Could you take a look at the pipeline parallelism API and see if it fits your needs?,1
+408,GitHub is mainly for bugs and performance related issues.,0
+409,":+1: The problem is that the cursor positions is an editor concept, so that code would need to be in `/browser/`.",0
+410,"Correct me if I am wrong, AFAIK latest version of cuDNN is 8.9 only.",1
+411,"This means you can use pip install tensorflow[gpu] (assuming you have the NVIDIA driver already installed) to get TensorFlow with GPU support, even if there's no separate libtensorflow binary.",0
+412,"Hi   
+
+There is a known issue of tflite model maker installation if you are using python >=3.10.",2
+413,Could you please share that issue link posted in Keras-team/keras.,0
+414,"~/tf2/lib/python3.8/site-packages/tensorflow/python/framework/ops.py in _disallow_when_autograph_enabled(self, task)
+    487 
+    488   def _disallow_when_autograph_enabled(self, task):
+--> 489     raise errors.OperatorNotAllowedInGraphError(
+    490         ""{} is not allowed: AutoGraph did convert this function.",0
+415,Yes I can't change the workspace encoding to utf8 because file contents would be mangled.,0
+416,Just trying out again after a year.,0
+417,"Of course, there are some drawbacks in terms of implementation complexity, since one has to deal with multi-processing related stuff that otherwise would not be needed, such as inter-process communication or logging from multiple processes.",0
+418,> so thought maybe in this function we can do some kind of logging there -?,2
+419,"<pre>``2023-05-05 02:37:58.234754: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.",0
+420,fixed-length string array (with some null-byte padding) or no-padding packed format as in the gist above.,0
+421,"[image](
+
+TFLiteXNNPackDelegate seems to be used though, maybe something related to me using an emulator.",1
+422,"Hi   - w.r.to #58140( 
+The issue is mainly with memory and performance.I am using Retinanet tensorflow  graph model.",0
+423,"Leaving the `reduction='mean'` would continue to confuse people into perpetuity, since most people would look at that and immediately conclude that it's just a convenience for `Tensor.mean()`.",0
+424,Thanks for the reply and the additional info.,0
+425,But I had to move the editor out of `/common/` because that didn't make any sense and was causing ridiculous amount of pain for developing the editor...,2
+426,Putting it into hlo to lhlo would hide the fact that the pattern transforms part of std and maybe not all users want that lowering to happen.,2
+427,Contributions are welcome.,0
+428,Does it mean that the total norm is only computed per gradient rather than overall all gradients of the model?,1
+429,Maybe related:,1
+430,"That said support for the hook and FSDP2 is planned and not yet complete, so not sure if there is a workaround for the time being.",1
+431,Stepping also works fine for me.,0
+432,My suggested fix: just raise a warning for the user if we detect that gradient accumulation is being used with apply_optimizer_in_backward.,0
+433,"Performance isn't great, and honestly hires fix is pretty slow.",0
+434,"> writing a file on startup slows down startup, especially if the process has to wait for that to happen.",0
+435,"* Some project/ideas are (tangentially) related include TensorFlow's JaggedTenosr, [Awkward Array](
+
+I am no longer actively working on TorchArrow and my thoughts/knowledge may be out-dated.",0
+436,"If you have any questions about the reproduction steps, please let me know.",0
+437,"I am not sure how many people on this issue got exactly the ""undefined reference to elfLink_Get_FatBinary_From_Object"" error.",1
+438,Is `densify` documented?,1
+439,"Would be great if they could launch directly into split panes, but this works for now.",0
+440,"> Certainly, any commentary on how things could change in the future, etc., would be very helpful.",1
+441,"Masked semantics is the property of the function, and `gradcheck` should be agnostic to that.",0
+442,I'm using the new API to implement column BPs for Node now.,0
+443,"It works, but is very very ugly and I was hoping for a better way.",0
+444,"As you noted,  is one of the exploration/hack to try this idea.",0
+445,Resolving the issue because the test is not flaky anymore after 2000 reruns without any failures and the issue hasn't been updated in 14 days.,0
+446,"the fuzzy scoring we do currently was tweaked for file names only, it is not a general purpose fuzzy scorer.",0
+447,"These ones have not been discontinued at this time, it looks like an issue with some internal modifications not moving the built artifacts from a staging location to the previously expected final gcs bucket.",0
+448,"This is a rather difficult task with *many* edge cases, and in the best case scenario, it would be just possible to add support for CPU, as triton does not support cuda yet.",0
+449,I would also like to see this feature implemented.,0
+450,Thanks,0
+451,This should have reasonable performance for small projects and it can be done in the background.,0
+452,So both are two different things.,0
+453,`batchmean`/`batch_mean`  seems like a good option to me,0
+454,Thanks for the reply.,0
+455,This is much needed.,0
+456,would suggest making a lighter repo for it starting out.,0
+457,"Accompanying references:
+- pytorch changes: 
+- c++ extension repo:
+
+
+----------------------------------------------------
+
+Because it's the holidays, I'm just opening an issue to track and give feedback so that it doesn't get lost in the noise.",0
+458,"### 🐛 Describe the bug
+Hello,
+since a while i am trying to get Stable Diffusion running on my RX 7900 XTX.",0
+459,Thank you for that reflection and the link to the discussion about a different context manager.,0
+460,"From issue [16983]( I did this:
+
+And the training continues as expected.",0
+461,"Then, people that proposed the modularization left the team, the team halved, the proposal dropped.",0
+462,We definitely could do better.,0
+463,>,0
+464,"-> 1284       concrete = self._stateful_fn._get_concrete_function_garbage_collected(  # pylint: disable=protected-access
+   1285           *args, **kwargs)
+   1286       if self._created_variables:
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/function.py in _get_concrete_function_garbage_collected(self, *args, **kwargs)
+   3098       args, kwargs = None, None
+   3099     with self._lock:
+-> 3100       graph_function, _ = self._maybe_define_function(args, kwargs)
+   3101       seen_names = set()
+   3102       captured = object_identity.ObjectIdentitySet(
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/function.py in _maybe_define_function(self, args, kwargs)
+   3442 
+   3443           self._function_cache.missed.add(call_context_key)
+-> 3444           graph_function = self._create_graph_function(args, kwargs)
+   3445           self._function_cache.primary[cache_key] = graph_function
+   3446 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/function.py in _create_graph_function(self, args, kwargs, override_flat_arg_shapes)
+   3277     arg_names = base_arg_names + missing_arg_names
+   3278     graph_function = ConcreteFunction(
+-> 3279         func_graph_module.func_graph_from_py_func(
+   3280             self._name,
+   3281             self._python_function,
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py in func_graph_from_py_func(name, python_func, args, kwargs, signature, func_graph, autograph, autograph_options, add_control_dependencies, arg_names, op_return_value, collections, capture_by_value, override_flat_arg_shapes)
+    997         _, original_func = tf_decorator.unwrap(python_func)
+    998 
+--> 999       func_outputs = python_func(*func_args, **func_kwargs)
+   1000 
+   1001       # invariant: `func_outputs` contains only Tensors, CompositeTensors,
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py in wrapped_fn(*args, **kwds)
+    670         # the function a weak reference to itself to avoid a reference cycle.",0
+465,"But why 66 and not `(1, 66)`?",1
+466,I will reassign to see if we can find a better reviewer.,0
+467,Is it X86_64 or Arm ?,1
+468,"## Environment
+
+Output of **collect_env.py**:
+
+
+Further:
+cc",0
+469,"We do this when building the standard release:
+
+- cut branch in TF, cut branch in Keras and Estimator at commits that corresponds to the same point in time (`PiperOrigin-RevId` number is close to the one in the TF's commit but not greater)
+- build TF RC0 against estimator nightly wheel (we can build it without any estimator dependency but then we won't be able to run all tests or we would need a separate script for this)
+- built Estimator RC0 against TF RC0
+- Keras RC0 can be build in parallel, it does not depend on Estimator and C++ parts of TF
+- update bounds in TF's `setup.py` to use these RC0s
+- do TF RC1, RC2, etc and similar for the others if needed, against latest TF RC
+- release final Estimator against latest TF RC
+- release final Keras
+- update bounds in TF's `setup.py` to use the latest versions
+- release final TF
+
+We had a proposal 2 years ago to modularize all this and have a real DAG of dependencies but there has been significant pushback as that would break the ability to do cross-cutting changes that some C++ teams preferred to do.",0
+470,"Right, this only happens when there's a line decoration.",0
+471,"If it is very specific to VS Code, we do not want to include it in the DAP.",0
+472,> This is incredibly painful.,0
+473,"Like , I just got started on compound debugging and it would be really nice to have them split.",0
+474,This would be useful for some fast column-based string processing or mmap'ing some dataset files .,0
+475,"CuDNN version 8.9.0 is old, and therefore does not run on my machine.",0
+476,"As i read, that is normal.",0
+477,I'm not sure tbh.,1
+478,"2023-05-23 14:23:20.819630: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-05-23 14:23:21.647132: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:996] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero.",0
+479,**object**.property -> **object.property** rather than the line.,0
+480,We currently use the solution described by .,0
+481,"_If the code changes in future builds, the regex in this hack will need to be updated._",0
+482,"** Inside the running container, I go to the tensorflow source folder:
+`cd home/tensorflow-2.13.0`
+
+**7.",0
+483,"Roughly speaking, `gradcheck` compares the jacobians obtained numerically (using perturbations on function inputs) and analytically (using the backward formula) and if these match, it will return `True`.",0
+484,"See '
+
+ValueError: Unknown layer: OneHotCategorical.",0
+485,"I think for practical use in compaction of strings in datasets, the no-padding format is needed (although for parallelized hashing the fixed-length strings may be easier).",2
+486,Thanks :-),0
+487,"***>
+napisał(a):
+> Hi  < ,
+>
+> In Tensorflow we have Two Seeds one at Global level and another at Op
+> level.When included both it shall create reproducible results.Please refer
+> to the source
+> < for
+> examples on how it works.",0
+488,"If we inspect the subgradient of `sampled_addmm` wrt `s` in `derivatives.yaml`, we find the following:
+
+Note, that under the assumption of masked semantics this formula is correct, even though it does not account for the `(mat1 @ mat2).sparse_mask(self)` part.",0
+489,I'm asking if the future pytorch could support other concepts other than explicit setting of all the arguments to a specific device before they can be operated on.,1
+490,I don't see the reasoning here.,1
+491,"Switching to Zed today 🤦🏼‍♂️
+
+Note: not a single reply from MS here and only 1 dismissive response in",0
+492,Hurry up!,0
+493,Also mediapipe-model-maker is broken.,0
+494,GPU0: Intel HD 635 iGPU thats in the CPU itself.,0
+495,Maybe you can do the reverse.,0
+496,"We should be able to create a minimal example with electron or node.js ,  where is the code that handles opening files from SMB drive, need some idea to create a repro.",0
+497,"Hi  ,
+shuffle function uses its local seed and it has no control on global seed set by `tf.random.set_seed`.",0
+498,"Another possibility is if the loaded model in TFLite does not have any defined batch size, converter will take the batch size as 1, and when you evaluate it with the different batch size, you are likely to end up with the problem which you are facing.",0
+499,**Editorial note:** Hi!,0
+500,Please let me know if any other details would be helpful.,0
+501,The list of platforms [rocm] does not appear to contain all the recently affected platforms [linux].,0
+502,did you try installing `SLEEF` separately and then installing pytorch ?,2
+503,Why?,1
+504,"Or even how to define the action for ""select word"" and ""select line"".",0
+505,"The list of platforms [linux, rocm] appears to contain all the recently affected platforms [linux, rocm].",0
+506,I think this is to do with the security policies in place.,2
+507,Seems that the feature request has been completed.,0
+508,Could this (along with torcharrow) be a basis for design of simple data frames in core pytorch (enabling fast ffcv/tfrecord-like datasets)?,1
+509,You clearly didn't read the issue posted all the way through.,0
+510,Would you like a feature request to make it quantizable?,2
+511,"### Crash
+I met with a similar problem as well.",2
+512,`?,0
+513,The Node 8 release is pushed out until the end of May so it can wait.,0
+514,"This is all it says about the macOS build requirements:
+
+<img width=""863"" alt=""image"" src=""
+
+Maybe if you don't support Apple M1 machines (which is a large and growing segment of the developer market) you should say that explicitly on the TF build-from-source website.",2
+515,"torch .whl download speed is about 100 kilobytes/s, with my 100 Megabit internet connection, and this happening for a few days already.",0
+516,"Can you explain to me how you
+
+> change the Delegate to GPU
+
+So that I know we are doing the same thing.",1
+517,The workaround proposed (utf8) is not a solution.,0
+518,"Make sure the window is not focused
+2.",0
+519,"Matrix power can be easily implemented in PyTorch by following the `numpy` implementation, which [translates straight away to PyTorch, see implementation here](
+Matrix exponential seems [a bit more involved though](",0
+520,Once torch/xla is able to work with `at::linalg_svd` the XLA CI build will be green.,0
+521,"However, I am actively working on preparing one to help diagnose the issue more effectively.",1
+522,Yes I agree this could be related to my cuda installation.,1
+523,Reopening issue as flaky failure is being re-observed in HUD after this PR:,0
+524,"I cannot find a related GitHub issue, but am sure I've seen if before,",1
+525,It seems that torcharrow.StringColumn might implement this.,2
+526,<em>Please make sure that this is a bug.,0
+527,Some extensions like cpptools seem to redraw decorations any time the editor scrolls.,0
+528,Seems to be another side effect of the logic we have to refresh the view when the window gains focus to avoid missing file events.,1
+529,"If you want the return value, then maybe you need to write it to some global data structure.",2
+530,"In GPU programming, it is very important to remove data transfers between CPU and GPU, which this code still does not do very well.",0
+531,"How do we do now, that's the question!",1
+532,Also git diff incorrectly shows rows with accented characters as changed.,0
+533,"I worked around this using Better Touch Tool
+
+!",0
+534,"If I'd do
+
+I would expect this result: `values.shape (66, 5)`
+Which holds the location of the maxima in each of the 66 channels.",2
+535,",  did not answer me back, I guess he is busy.",2
+536,"I started using VS Code for one of our projects to get the feel for it and I sorely miss ""Find All in Current File"" feature.",0
+537,"I think another way to slice the cake is for there to be a function that you explicitly call, before you make use of any bfloat16 functionality, which handles the initialization.",2
+538,"Given the size and complexity of the model, I'm unable to provide a simplified version immediately.",0
+539,"I need exactly the opposite
+
+becomes this useless lot in the tooltip, hiding the usefull infirmation that is in the jsdoc header
+
+!",0
+540,"No, and this is not going to change.",0
+541,The `torch.sparse.sampled_addmm` is not a layout-agnostic function as its implementation explicitly uses the col/crow indices of its input to define the sparsity pattern used in the mathematical definition of `sampled_addmm`.,0
+542,From the conversation looks like option 2(handler) is preferred?,2
+543,"Code
+
+I understand the importance of providing a reproducible code for better troubleshooting.",0
+544,There doesn't appear to be a way to split them after they've started to run like  suggested.,1
+545,"I am the author of the [Go Test Explorer]( extension, and I may be submitting PRs to vscode-go to implement the testing API.",0
+546,"We would need to check if it works on Windows too where we resort to ""named pipes"".",1
+547,"The [docs]( read:
+
+> The savefile includes:
+> * The model architecture, allowing to re-instantiate the model.",0
+548,I apologise for the late reply.,0
+549,I am also facing the exact same issue.,2
+550,Please refer the Note section in the document [here]( and let us know if this helps.,0
+551,What worked well for me was just to run my train/eval in a separate process and wait for it to finish.,0
+552,"If it is to get testing for the tutorial into PyTorch, I don't think bfloat16 is substantively different from complex, so just have the complex extension test should be good enough.",2
+553,"I was able to do this by passing a seed
+that is changed every epoch for this init_seed + epoch function.",0
+554,"`gradcheck` with `masked=False` assumes that its input function `func` is layout-agnostic, that is, `func(densify(x)).to_dense() == func(x).to_dense()` holds for `x` with any layout, where `densify` is a function that materializes all unspecified elements of its input as zeros.",0
+555,If I want to really make sure that all my projections are correct.,2
+556,I appreciate the clarification.,0
+557,"Because of the option SO_REUSE_PORT is not set, we have to shutdown the dummy server before to start the TF sever.",0
+558,"> I think it would be tough to enable this for all pickers
+
+Why is that?",2
+559,We're working on making model parallelism much easier in PyTorch and understanding some details of your use case might help us building higher level APIs better.,0
+560,"Backward is correct, so how do we fix that?",1
+561,You can [save dataset iterators into checkpoints]( so that they can be restored to the exact state.,0
+562,"-->
+<!-- 🧪 Test using the latest Insiders build to see if your issue has already been fixed:  -->
+<!-- 💡 Instead of creating your report here, use 'Report Issue' from the 'Help' menu in VS Code to pre-fill useful information.",0
+563,I would also be curious how we can tell if the user intends to use gradient accumulation or not.,1
+564,**Other info / logs** Include any logs or source code that would be helpful to diagnose the problem.,0
+565,The color contrast between gray background and the code?,0
+566,"](
+This will be fixed in the near future with one of the next updates.",0
+567,The problem with this approach is that this completely deactivates fusion for these ops.,0
+568,The fact that github.dev works fine indicates to me that this is not about IndexDB issues but more generic.,1
+569,"Putting this into the general ""abi compatibility issues make our users sad"" bucket",0
+570,also cc: -vi who is interested in these things,0
+571,"I'm not claiming it's correct, but there is also a PyTorch implementation here:",2
+572,"If you got *specifically* that error, please emoji this comment.",0
+573,"First of all, I want to know more
+about how checkpoints store an iterator where I will be comparing it with
+my current approach (screenshot added in the appendix).",1
+574,"I'd love to have a way to expand it into the fully resolved type, which in the case of the above example would be:
+
+
+
+The impl of actual utils I'm using are inconsequential; it's the same if we'd used `Pick`, `Omit`, or `Partial`.",0
+575,"like... What is your model where this happens (especially which ops are included), and after how many times does it start working?",1
+576,"I'm only a casual VScode user (using vim most of the time), but I would definitely be interested in a well-behaved, consistent, reactively-configurable, multi-platform terminal not tied to the editor.",0
+577,"### 🐛 Describe the bug
+
+As per title.",0
+578,"Same issue from Bangladesh, Internet speed ok for other tasks (~4mb/s)",2
+579,"This is a known issue and also reported [here](
+ narrowed it down already with us to a `dlopen` call inside `libcudnn` preferring the system-wide libs over the ones coming from the PyPI package.",0
+580,> Until [competition]( begins to narrow?,2
+581,I could give it a try.,2
+582,"Here, you want not only newly created tensor to be on the specified device, but also all existing tensors be moved to it.",0
+583,"As for the subprocess tutorial, I don't have any to share but the small example I gave here: 
+
+The bad news is: It seems that this solution doesn't work with TF 2.2 on RTX cards (yet another problem).",0
+584,How would the API for this look like?,1
+585,Thank you for suggestion.,0
+586,I think this is exactly the expected behavior actually.,2
+587,"I think this is because I have to build it first, however I tried but failed.",1
+588,There's probably a way to get it from all the above but putting it all into one message will make things easier to debug.,1
+589,It is extremely useful if one wants to see all the usages of variable or construct inside file.,0
+590,"(since the xla_hlo op generated out of the pattern would have been marked as illegal for the conversion target, making the dialect conversion reset state).",0
+591,A useful string function to include is some parallelized string hashing methods that are stable (e.g.,0
+592,"I've been thinking about how I would actually implement this kind of functionality for Go:
+
+- **What source ranges are associated with test X?",1
+593,This could have a common root cause with  and  (TF_RUN_EAGER_OP_AS_FUNCTION env variable).,1
+594,"FSDP1) and have instead been focusing on FSDP2 ( The current optimizer-in-backward support in FSDP1 is kind of hard-coded to just support optimizer-in-backward as is, making these kinds of customizations hard.",0
+595,"We have been integrating in to the lower level, in the src/vs/languages directory and using Modes.IState and supports.TokenisationSupport.",0
+596,"I understand there’s also a desire to fully rely on LSP for code colouring, but this just adds extra latency like  mentioned above; you would definitely need some level of caching or stale-while-revalidate before falling back to LSP otherwise it’s no better than what we have today.",0
+597,"on CentOS 7, also face it.",2
+598,"TF 2.0: `python -c ""import tensorflow as tf; print(tf.version.GIT_VERSION, tf.version.VERSION)""`
+
+**Describe the current behavior**
+
+I've been trying to compile TensorFlow from source using a Rosetta terminal.",0
+599,"After we introduced more customizations of the notebook layout, the theme colors for notebook don't cover all the scenarios, we should review and consolidate them to ensure they work for all combinations of settings.",0
+600,> I didn't have anything meaningful in my .vscode/settings.json so i just removed it.,0
+601,The error isn't very clear.,1
+602,Please share simple stand alone code for us to replicate the issue faced.,0
+603,I was saying that my script wouldn't have had an issue if I had an RTX A2000 in the first place.,0
+604,"34,000 commits... did you fork vscode itself?",1
+605,Maybe ZLUDA?,2
+606,"Hi  , the problem looks similar but I'm not sure that it's the same.",1
+607,I'd recommend asking in the pytorch forums.,0
+608,"In fact if you look at the first 3 lines of:
+
+
+
+it's very ambiguous and doesn't tell me anything.",2
+609,"it looks like  isn't trying to install TF, they are trying to compile it from source.",2
+610,Is `x -> densify(x)` differentiable?,1
+611,": Yes
+
+Version: 1.65.0-insider (Universal)
+Commit: a0da9978b10ae0b9307c7f545b50a8500efff7eb
+Date: 2022-02-21T05:14:59.303Z
+Electron: 16.0.9
+Chromium: 96.0.4664.174
+Node.js: 16.9.1
+V8: 9.6.180.23-electron.0
+OS: Darwin x64 21.3.0
+
+Steps to Reproduce:
+
+1.",0
+612,"CSP stuff is OK, shouldn't block anything.",2
+613,"But 3 would also make sense to me, since this is the number of requested dims.",2
+614,The VS Search function is basically useless atm,0
+615,"We have accented characters in our codes, and the cp437 encoding search is a real need.",0
+616,"Although vscode provide the functionality as ""change all occurrences"" from the context menu.",0
+617,The  project is on 1 hand daunting and on the other janky and indiscernible whether it's due to TextMate's unspecified behavior or actually a bug.,1
+618,"It would not be a good design to choose to compute the inverse, as it is much more costly and it may incur in unnecessary precision errors.",0
+619,"> I finally got my Stable Diffusion working by simply following this tutorial: 
+But is the optimization with onnx/olive also working ?",0
+620,Please submit it to the [github.com/keras-team/keras]( repository instead.,0
+621,> We're going to add some way of defining new operators which is not inheriting from Type and then filling in a bunch of methods.,0
+622,"Skipping registering GPU devices...``<pre>
+### Standalone code to reproduce the issue
+### Relevant log output
+_No response_</details>",0
+623,I can help if you want to divide the task,0
+624,"``2023-05-23 14:23:20.131376: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.",2
+625,"> Aborted (core dumped)
+
+Best",0
+626,"For AdamW, this is still a net win as we went from 2 copies of the parameters to one (for the accumulated gradient).",0
+627,There are many ways to solve the vertical cue.,0
+628,I was able to reproduce the error in tf 2.6 .,2
+629,So all code that sits in `/common/` and uses an editor actually also always executes in `/browser/`.,0
+630,If there was an unravel index in torch this would also work with the plain argmax implementation of torch.,1
+631,"In any case, this introduces inter-process communication and complicates things unnecessarily, so I really hope the TF team will improve GPU memory management and offer a function to really clear the session!",0
+632,"Sorry, I can't help you with that, I'm not familiar with the details of the implementation.",1
+633,"See more at 
+2023-05-05 02:37:59.878936: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1956] Cannot dlopen some GPU libraries.",0
+634,"Looks like the optimizer gets built after you call .fit(), BUT if I don't call .load_weights() explicitly first, the optimizer gets reset, which is definitely a bug.",2
+635,"If we do this as a conversion pattern in HLO to LHLO, wouldn't it fail?",1
+636,"> 
+> Solution (in settings.json):
+> 
+> 1.",0
+637,Switch to English typewriting mode and type `cmd + ``.,0
+638,"In the paper that I mentioned previously, different versions of SSIM (e.g.",0
+639,For Tensorflow to detect GPU first we should ensure whether Nvidia driver is able to detect GPU.,0
+640,"Python 3.8
+TF 2.11
+cudatoolkit 11.1.1",0
+641,"This means that the expression `s != 0` is equivalent to `1` (notice that the actual implementation of `torch.sparse.sampled_addmm` does not use `s != 0` nor `sparse_mask`, it just iterates over all specified elements which include the zero values due to `densify` pre-processing of inputs).",0
+642,"That document is about installing TensorFlow, not building it, and as we have already discussed in this GitHub thread, the OP is asking about building TF, not installing it.",0
+643,Also what about providing a setting to opt-in the recursive file watchers for affected users ?,2
+644,Ideally this would work with AutoRun as well whenever I change the function.,0
+645,"Reopening so we don't lose the upvotes, also technically this would involve more on top of  as that doesn't differentiate monospace/non-monospace.",0
+646,"End up scanning the page to find the match, failing, and ... saying rude things.",0
+647,"To keep both synced and avoid implementing custom function like #105045, it would be really helpful to have this.",0
+648,"There is the `torch.cuda.device` context manager, but this one won't move data, so perhaps there could be a different context manager that will do this instead.",1
+649,I also used Adam optimizer.,0
+650,I'm OK with leaving this for open until someone who was affected confirms that this works.,0
+651,"If you follow this naming convention, `pkg.go.dev`/`go doc`/etc will associate each example with the thing it is an example of.",0
+652,"Testing #129161
+
+, -MSFT
+
+When scrolling the current selected frame out of view if you click to step the viewport should scroll and return to the same position.",0
+653,"for `softmax` the neutral element is `-inf`, not `0`.",0
+654,"2023-05-05 02:37:58.270803: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.",0
+655,"Surely the intention is not to copy the data back and forth, but only when needed.",0
+656,"]], dtype=float32)>, b2=<tf.Tensor: shape=(2, 6), dtype=float16, numpy=
+array([[2., 2., 2., 2., 2., 2.",0
+657,"I have made the switch now and have not regretted it one minute, my productivity has increased a lot.",0
+658,The alternative to the densification pre-processing step is to perturb the inputs by creating a new input tensor (`x + eps * e_i`) that will have different indices set from `x` if `i` corresponds to a non-specified element in `x`.,0
+659,These dataframes would primarily be used for some simple dataset serialization/deserialization / filtering and transformation.,0
+660,I had the same problem.,2
+661,"Here's a sample of the CC ratios when using a faint gray bg:
+
+!",0
+662,"Apple's M1 TensorFlow release is closed-source, as you surely must know.",2
+663,We should revisit this when `getPossibleBreakpoints` has found its way into Chrome and/or Node stable.,0
+664,yes.,0
+665,Also have you followed instructions for CUDA path setting as instructed in documentation ?,2
+666,A very annoying issue,0
+667,"Our friends on the Java team () [released similar functionality]( in November, and  wants this in Python too.",0
+668,I will open a PR soon.,0
+669,"--> 924       results = self._stateful_fn(*args, **kwds)
+    925       if self._created_variables:
+    926         raise ValueError(""Creating variables on a non-first call to a function""
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/function.py in __call__(self, *args, **kwargs)
+   3020     with self._lock:
+   3021       (graph_function,
+-> 3022        filtered_flat_args) = self._maybe_define_function(args, kwargs)
+   3023     return graph_function._call_flat(
+   3024         filtered_flat_args, captured_inputs=graph_function.captured_inputs)  # pylint: disable=protected-access
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/function.py in _maybe_define_function(self, args, kwargs)
+   3442 
+   3443           self._function_cache.missed.add(call_context_key)
+-> 3444           graph_function = self._create_graph_function(args, kwargs)
+   3445           self._function_cache.primary[cache_key] = graph_function
+   3446 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/function.py in _create_graph_function(self, args, kwargs, override_flat_arg_shapes)
+   3277     arg_names = base_arg_names + missing_arg_names
+   3278     graph_function = ConcreteFunction(
+-> 3279         func_graph_module.func_graph_from_py_func(
+   3280             self._name,
+   3281             self._python_function,
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py in func_graph_from_py_func(name, python_func, args, kwargs, signature, func_graph, autograph, autograph_options, add_control_dependencies, arg_names, op_return_value, collections, capture_by_value, override_flat_arg_shapes)
+    997         _, original_func = tf_decorator.unwrap(python_func)
+    998 
+--> 999       func_outputs = python_func(*func_args, **func_kwargs)
+   1000 
+   1001       # invariant: `func_outputs` contains only Tensors, CompositeTensors,
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py in wrapped_fn(*args, **kwds)
+    670         # the function a weak reference to itself to avoid a reference cycle.",0
+670,"> no longer gives you a fresh OSS instance
+
+The new profile directory used for debugging is in the `.profile-oss` in the vscode folder",0
+671,This looks like an issue with `nvidia-smi` based on your [last comment](  If `lsof /dev/nvidia2` can find the processes using the GPU then `nvidia-smi` should find them as well.,2
+672,I got bored of trying after a week or so of trying to get it to work.,2
+673,"I know we are all perfect coders and never use prefixes or suffixes that need to be changed in certain areas and not others, but the function should be there for everyone else, as it is in nearly every other coding app.",0
+674,"Both global seed and local seed together decides the Random Number generation.The local seed changes the value with every epoch but it will be in conjunction with global seed.Please refer to shuffle API [here](
+I just attached a gist [here]( to test how global seed and random seed works.I run the same code in 3 different cells and all producing same numbers in order.Then I tried with restart runtime and also disconnect and delete runtime and every time the results are in same with order also.This is a simple demo to explain how random seeding works in tensorflow.Please confirm whether it is useful for you.",0
+675,I'm hoping to see some way to do this soon.,0
+676,I'd like to know if there's something I'm missing or if this is a known issue.,1
+677,This system is not compatible with the version of cudnn your using.,0
+678,"> Any additional tokenizer is waiting on 's 
+
+his last response to that thread was almost 3 years ago so I think it’s a dead end.",2
+679,I am fairly new and I apologize if this is a very naive question.,0
+680,"### Versions
+Versions of relevant libraries:
+[pip3] numpy==1.26.4
+[pip3] torch==2.2.2
+[pip3] triton==2.2.0
+[conda] numpy                     1.26.4                   pypi_0    pypi
+[conda] torch                     2.2.2                    pypi_0    pypi
+[conda] triton                    2.2.0                    pypi_0    pypi
+cc     -varma     -Huang         -l",0
+681,"Working on this seems fun, and there are many new concepts to learn.",0
+682,> -varma any ideas on how to make this API compatible with gradient clipping?,1
+683,"If you are already covered, you will simply see a new ""EasyCLA"" check that passes.",0
+684,"I've been using it by myself for a month, so I suppose it's ready for public use.",2
+685,"The usage of densify is a problem since I cannot test what I want with masked=False
+
+I think the fix to the backward formula would be a good way to get some attention to your suggestion as it would provide a reproducer for the possible gradcheck problem.",0
+686,That's somewhat expected if OSS is torn down or killed ungracefully.,0
+687,"That said, notice that there is a discrepancy in the current implementation of `sparse.sampled_addmm` and its documentation:
+
+that is, the implementation considers specified elements as non-zeros (when evaluating `spy`) even when the corresponding values are explicit zeros.",0
+688,Using Search in side bar is not an option - cannot configure font (to monospace) and cannot use keys for fast movement or even copy text.,0
+689,"Hello , I had a similar problem when I was iterating over model.predict(), if you are iteratively increasing batch size, try after each batch_size training do `tf.keras.backend.clear_session()`.",2
+690,does changing `terminal.integrated.gpuAcceleration` help?,1
+691,"I started to use VS Code today and I found out that this basic issue exists since forever... 
+
+Will anyone ever fix it?",0
+692,"I double checked, and I do get ""cuda"" if I print `device` from the script above.",0
+693,Would it make sense to expose the same  property ( used by tasks as a runInTerminal argument when argument  is set to integrated terminal?,1
+694,std.const -> hlo.const would be weird since you are going from a base/lower dialect to a higher-level domain-specific one with both having tensor value semantics.,0
+695,So I followed the [guide]( to build .aar files for Java from the AWS EC2 instance I mentioned before and it was successful.,0
+696,set files.encoding by language is work for me.,0
+697,"Please find the [gist](
+> 
+> Thanks.",0
+698,"Anyhow, could you point me to a good example / tutorial for the subprocess approach if you know of any?",2
+699,"Definitively, that's the best solution.",0
+700,"It would be nice to better support model parallelism, though, maybe with a more explicit mechanism like your code snippet demonstrates.",0
+701,I got the same issue and was able to fix by using this [hack](,0
+702,"For further assistance with EasyCLA, <a href=' target='_blank'>please submit a support request ticket</a>.</li></ul>",0
+703,"Yes, because the all of the color syntax colors were create to work against the editor background color.",0
+704,"Not ideal due to some limitations, but still you may find somewhat useful.",0
+705,"Typing `R` should _increase_ the weight of the already-top result but instead, it drops off the list entirely.",0
+706,"But if you want to get bfloat16 in as another defined scalar type, it's something we can consider.",2
+707,"I try to use your solution, so I add this to .vscode/settings.json : 
+
+`
+{
+   ""[prg]"": {
+        ""files.encoding"": ""cp437""
+   }
+}
+`
+
+and the global search now works again ... thank you ...
+
+edit: unfortunately, it isn't working properly ... since now some files are detected as UTF-8 and some as CP437 ... so the solution only work partially ...",2
+708,You could decide to implement `std.const` by lowering via linalg or going to `hlo.cost`.,0
+709,"(Experimental duplicate detection)
+Thanks for submitting this issue.",0
+710,"I'm finding this annoying, as I seem to be doing it by accident, when intending to double-click to select just one word.",0
+711,"This has been in the backlog for quite a while (it is now in the bottom 20% of issues by age), would be great if team took it up, but understandably [the backlog is pretty long...](",0
+712,"Also, then, it seems like `densify` should not be `func` agnostic, i.e.",0
+713,"You can see the error message in runtime logs.
+!",0
+714,"[Follow the steps here to add a custom op ]( The implementation can be found in torch repo, but here is the [direct link](",0
+715,"[Registering the new scalar type with Aten and Caffe2]( - here, IIANM, I have to provide a concrete final class definition for `at::BFloat16` for successful compilation.",0
+716,"I think it is reasonable to expect InteractiveTableComponent to be matched above footprintTaggingBuilderAddRuleComponent, right?
+
+!",1
+717,Most of the implementations connect them to their LSP.,0
+718,"no
+
+> Is `x -> densify(x)` differentiable?",2
+719,> I don't really understand why the existing IPC socket cannot be used to figure out if an instance is running?,1
+720,"Hi  
+
+I've sent a reproducible code for the error that I'm facing.",0
+721,I didn't have anything meaningful in my .vscode/settings.json so i just removed it.,0
+722,That is why it was not enabled for all contexts.,0
+723,Just providing some insight into the Model Parallelism aspect here - PyTorch has some primitives that allow you to enable model parallel training.,0
+724,"The case I've asked about is to resolve complex types (maybe that's also part of your issue, but your question was about the 13 extra properties, so this should help you.)",2
+725,"If you could help on this, that would be great.",1
+726,"-israyelyan 
+In order to expedite the trouble-shooting process, please provide a code snippet to reproduce the issue reported here.",0
+727,"I haven't tried it with an emulator, but it might be related to it.",2
+728,This is the case when `p` and `x` have different sparsity patterns.,0
+729,I've modified the code.,0
+730,"These sort of issues, among others, are really problematic for tensorflow, and if it is true that Pytorch is as mature as I've been hearing, then I won't look back",2
+731,I don't think it's possible to actually make this function work with gradient accumulation.,2
+732,"When I run your script with `gdb -ex r --args python sandbox/debug_th.py` I get:
+
+
+
+Maybe useful to note: I noticed that when I install torch 2.2, many more nvidia packages get installed alongside.",0
+733,: we cannot update from tensorflow 2.9 because of this bug.,2
+734,"Assuming the non-masked semantics, the key question is: do want the ""sparsity pattern"" to be variable under perturbation of inputs or do we want it to be fixed?",0
+735,You need to set it to False explicitly that can probably fixes the issue.,2
+736,So it would be the responsibility of the DA to only provide the column location if there are multiple statements in a line.,0
+737,what is controlling that line highlight?,1
+738,Much better with pip,0
+739,"This should also help with the export to proto (or does that have a rule for std.const 
+
+I'm not sure what's to argue for here.",2
+740,also looked into this.,0
+741,">
+> I think that PyTorch is moving toward register_post_accumulate_grad_hook
+> as the way to implement optimizer in backward.",0
+742,Thanks a lot for providing details of the model and how you plan to use model parallelism.,2
+743,"I'll be moving on with splitting soon which is kind of a prerequisite to this anyway, we wouldn't want a stand alone terminal that couldn't show more than one instance at once.",0
+744,":)
+On Sun, Dec 13, 2020 at 12:04 PM Rob Lourens <notifications.com>
+wrote:
+> Closed #106209 < via
+> 873f23d
+> <
+> .",0
+745,I think I can hide those inside the wrapper that moves all inputs to the right device.,2
+746,"Hi ,
+I tried with an emulator, but it doesn't reproduce the error.",2
+747,"### 🚀 The feature, motivation and pitch
+
+Numpy's  `np.max` has support for multiple dimensions, but `torch.max` does not.",0
+748,"Between the two, the models used are exactly the same (built using tf.keras.Sequential()), optimized with the same optimizer (RMSProp with LR=0.001), and trained on the same data from [1].",0
+749,(No pun intended.),0
+750,"Hmm, I think my question for you is what your primary objective is.",1
+751,"Weighted CE computed with soft, one-hot labels == weighted CE computed with hard labels
+2.",0
+752,*  See  and  for more details.,0
+753,"**I was trying to convince a friend to start using VS Code instead of Notepad++, and the first question they asked me is: ""Can I do a Find All?",0
+754,If a user saves a model and loads it they will get unexpected results with no errors.,1
+755,Is there any consideration to how I would present one or more tests as being related to a code item like a function?,1
+756,"Around ~32sec I'm showing the size of scrollbar and they press enter(insert new line in terminal) and show the scrollbar size again - it has changed
+
+I would suspect that terminal/panel is getting wrong size or number of lines used and then calculates the scrollbar incorrectly, maybe even ignoring that is max/half size 🤷‍♂️ Hope this helps.",2
+757,Please check the input tensor shapes and resize before during inference accordingly.,0
+758,"In either case, the lowering of such a memref constant is independent of the semantics.",0
+759,Well damn.,0
+760,"Same here for CP850 - this is really bad, since i have to seek for Regex-Patterns and can't seek for my language specific characters due to this issue.",0
+761,This is likely a missing conversion for std.constant that needs to be completed?,1
+762,"I worked with PyTorch a lot two years ago and in my opinion, it was already a very mature tool that actually behaves the way you would want Python code to behave.",0
+763,It is great to see that task configurations now allow the specification of terminal group ( - works well from my initial testing.,0
+764,So the warning doesn't come from only my architecture.,2
+765,"I've [asked a question in stackoverflow](
+maybe we can get it from somewhere [here]( in the vs code base?",1
+766,"As I said, there is really no reason to not separately have std.constant -to lhlo -- the former is tensor value semantics (no way to create constant memory via std.constant), and the latter provides memory semantics.",0
+767,This is probably a onnxruntime-directml compatibility issue that should be posted in their issue tracker to address it for you.,0
+768,"I was able to solve that dependency issue by installing `cython` and `pyyaml` before installing the model maker, based on [that answer on Stackoverflow]( with:
+
+
+Until the next dependency conflict...",0
+769,"The formula for the gradient of the exponential is derived in Proposition 6.1 here:
+
+and an implementation for 32-bit skew-symmetric matrices can be found here: 
+
+
+The following things would be missing, which should be very easy to implement modulo making some design choices:
+- Implement the exponential for general matrices following Proposition 6.1 in the paper.",0
+770,Currently I've been trying to generalize an implementation of MP that was initially implemented by switching devices in just one process.,0
+771,"Just to clarify, I'm in no way proposing to change any current behavior and request for changes that will would lead to a more difficult world.",0
+772,Cool.,0
+773,As per our documentation the recommended way for GPU setup is you have to create Conda environment and within that you need to install CUDA using conda and cudnn using pip.You need to follow the steps recommended as per documentation to install the cuda and cudnn toolkits and then configure the system paths as instructed in documentation.,0
+774,"## 🚀 Feature
+
+Currently `ReflectionPadNd` does *not* repeat the boundary pixels, as demonstrated by the docs:
+
+
+
+According to the paper mentioned below, it would be very beneficial to use the `SYMMETRIC` variation that is already available in [tensorflow]( - I'm quoting the example from the linked page:
+
+
+
+I propose two ways in which this could be done: Either we extend `ReflectionPadXd()` with a `mode` argument, or alternatively we introduce `SymmetricPadXd()` as a separate class in `torch.nn`.",0
+775,"[Screenshot from 2023-12-10 16-01-53](
+
+I did look for customizations, and got better current-line (not search match) highlights.",0
+776,The goal of this is to be able to implement model parallelism by simply spreading out the params of a single model through multiple devices and having pytorch automagically sort out the rest.,0
+777,I was inspired by your markdown test adapter example.,0
+778,Will be great if this feature will be added.,0
+779,"Ideally, a dataframe should support two modes of serialization: array-of-structs and column-based.",0
+780,Those warnings can also be seen in  .,0
+781,"Note that in practice in a real pipeline, one would include all the patterns to legalize to HLO, include the STD->HLO, and legalize there as a single pass before running the LHLO buffer alloc.",0
+782,"But if the solution would end up being
+register_post_accumulate_grad_hook then that's not the way to go perhaps.",1
+783,Placing model shards on intended devices will also get easier with the Remote Module API (currently private [here]( cc   about GPU support for RPC,0
+784,Dark theme doesn't has as many issues as the light theme.,0
+785,"As of now, both caffe2 and pytorch cannot be installed from source.",2
+786,Is it being applied only to differentiable inputs?,1
+787,- Any additional tokenizer is waiting on 's #77140.,0
+788,", I can't find the Windows libtensorflow under the new location, I've tried this, anything it wrong with that URL?",1
+789,How can I get a full Jacobian of a sparse function?,1
+790,does it open in Firefox?,1
+791,"To reproduce, please use:
+
+
+
+and
+
+
+Using `-print-ir-after-all` reveals the operand for the lhlo broadcast_in_dim op wasn't converted to a memref:
+
+
+
+This is nothing specific to broadcast_in_dim (happens with say xla_hlo.add as well).",0
+792,Now I've tried to follow similar steps to build for C++.,0
+793,Are you referring to my bug reproduction script or the topic of this rfc?,1
+794,"For `randn`, we can extend `Philox4_32` `randn` to support complex dtypes.",0
+795,"Also, If I try to run another model, it fails much sooner.",2
+796,"## 🐛 Bug
+
+The class weight implementation on a minibatch multiplies each data point's loss with the corresponding weight but then divides by the sum of the weights.",0
+797,-jean-cho Is there any update on this?,1
+798,But that's not part of the Java spec.,0
+799,"*`, `notebook.scrollbarslider.*` ?)",0
+800,+1 - this is a must have feature,0
+801,This might be due to the fact that Mac M1 has Arm Architecture and probably there is no corresponding pip wheel for nvidia-cudnn-cu11==8.6.0.163.,1
+802,This issue still exists.,2
+803,"In your framework, I am
+not sure how to tackle this problem of reproducible data from datasets from
+checkpoint.",1
+804,Typical line of code - returns in less than 10ms.,0
+805,Thank you for explination of the build process.,0
+806,Why can't it generate xla_hlo.constant?,1
+807,"Estimator does not receive more updates, so will likely be deprecated.",2
+808,"Note: In the source code, I used numpy to generate random training data because the dataset is private and can't be shared at this moment.",0
+809,"Editor note: This is #17139
+
+----
+
+Thank you -c!",0
+810,"[recording (2)](
+Sorry for my late response.",0
+811,"`gradcheck(f, x, masked=False)` and `gradcheck(f, x.to_dense(), masked=False)` should give the same results.",0
+812,Can you distinguish between a stop event on the first character on the line and a stop event in the middle of the line?,1
+813,"### Standalone code to reproduce the issue
+Link to source code: 
+To reproduce the error, start up Jupyter with a terminal and run all cells.",0
+814,> > any update yet on this issue yet?,1
+815,I cannot reproduce this on TF 2.10.,2
+816,And there more code one has to write the more opportunities for bugs there is.,0
+817,"### Standalone code to reproduce the issue
+### Relevant log output
+_No response_",0
+818,This works pretty well for me:,0
+819,",
+As suggested Please feel free to submit a PR for the requested change.Thanks!",0
+820,"Additionally, a ""Find occurrence in all current opened files"" would be a nice extension of this.",0
+821,"In this case, again, both `masked=True` and `masked=False` should succeed.",0
+822,I would love to know.,1
+823,any updates?,1
+824,"Go associates functions with tests based on symbol name, so it would be useful not to have to get the symbol myself.",0
+825,"How do we define DWIM (do what I mean) since it's not always the first arg that ""leads"".",1
+826,I am not certain about this.,1
+827,Finding out that the assumption is wrong after debugging or combing over documentation is not a great experience.,2
+828,For detailed numbers.,0
+829,Different storage formats can be envisaged: e.g.,0
+830,"I have been struggling with this issue for an amount of time that is way beyond reasonable at this point as well... PyTorch did have working solutions for this already two years ago, but I am stuck with TF for now... if you can make the switch, I can warmly recommend it.",0
+831,"I don't see why it would need to be more complicated than this, since the extension can also keep updating the location if the code/tests move.",2
+832,Bring it onto PyTorch allows (1) Easier PyTorch Ecosystem integration (2) Lower the bar for ML engineers to play around since they are already familiar with PT.,0
+833,Ah good intuition!,0
+834,"truncation length is a fix to a different, but similar problem: when there are too many members in an object, and you get `{ ...18 more properties }`, that setting forces TS to expand the list.",0
+835,If you start a new session without having released the memory you will not get the memory back when you run this again.,0
+836,"> Hey  ,
+> 
+> I think you should change the label of this feature request from 'todo' to 'medium priority task' since the SSIM loss is very helpful in GAN models.",0
+837,I think the underlying problem here is that std does not have the concept of constants on memrefs.,0
+838,"I'm facing the same issue, using this command:
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch",2
+839,i need this too.,2
+840,"You would run reset_state() with an instance of tf.metrics.SparseCategoricalAccuracy() or similar, and it is for metric monitoring, right?",1
+841,"Internally, `gradcheck` uses such a `densify` function for computing numerical gradients.",0
+842,",
+
+Are you proposing any PR for your thoughts?",2
+843,"I cannot seem to figure out why my script just refuses to see the 1030 when, like I said previously, ``nvidia-smi`` can.",1
+844,Will it take another 4 years to fix this?,1
+845,That's the reason I didn't do a std.const -> hlo.const - I don't think we have any conversion in such a direction.,2
+846,cc.,0
+847,"I tried the video and got following error:
+
+Launching Web UI with arguments: --use-directml --opt-sub-quad-attention --no-half --disable-nan-check --autolaunch
+DirectML initialization failed: No module named 'torch_directml'
+Traceback (most recent call last):
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\launch.py"", line 48, in <module>
+    main()
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\launch.py"", line 44, in main
+    start()
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\modules\launch_utils.py"", line 696, in start
+    import webui
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\webui.py"", line 13, in <module>
+    initialize.imports()
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\modules\initialize.py"", line 36, in imports
+    shared_init.initialize()
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\modules\shared_init.py"", line 30, in initialize
+    directml_do_hijack()
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\modules\dml\__init__.py"", line 76, in directml_do_hijack
+    if not torch.dml.has_float64_support(device):
+  File ""C:\Users\Niklas\Documents\SD\forked\stable-diffusion-webui-directml\venv\lib\site-packages\torch\__init__.py"", line 1938, in __getattr__
+    raise AttributeError(f""module '{__name__}' has no attribute '{name}'"")
+AttributeError: module 'torch' has no attribute 'dml'
+Drücken Sie eine beliebige Taste . . .",0
+848,"Editor note: This is #7065
+
+----
+
+I've got the same issue under macOS 10.13.6.",0
+849,That's a regression.,0
+850,"Was able to reproduce your issue in Tf Nightly 2.6.0-dev20210530, please find the gist [here]( Thanks!",2
+851,"CC:   -to-play 
+
+Is this because the libternsorflow build jobs have been discontinued?",0
+852,"If you do, then either remove it or apply/merge the changes from global settings.json(user folder) to this .vscode/settings.json file as well.",0
+853,mark,0
+854,"So, imo, we would need two fixes:
+- re-activate SO_REUSEPORT 
+- permit in every case to start the tf server upfront.",0
+855,May be you have mentioned CUDA version right ?,1
+856,I've to finish a few other things and will experiment with PP next.,2
+857,It takes 4 hours+ to download 700MB which is quite ridiculous.,0
+858,Probably you could `set_shape` in you py_function.,2
+859,Can you point out the function (also for reference to anyone else that happens to stumble on this thread)?,1
+860,The error will show up in the terminal.,0
+861,Just to give some thoughts on the concepts and possible roadmap here.,0
+862,"`masked=False` implies that ANY subset of materialized indices with the neutral value does not affect the result of the function as per `func(x + subset_of_neutral_elems).to_dense(neutral_val=...) == func(x).to_dense(neutral_val=...) for any x and any possible subset of indices`, but `densify` as it is now produces only a SINGLE parametrization, so it is insufficient for our needs...
+
+> By [definition]( torch.sparse.sampled_addmm ""performs a matrix multiplication of the dense matrices mat1 and mat2 at the locations specified by the sparsity pattern of input.",0
+863,"- With `pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url 
+
+
+- With `pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url",0
+864,The document you linked does not talk about building TensorFlow at all.,2
+865,I usually run into GPU memory issue when I train a model in one notebook  and move to train a new model in another notebook.,0
+866,The training function (B) is meant to train for 100 epochs with a batch size of 32 to replicate the behavior of model.fit().,0
+867,Would love to understand some more details about the model parallelism use case here.,1
+868,confirmed.,0
+869,"> We are aware of the limitations and problems of TextMate, and we are open to allow other types of tokenizers, but no work is planned in this area at the moment.",0
+870,"Also, the triple click behavior should be configurable between selecting the line break and not selecting the line break.",0
+871,"### System information
+
+- Linux Ubuntu 20.04
+- TensorFlow installed from: pip source
+- TensorFlow versions: 2.12.0-current master 
+
+### Code
+
+Provide code to help us reproduce your issues using one of the following options:
+
+
+
+### Failure after conversion
+
+Input Model:
+
+!",0
+872,"> The order of the approximation does not matter, really.",0
+873,That presentation group is not related to the terminal group.,0
+874,I can certainly see how the current behavior is not great when a class is harder to train in general and the weight is desired independent of other items within the batch.,0
+875,"Moreover, the Fourier transform is increasingly applied in computer vision powered by deep learning",0
+876,"Would definitely be useful to have this as a VSCode, as a first-class-citizen config.",0
+877,However I'm not sure how to provide the Gradient norm (a common metric) back from the API.,1
+878,They return the expected results but when I kill the process after running these inferences that I get this error (A segfault during futex_abstimed_wait_cancelable).,2
+879,"CE computed with `weight=None` == CE computed with weights of all ones
+
+Unfortunately, if we generalize the PyTorch implementation for class weights to the soft label case, maintaining 1 requires weighting by both target probabilities and class weights, which breaks 2 (see",0
+880,"> The other simple alternative is a pair of functions such as `provideImplementationRanges(testItem: vscode.TestItem): ProviderResult<vscode.Range[]>` / `provideAssociatedTests(range: vscode.Range): ProviderResult<vscode.TestItem>`, which VS Code can call on demand when the user asks to go between tests and implementation.",0
+881,"[image](
+It would be nice if the tooltip type were overridden by the ``  jsdoc type indicator",0
+882,"The issue is not yet solved, waiting for support.",1
+883,"Just for the context, `densify` will still test a wrong function in the numeric path, and if a non-modified input is fed into the function in the analytic path, and yet the grads match, something is wrong.",0
+884,"Minimal script to reproduce: 
+
+
+The output I get:
+### Versions
+
+cc",0
+885,"Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+[1,3]<stderr>:type_id: TFT_OPTIONAL
+[1,3]<stderr>:args {
+[1,3]<stderr>:  type_id: TFT_PRODUCT
+[1,3]<stderr>:  args {
+[1,3]<stderr>:    type_id: TFT_TENSOR
+[1,3]<stderr>:    args {
+[1,3]<stderr>:      type_id: TFT_LEGACY_VARIANT
+[1,3]<stderr>:    }
+[1,3]<stderr>:  }
+[1,3]<stderr>:}
+[1,3]<stderr>: is neither a subtype nor a supertype of the combined inputs preceding it:
+[1,3]<stderr>:type_id: TFT_OPTIONAL
+[1,3]<stderr>:args {
+[1,3]<stderr>:  type_id: TFT_PRODUCT
+[1,3]<stderr>:  args {
+[1,3]<stderr>:    type_id: TFT_TENSOR
+[1,3]<stderr>:    args {
+[1,3]<stderr>:      type_id: TFT_HALF
+[1,3]<stderr>:    }
+[1,3]<stderr>:  }
+[1,3]<stderr>:}
+[1,3]<stderr>:
+[1,3]<stderr>:	while inferring type of node 'cond_39/output/_19'
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 7921, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 18841, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 16417, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 16441, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 7953, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 16233, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 15193, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 21305, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 12473, errno = 1
+[1,2]<stderr>:[2cf69587bce7:07011] Read -1, expected 11097, errno = 1
+[1,1]<stderr>:[2cf69587bce7:07010] Read -1, expected 11097, errno = 1
+[1,3]<stderr>:[2cf69587bce7:07012] Read -1, expected 11097, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 32257, errno = 1
+[1,0]<stderr>:[2cf69587bce7:07009] Read -1, expected 16441, errno = 1
+[1,2]<stderr>:[2cf69587bce7:07011] Read -1, expected 60177, errno = 1
+[1,3]<stderr>:[2cf69587bce7:07012] Read -1, expected 60177, errno = 1
+[1,1]<stderr>:[2cf69587bce7:07010] Read -1, expected 60177, errno = 1",0
+886,thanks!,0
+887,Would this allow back-prop with functions involving matrix_expo?,1
+888,The difference here is that the other one hides the decorations on `onDidChangeCursorPosition` and I'm guessing that `onDidChangeDecorations` was used to hit the same case with the text model.,2
+889,"Hi , Can you review this and see if it helps you.",2
+890,I think the group concept is great and could usefully be extended to be a 2D grid and support position ordering etc.,2
+891,This limitation has come up a number of times in extensions as can be seen from the mentions.,0
+892,"When clicking from the search view, I do see a very brief highlight flash but it doesn't stick",0
+893,later.,0
+894,Here's a recording showing that if you scroll upwards and then step next scroll position isn't reset and the yellow current line doesn't get revealed.,0
+895,"[image](
+
+For information: the search with encoding cp437 worked until last release",0
+896,"Hi , can you please take a look?",2
+897,Not areas of unmatched text between them.,0
+898,":) OTOH, since lhlo has memory/buffer semantics, std.const -> lhlo.const is seen as a lowering (values to memory) that can live in hlo->lhlo.",0
+899,> The original issue was of making the -hlo to lhlo pass deal with this input.,0
+900,"Hey , 
+
+Regard to NaN values, SSIM value can be smaller than zero so taking its power with a fractional number yields NaNs.It can avoid it by normalizing the values.",0
+901,"> 
+> 
+> Could you please provide the collab gist with the required dependencies to analyze the issue better.",2
+902,"If you want to experiment between multiple implementations, you could just have the c10 copy be very minimal, and then define implicit conversions to and from your other types.",0
+903,"Type search test
+
+## Expected
+
+option to see all occurrences
+
+## Actual
+
+No such option
+
+## Visual Studio
+
+!",0
+904,"## To Reproduce
+
+Steps to reproduce the behavior:
+
+
+
+
+
+## Expected behavior
+
+No crash (same behavior when using CPU and GPU).",0
+905,"> 
+> from numba import cuda
+> cuda.select_device(0)
+> cuda.close()
+> print('CUDA memory released: GPU0')
+
+Once run this, you can not `fit` again, it stucks.",0
+906,This could be a deal breaker for me.,0
+907,Option #2 is more than what I can provide.,0
+908,"-Delnoije You can set
+
+
+
+for example",0
+909,"Met similar problem on TF 2.9.2
+[1,2]<stderr>:2022-10-21 06:40:24.709289: W tensorflow/core/common_runtime/forward_type_inference.cc:231] Type inference failed.",2
+910,"However, I have also found that excessively small values can result in NaN values being returned.",0
+911,facing this on macOS too.,2
+912,Here is the PR upgrading the system to 2.7.0.,0
+913,>   Would love to understand some more details about the model parallelism use case here.,1
+914,"Let me add the ""needs design"" label to signal we should brainstorm some alternatives.",0
+915,So it's logical to extend that to tests.,0
+916,Passing a ClusterResolver instead of TF_CONFIG could be helpful as well.,1
+917,"(That is surprising, so if the config options I want already exist, then my feature request is to make them more easily discoverable!)",0
+918,"I had default/global parameter _""files.encoding"": ""maccenteuro"",_ - changed it back to default _""files.encoding"": ""utf8"",_
+> 2.",0
+919,"Also it should make it significantly easier to have in the hook:
+
+
+Or have a counter that counts to detect when you reach the last micro batch.",0
+920,I truly appreciate any guidance you can provide.,0
+921,"I have tried in colab with TF version 2.2 and was able to reproduce the issue.However i am seeing same output with model(A) but i am seeing the error message with model(B).Please, find the gist [here](",2
+922,cc  -5,0
+923,But the issue title still follows my current understanding.,0
+924,Why not allow distribution strategies create std TF servers?,1
+925,"It looks like recently a `mainLockfile` was added to signal whether a user data dir is in use or not ( I see numerous issues with that:
+* writing a file on startup slows down startup, especially if the process has to wait for that to happen.",2
+926,"It may seem that there's even an option to hack around CPython PyUnicode structure and create a ""view"" over char bytes (stored in tensor) without any char byte copies (although it's maybe not very safe):  
+
+<hr>
+
+Going further, maybe some simplistic dataframe class can be added to PyTorch (being a tuple of tensors with having equal leftmost dim).",1
+927,That does not work entirely.,2
+928,Only way to make scrollbar work again is to press enter in terminal to add new line.,0
+929,"Actually, my implementation is inspired by it, together with some changes so that the code can reproduce the results from the original matlab code.",0
+930,"Ideally we would have:
+1.",0
+931,That's a shame.,0
+932,I have the analysis in the linked colab notebook but I will add it here for the discussion.,0
+933,Going directly to  is not working for me in any browser (all caches/local storage cleared).,1
+934,2. several new ops may be add in lookup table so that we can update the gradients.,0
+935,But it's easy enough to cache the result.,0
+936,":)
+
+Oh.",0
+937,"* modify the api of MutableHashTable, so that we can pass more args, like: 
+   1. shard it to different parameter servers.",0
+938,"can you run something like
+> 
+>",2
+939,We do put the match in the center of the screen when it is possible to do so.,0
+940,"After I launch my compound debug and the new integrated terminals are created, I drag them out into the editor area to make them separate tabs, and then use View -> Editor Layout -> Grid 2x2 so that I can see both terminals side by side.",0
+941,> > I think the underlying problem here is that std does not have the concept of constants on memrefs.,2
+942,This is really cool; can we separate the docs deprecation + upgrade guide in the docs from the code changes that impact XLA?,2
+943,"(My original post over-complicated it, talking about customization.",0
+944,The vertical cue is lacking.,0
+945,What country are you downloading from?,1
+946,"I run some tests myself for both ssim and ms-ssim, the results produced by my code shows 1-2% difference compared to the matlab code.",0
+947,Follow the guide at  for how to download and setup the required libraries for your platform.,0
+948,Even a registry entry!,0
+949,"being able to launch `code --term` for example (see  for details)
+- #10121 tracks being able to pull the terminal _view_/_panel_ out of the window
+- #10546 tracks adding tabs to the terminal, combined with #10121 this would ideally allow terminal _tabs_ to be pulled into a separate window",0
+950,"### Standalone code to reproduce the issue
+### Relevant log output
+_No response_</details>",0
+951,"I just run `unset LD_LIBRARY_PATH` in my bash script which launches the job, or comment out where I set this env var in my ~/.bashrc.",0
+952,You can download driver from Nvidia [website]( You can cross check the driver installation with `nvidia-smi` which outputs driver details if installed and running.,0
+953,"3. but this makes the code hard to read and so why not do this automatically before `forward` as in:
+
+
+pass as many inputs as you want and they are already on the right device MP or not.",0
+954,"I think what we want is still technically a weighted mean calculation, just with an unweighted (correct) denominator of N.
+
+Note that [`KLDivLoss`]( uses `reduction='batchmean'`, although the problem being addressed is different.",0
+955,"Hi , thank you very much for your response.",0
+956,I will attempt that too,2
+957,"***> wrote:
+
+>  < Could you explain what
+> per-parameter gradient clipping is?",1
+958,The setup.py tool runs until it gets to 100% and then I get the following error.,0
+959,"> > Lastly, if you insist to have this pattern, it should at least live in a different file.",0
+960,"Note that the script on the OP already correctly fallsback to eager, so at least there is no correctness issue there.",0
+961,]( as Keras development is fully moving to [github.com/keras-team/keras]( All issues and PRs related to keras will be addressed in that repo.,0
+962,"Thanks, , for the heads-up!",0
+963,"[image](
+![image](
+!",0
+964,"There is an independent discussion that's going on in the thread below on why forcing 0-d memrefs to model the ""functional"" regions of lhlo ops (like reduce/reduce_window, select_and_scatter, etc.)",0
+965,What I expect is some sort of visual hierarchy.,0
+966,This intermittent behaviour is still present if one runs the converter on a single core and keeps the representative dataset constant.,0
+967,"-->
+When working with complex types, I often encounter types like this:
+
+!",2
+968,"I have a similar error now, but it is not SLEEF-related, although I have been deleting the cache.",2
+969,This also doesn't work in Safari 15.4/macOS 12.3,2
+970,I completely forget whether it would make sense (in spite of having reviewed a recent revision updating the documentation of pattern rewriting and dialect conversion).,0
+971,The model file to convert was also kept constant.,0
+972,"This is an idea I've thrown around a bit, I doubt we'll get time to work on it any time soon.",0
+973,"Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+[1,2]<stderr>:type_id: TFT_OPTIONAL
+[1,2]<stderr>:args {
+[1,2]<stderr>:  type_id: TFT_PRODUCT
+[1,2]<stderr>:  args {
+[1,2]<stderr>:    type_id: TFT_TENSOR
+[1,2]<stderr>:    args {
+[1,2]<stderr>:      type_id: TFT_INT32
+[1,2]<stderr>:    }
+[1,2]<stderr>:  }
+[1,2]<stderr>:}
+[1,2]<stderr>: is neither a subtype nor a supertype of the combined inputs preceding it:
+[1,2]<stderr>:type_id: TFT_OPTIONAL
+[1,2]<stderr>:args {
+[1,2]<stderr>:  type_id: TFT_PRODUCT
+[1,2]<stderr>:  args {
+[1,2]<stderr>:    type_id: TFT_TENSOR
+[1,2]<stderr>:    args {
+[1,2]<stderr>:      type_id: TFT_HALF
+[1,2]<stderr>:    }
+[1,2]<stderr>:  }
+[1,2]<stderr>:}
+[1,2]<stderr>:
+[1,2]<stderr>:	while inferring type of node 'cond_39/output/_24'
+[1,0]<stderr>:2022-10-21 06:40:25.581602: W tensorflow/core/common_runtime/forward_type_inference.cc:231] Type inference failed.",0
+974,"When `masked=False`, the `gradcheck` should evaluate `func` at `func(x + eps * e_i)` where `{e_i}_{i=1}^n` is a canonical basis of `R^n`.",0
+975,"If the incompatibility error is shown by pip after installing a new package, you can sometimes just ignore it.",2
+976,"> This would be useful to get some buy in and to show it's a compelling proposition
+
+This looks like a sound strategy.",0
+977,I tried updating PyTorch and innxruntime-directml and also uninstalled onnx.,0
+978,"In your description, does ""GCS filesystem"" get built in parallel with estimator?",1
+979,I think this should help us better put things together.,0
+980,"> Registering the new scalar type with Aten and Caffe2 - here, IIANM, I have to provide a concrete final class definition for at::BFloat16 for successful compilation.",0
+981,"The approach by  seems to make most sense IMO because there's already a (differentiable) PyTorch function for SVD, and after that the exponentiation is just elemwise exp for the diagonal.",0
+982,Going std.constant -> xla_lhlo.const -> std.constant + std.store is a bit weird.,0
+983,"If possible, please share a link to Colab/Jupyter/any notebook.",0
+984,Yes I am working with a system that requires int 16 or int 8 activations.,0
+985,"A lot of the stuff is way grungier than it ought to be (of no fault of your own; we need to finish refactoring :) but thanks, this looks on point.",0
+986,"Here's the console from Firefox Developer Edition, which shows IndexedDB errors and CSP warnings:
+
+<img width=""1219"" alt=""Screen Shot 2022-03-24 at 8 36 32 AM"" src=""
+
+
+Here's the latest Microsoft Edge (with ""strict"" tracking protection on):
+
+<img width=""1271"" alt=""Screen Shot 2022-03-24 at 8 35 36 AM"" src=""
+
+If I turn off all tracking prevention in Edge:
+
+<img width=""1273"" alt=""Screen Shot 2022-03-24 at 8 46 03 AM"" src=""",0
+987,The behaviour is present even when running the converter on a single core and while keeping the representative dataset constant.,2
+988,"Thus, purging previous models from memory is mandatory in this case, otherwise resource exhausted errors appear sooner than later.",0
+989,"If it could help:
+
+When typing a letter and then type ENTER, it displays the results for less than one second:
+!",2
+990,"> , I trust I can figure out the new API, but if there are existing examples/tutorials that always helps to save time.",1
+991,I don't even have an easy way to get the text of the line.,2
+992,I think that is a numerical stability issue.,2
+993,"System cuDNN version: 8.9.4
+
+
+PyTorch cuDNN version:
+
+
+To reproduce:
+### Versions
+cc",0
+994,Especially dangerous when I'm trying to double click a word and then delete it but instead end up deleting the contents of the whole file!,0
+995,"There needs to be a way of writing an extension that can do this, which at least currently there doesn't seem to be,
+Thanks.",2
+996,"The editor widget only loads in a browser environment, it can never load in nodejs or in a web worker, etc.",0
+997,"> Okay, so... for me using torch-2.2.1 and only having onnxruntime-directml installed fixed the issue.",0
+998,Please find the gist [**`here`**](,0
+999,"(yes/no): **no**
+- Briefly describe your candidate solution(if contributing): **n/a**
+
+**Standalone code to reproduce the issue**
+Provide a reproducible test case that is the bare minimum necessary to generate
+the problem.",0
+1000,"-Stewart  the problem with Ctrl+Shift+F hotkey is that is searches in **ALL** files in the folder, while I want to search only in **CURRENT** file (active tab).",0
+1001,Let me ask you once again: please.,0
+1002,Same behavior.,0
+1003,"[a7dc75ff-3eae-44fb-96eb-230aee12be2b.dmp.zip](
+
+Do I need to re-submit this issue or will it automatically re-open?",0
+1004,A speculation would be that there's a memory overwrite somewhere.,1
+1005,"It's not too bad, but a bit of a pain to port to that approach as one has to hunt down all parts and switch them to the device the layer/block is mapped to.",0
+1006,-5 Have you fix it?,1
+1007,thank you!,0
+1008,That works for me!,0
+1009,For Newton-step for matrix square root:,0
+1010,"Our `BUILD` files ensure that there is no actual cyclic dependency between the projects, except at Python import layer, as modules/plugins.",0
+1011,"tag:bug_template</em>
+
+**System information**
+- Have I written custom code (as opposed to using a stock example script provided in TensorFlow): No
+- OS Platform and Distribution (e.g., Linux Ubuntu 16.04): Any
+- Mobile device (e.g.",0
+1012,7.,0
+1013,Just wanted to know if you tried with just `--config=andorid_arm64` without monolithic build?,2
+1014,It would be _really nice_ if this could be handled before TensorFlow 2.11 which will make the new experimental Optimizer API the default since the new API can't be serialized as far as I can tell and breaks the existing serialization methods (see,0
+1015,"I find out when I toggle the typing mode, the value of 'Toggle Terminal' on watermark page is toggled between ctrl + ` and Unbound.",0
+1016,"On Mon, Apr 29, 2024 at 11:15 AM Andrew Gu ***@***.",0
+1017,":)
+
+Did try disabling all other extensions, and enabling just cpptools.",0
+1018,Conversion don't need to be one-way: for example we have a conversion from TF->HLO and from HLO->TF.,0
+1019,"When it was initially written, the search component was using the `RangeHighlightDecorations` from [here]( That one used to be in `/common/`.",0
+1020,We have the simple case of having a model run on a single GPU (DDP-included) and needing to switch model inputs to that GPU.,0
+1021,"<a href=""
+<a href=""",0
+1022,"Yes I can, but the issue is that almost every stop event has a column which is not on the first character on the line.",2
+1023,Right.,0
+1024,"yes I completely understand why it prints 4 instead of 7, I was saying that it should print 7 (or have an option to specify whether to print 4 by resetting or still print 7), otherwise the learning rate scheduler is wrong
+
+another way is to update learning rate scheduler to not use this iteration
+
+any thoughts?",0
+1025,"It works searching within a file, but not find in files (it retorts ""Unknown encoding: cp437"").",2
+1026,Is there any specific feedback you are looking for?,1
+1027,The user has to be informed about such properties in the documentation.,0
+1028,support doesn't have to interfere with the normal solid pytorch and only to be enabled when desired.,0
+1029,"From the version selector on  if you select CUDA10 + Linux + Pip, you will get direct links from this cloudfront / s3 bucket, and it should be much faster.",0
+1030,I am quite confused.,1
+1031,"> (2) is interesting, how would you envision the UI/UX for that?",1
+1032,-roy is working on this.,0
+1033,This can be done with `Location`.,0
+1034,Replace the value `160` with `800`.,0
+1035,"Well, quit taking me around in circles.",0
+1036,"Edit:
+On that note though, Keras-Tuner works for me with RTX and TF 2.2, so there must be some way to accomplish this.",0
+1037,Could you explain what per-parameter gradient clipping is?,1
+1038,"If the checkpoint only
+stores seeds or something related optimised for disk space, then I would
+try to implement it.",2
+1039,"Using CUDA 9.2, cudnn 7.3.1.20",0
+1040,"I tested the ""TF-in-subprocess"" approach on a GTX with TF v2.2, but I don't have experience with the RTX series.",2
+1041,- Just use a pade7 (or pade13 for 64-bits) when handling batches of matrices (it might incur in a loss of precision when the elements in the batch have small entries) or split the batch into the subbatches of matrices that need the different approximations and then put them together again (more computationally costly).,0
+1042,There may be some synergy with or lessons from gh-45667 (`'same'` padding for conv1/2/3d).,2
+1043,I dont really know what is ment by 'aten::scaled_dot_product_attention'.,1
+1044,"you cannot assume that lifecycleMainService.onWillShutdown is ever called, the application might crash leaving a stale lock file around 
+
+Yea, this is an inherent nature of lockfiles.",0
+1045,But I do want to have a push mechanism (such as the property) so I can automatically connect tests to source ranges when both files have been opened.,0
+1046,Do you still have a link to the paper?,2
+1047,I ran 's reproduction script with a built from source copy of PyTorch with gcc 7.4 (building PyTorch with the same gcc) and it did not crash.,0
+1048,"Ho I didn't check the other issue, I though it was an old one where we added multidim support to argmax haha
+I'm not sure I follow your example there.",1
+1049,Hi  !,0
+1050,Though being able to write a tokenizer using an API would be even better.,0
+1051,"I could not reproduce the crash on neither CPU nor GPU, but running the following script:
+
+
+And see following output:
+
+
+
+ do you mind attaching gdb/lldb to the process and print a backtrace here?",2
+1052,If it works for you that's great.,0
+1053,I think all we would need to do is in fsdp_runtime_utils add some kind of conditional logging if we detect optimizers_in_backward?,1
+1054,The search shows broken characters every once in a while.,0
+1055,"> 
+> One of the fundamental assumptions in gradcheck numerical path is that the inputs are perturbed in-place (for efficiency).",0
+1056,"Got it, I did that and did not run into your same issue, I got some errors but they seem unrelated:
+
+!",1
+1057,I don't think this pattern belongs to HLO->LHLO patterns.,2
+1058,"We could try put together a proof of concept in some branch which hacks together the terminal and necessary services, launching via `code --term` or something.",2
+1059,"Yes, numpy behaves exactly like that:",0
+1060,I think they want/are used to code cell backgrounds being slightly gray and not the same color,2
+1061,"* make sure the checkpoint for hash tables can work properly
+
+**Who will benefit with this feature?",2
+1062,A further comment: I guess perhaps the most logical thing would be to simply support the same  group of options as for tasks (applicable only when using integrated terminal)...?,1
+1063,We have to separate two concerns here.,0
+1064,this is some 90% of the model and that's what we want to spread out through multiple gpus.,0
+1065,"Earlier search.useRipgrep"": false worked, but not now.",0
+1066,Removed other UI components and only the terminal left.,0
+1067,fyi,0
+1068,"> 
+> Such passes are mostly testing passes, they can't support the world.",0
+1069,Great if we could save keras models with tensorflow probability layers please.,0
+1070,8.,0
+1071,I've tried some runs but I cannot reproduce it.,1
+1072,"We could do something like this (don't persecute me for the code, I just asked llama3 to solve this GitHub issue) which just creates a new tensor, but the issue with this is that we are now increasing the memory footprint.",2
+1073,would you happen to know of any limitations of loading ExtensionTypes in parallel?,1
+1074,3 years and no dropdown like most applications have.,0
+1075,Thanks for opening the issue.,0
+1076,"Tried the workarounds below but no luck:
+- edit `tsserver.js`'s `defaultMaximumTruncationLength` to 800+;
+- add `""noErrorTruncation"": true` to `tsconfig.json`.",0
+1077,My conservative guess would be by end of next week.,0
+1078,I believe the above proposal for support of presentation via an opaque option bag would solve this issue.,2
+1079,Thank you!,0
+1080,(Also the copy'n'pasting behavior there seems to work better for me.),0
+1081,A font selection functionality like regular Visual Studio would be handy.,0
+1082,"can you try unsetting your `LD_LIBRARY_PATH` and see if it will work as expected
+
+I.e.",2
+1083,6.,0
+1084,Already implemented,0
+1085,"That's less performant than using Tree-sitter (#50140), leaves the burden on extension authors to provide a TextMate grammar when the LSP isn't available (like for a file outside a .NET project), and creates an inconsistent experience for end users in terms of coloring (whitespace significant languages like F# are most drastically affected) as well as responsiveness.",0
+1086,It's just an intermediate step and would anyway converge at lhlo.const.,0
+1087,But as I mentioned in the description the problem occurs not every time I run the code which makes it little difficult to consistently reproduce the error.,1
+1088,If you want A+C->B you need another pass loading the right set of patterns.,0
+1089,Upvoting!,0
+1090,First of all let us complete one by one.,0
+1091,"**
+
+This issue is related to issue #19324, in which we need some technique to do embedding on a large sparse hash table, so that we can reduce memory usage and the probability of hash collision.",2
+1092,Also I have gone through your repo and you have not set any thing to `reshuffle_each_iteration` in `shuffle()`.So by default its doing shuffling and hence changing the dataset order.,0
+1093,"<!-- dr-ci-comment-start -->
+## :link: Helpful links
+ * [:test_tube:]( &nbsp;**See artifacts and rendered test results [at hud.pytorch.org/pr/57772](
+ * [:wrench: &nbsp;Opt-in to CIFlow to control what jobs run on your PRs](
+## :pill: CI failures summary and remediations
+As of commit c0754377f7 (more details [on the Dr. CI page](
+---
+* **1/1** failures introduced in this PR
+---
+### :detective: 1 new failure recognized by patterns
+The following CI failures do not appear to be due to upstream breakages:
+#### [!",0
+1094,"But then i get the following error message:
+
+'''ONNX: Failed to convert model: model='sd_xl_base_1.0.safetensors', error=Exporting the operator 'aten::scaled_dot_product_attention' to ONNX opset version 14 is not supported.",1
+1095,"a teammate of mine found a hacky solution that kind of works:
+
+    for i in $(sudo lsof /dev/nvidia2 | grep python | awk '{print $2}' | sort -u); do sudo kill -9 $i; done
+
+This gets all the python processes that are using GPU2 in my case, and kills them.",0
+1096,Please correct me if I'm wrong.,1
+1097,"I'm having the exact same issue, with the same graphics card",2
+1098,"If we want to keep the heuristic for other adapters, we will probably need a switch to opt-in to this behavior.",0
+1099,"I have been using the code from this GitHub repository:
+ I
+want to be able to obtain the same loss and accuracy in the initial first
+training loop and from the training loop starting from the second epoch
+checkpoint.",2
+1100,Tested on `tf-nightly` and `tf==2.3.0`.,0
+1101,"wt., 17 sty 2023 o 23:23 Andrew Audibert ***@***.",0
+1102,The only thing I am missing with `torch.amax` is retrieving the indices of the maximum locations.,2
+1103,Have not been able to solve.,2
+1104,Secondly all the official instructions for CUDA and cuDNN path setting are linked to Conda environment.,0
+1105,">
+> Iam attaching sample gist
+> <
+> explaining how it works in Tensorflow.",0
+1106,"** From there, I run my [build_tf_flex.sh]( file:
+`bash custom_files/build_tf_flex.sh --input_models=custom_files/cpp_tf_test.tflite --target_archs=android_arm64`
+
+The custom_files folder is created at my Dockerfile and contains the BUILD files, the build_tf_flex.sh file and the .tflite model.",0
+1107,"HI , As per the 
+
+ 
+As per the doc 
+`floormod(x, y) = x - floor(x / y) * y`
+
+Both are same.",0
+1108,why are there even different algorithms being used?,1
+1109,"If  is rebased, I can review and help land that one.",0
+1110,":-)
+
+>  Going std.constant -> xla_lhlo.const -> std.constant + std.store is a bit weird.",0
+1111,"[image](
+
+And then the message ""Unknown encoding : cp437"" appears:
+
+!",2
+1112,How are we expected to go around it?,1
+1113,I'm from Earth.,0
+1114,"It won't install, nor run because its out of date.",0
+1115,Are you running it on Docker mage that is publically available ?,1
+1116,"Yes, I have been following the reduce binary size [guide]( in various machines both Mac and Linux with no sucess at building tensorflowlite_flex.",0
+1117,"Back in ancient days, on smaller screens, with monochrome text - a blinking cursor or simple highlight stood out fairly well.",0
+1118,I am from India and it is taking hours to download.,0
+1119,"I want to do a
+tutorial/blog on how to do repeatable results in several frameworks.",0
+1120,"Hi  
+
+Sorry for the delayed response.",0
+1121,I hope this helps!,0
+1122,I'm downloading the file around 80KB/s at 24MBit/s connection.,0
+1123,[All this context stuff]( - is this necessary?,1
+1124,What ended up working for me was a combination of  and 's solutions.,0
+1125,"Then we 
+
+The tf-mlir-translate -hlo-to-mlir-hlo isn't the only thing creating input for this conversion pass.",0
+1126,"Hence, you can build TF, Estimator (deprecated, will be dropped in the future), the GCS filesystem plugin in this order and then at import time in TF it all should work.",0
+1127,"I'd vote for having the cell background color to be gray and the output to be white by default because currently with some outputs that are white, there's a weird gray thick border around it due to padding.",0
+1128,Please refer to [this]( document for building Tensorflow.,0
+1129,To fix these issues we tried to remove the heuristic from VS Code and delegate the problem to the backend (DA).,2
+1130,Can you let me know what API level you are using for your pixel 7 Pro?,2
+1131,**PLEASE PROVIDE THIS OR ALTERNATE METHOD OF VIEWING ALL RETURN VALUES.,0
+1132,It would be fantastic if complex numbers were supported.,0
+1133,Nothing in the first five pages of google results works.,2
+1134,"I was able to reproduce the error in tf 2.4, tf 2.5rc2 and tf-nightly.Please find the [gist]( .Thanks",2
+1135,- Do you have any pointers here ?,1
+1136,Semantic tokens were a foundational step but not a solution.,0
+1137,same situation here in Nigeria I have to try it on different isp even I use AWS server still not working,2
+1138,On the other hand the GradientTape version predicts pretty well the faces after only 20 epochs.,0
+1139,It is still not clear from what part is the issue :/,1
+1140,same issue....,2
+1141,Same issue in Korea!,2
+1142,"IMHO, of course, but this issue is fundamental.",0
+1143,do you know if there’s any current exploration into something like treesitter as a replacement for the textmate grammars we have today?,1
+1144,"Although I did mention this in my previous comment, I would like to ask for all the parameters in SSIM and MS-SSIM to be made tunable by the programmers, with most of the usual values set as defaults.",0
+1145,> > Are you referring to my bug reproduction script or the topic of this rfc?,1
+1146,"Yeah, fair.",0
+1147,"In this example I also have `""workbench.panel.opensMaximized"": ""always""` setting, but not sure if that matters.",1
+1148,"> On CPU you are welcome to add std::complex codegen if you really want to, but on CUDA, to get fast matmuls we need to keep real/imag separate.",0
+1149,`pip install torch torchvision`,0
+1150,But I could not figure out a way to circumvent that.,1
+1151,With TF 1.x and Keras (when it was separate from TF) I managed to make this work with `keras.backend.clear_session()`.,0
+1152,"On typescript projects I see the syntax highlighting kick in a few second after the code shows up, this is a known issue but was given lower priority.",0
+1153,I also got a `Type inference failed` error when running `tf.keras.Model.fit()` in tf 2.9.,0
+1154,> It might be hard to add that kind of logging directly into the PyTorch code since it may not be what all users want.,1
+1155,",
+I was able to execute the code without any issue/error on tensorflow cpu and [gpu]( v2.9, v2.10 and nightly(2.12.0-dev20221110).",2
+1156,I would put my $$$ at service worker...,0
+1157,"My issues now renewed by the fact that it needs developers like yourself to fix the Python code that I wrote:
+
+<pre>import os
+import numpy as np
+from PIL import Image
+
+os.environ[""TF_CPP_MIN_LOG_LEVEL""] = ""2""
+os.environ[""CUDA_VISIBLE_DEVICES""] = ""0""
+import requests
+import tensorflow as tf
+import random
+from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras.optimizers import Adam
+from keras.models import Sequential
+from keras.layers import Dense
+def load_image_batch(batch_size, image_size, directory):
+# Load images from the directory
+images = []
+for filename in os.listdir(directory):
+img = Image.open(os.path.join(directory, filename))
+img = img.convert(""RGB"")
+img = img.resize((image_size, image_size), Image.BICUBIC)
+images.append(np.array(img))
+images = np.array(images)
+
+
+# Define the Discriminator class
+class Discriminator(keras.Model):
+    def __init__(self, img_shape):
+        super(Discriminator, self).__init__()
+
+        self.model = keras.Sequential([
+            keras.layers.Flatten(input_shape=img_shape),
+            keras.layers.Dense(512, activation='relu'),
+            keras.layers.Dense(256, activation='relu'),
+            keras.layers.Dense(1, activation='sigmoid')
+        ])
+
+    def call(self, x):
+        validity = self.model(x)
+
+        return validity
+
+
+def load_image_batch(batch_size, image_size, directory):
+    # Load images from the directory
+    images = []
+    for filename in os.listdir(directory):
+        img = Image.open(os.path.join(directory, filename))
+        img = img.convert(""RGB"")
+        img = img.resize((image_size, image_size), Image.BICUBIC)
+        images.append(np.array(img))
+    images = np.array(images)
+
+    # Normalize pixel values to [-1, 1]
+    images = (images.astype(np.float32) - 127.5) / 127.5
+
+    # Select a random batch of images
+    indices = np.random.randint(0, images.shape[0], batch_size)
+    batch = images[indices]
+
+    return batch
+
+
+# Generator model
+def make_generator_model():
+    model = keras.Sequential()
+    model.add(layers.Dense(7 * 7 * 256, use_bias=False, input_shape=(100,)))
+    model.add(layers.BatchNormalization())
+    model.add(layers.LeakyReLU())
+
+    model.add(layers.Reshape((7, 7, 256)))
+    model.add(layers.Conv2DTranspose(128, (5, 5), strides=(1, 1), padding=""same"", use_bias=False))
+    model.add(layers.BatchNormalization())
+    model.add(layers.LeakyReLU())
+
+    model.add(layers.Conv2DTranspose(64, (5, 5), strides=(2, 2), padding=""same"", use_bias=False))
+    model.add(layers.BatchNormalization())
+    model.add(layers.LeakyReLU())
+
+    model.add(layers.Conv2DTranspose(3, (5, 5), strides=(2, 2), padding=""same"", use_bias=False, activation=""tanh""))
+    img_shape = (28, 28, 1)
+    discriminator = Discriminator(img_shape=img_shape)
+    return model
+
+
+# Discriminator model
+def make_discriminator_model():
+    model = keras.Sequential()
+    model.add(layers.Conv2D(64, (5, 5), strides=(2, 2), padding=""same"", input_shape=[64, 64, 3]))
+    model.add(layers.LeakyReLU())
+    model.add(layers.Dropout(0.3))
+
+    model.add(layers.Conv2D(128, (5, 5), strides=(2, 2), padding=""same""))
+    model.add(layers.LeakyReLU())
+    model.add(layers.Dropout(0.3))
+
+    model.add(layers.Flatten())
+    model.add(layers.Dense(1))
+
+    return model
+
+
+# Define the generator and discriminator models
+generator = make_generator_model()
+discriminator = make_discriminator_model()
+
+# Compile the discriminator model
+discriminator.compile(loss=""binary_crossentropy"", optimizer=Adam(lr=0.0002, beta_1=0.5))
+
+# Combine the generator and discriminator models into a GAN
+gan = keras.Sequential()
+gan.add(generator)
+gan.add(discriminator)
+
+# Compile the GAN model
+gan.compile(loss=""binary_crossentropy"", optimizer=Adam(lr=0.0002, beta_1=0.5))
+
+# Train the GAN
+batch_size = 32
+epochs = 100
+directory = ""/Insert/Directory/Of_both_your_Python_Code_Location/And_Images_Here""
+image_size = 64
+training_images = load_image_batch(batch_size, image_size, directory)
+steps_per_epoch = len(training_images) // batch_size
+
+for epoch in range(epochs):
+    # set model to training mode
+    model.train()
+
+# initialize training loss and number of training batches
+train_loss = 0
+num_batches = 0
+
+# loop over training data in batches
+for inputs, labels in train_loader:
+    # move inputs and labels to device
+    inputs = inputs.to(device)
+    labels = labels.to(device)
+
+    # zero the parameter gradients
+    optimizer.zero_grad()
+
+    # forward pass
+    outputs = model(inputs)
+
+    # calculate loss
+    loss = criterion(outputs, labels)
+
+    # backward pass and optimization
+    loss.backward()
+    optimizer.step()
+
+    # update training loss and number of batches
+    train_loss += loss.item()
+    num_batches += 1
+
+# calculate average training loss
+train_loss /= num_batches
+
+# set model to evaluation mode
+model.eval()
+
+# initialize validation loss and number of validation batches
+val_loss = 0
+num_val_batches = 0
+
+# turn off gradient calculation for validation
+with torch.no_grad():
+    # loop over validation data in batches
+    for val_inputs, val_labels in val_loader:
+        # move inputs and labels to device
+        val_inputs = val_inputs.to(device)
+        val_labels = val_labels.to(device)
+
+        # forward pass
+        val_outputs = model(val_inputs)
+
+        # calculate loss
+        val_loss += criterion(val_outputs, val_labels).item()
+        num_val_batches += 1
+
+# calculate average validation loss
+val_loss /= num_val_batches
+
+# print training and validation loss for each epoch
+print(f""Epoch {epoch + 1}/{epochs}, Training Loss: {train_loss:.4f}, Validation Loss: {val_loss:.4f}"")
+
+# at the end of each epoch, save the model
+torch.save(model.state_dict(), f""model_{epoch + 1}.pt"")
+<pre>",2
+1158,I think there is a need to support a dynamic grid of terminals that grows and shrinks as associated tasks or debug configs are started/stopped etc.,2
+1159,"Nope, doesn't work on reload.",0
+1160,"Yes, `getPossibleBreakpoints` seems to be what I was thinking of (and there is another DAP request that could profit from that: `GotoTargetsRequest`).",2
+1161,"I've managed to implement (with a simple test) matrix exponential using torch script here:
+
+I can open a PR to add that to pytorch master as well",0
+1162,Also should be decided if (stable) hashes can be precomputed/cached/stored along with the strings.,0
+1163,"Hi  ,
+
+Apologies for the delay.",0
+1164,Please check and confirm if still have problems?,2
+1165,Yep that would be nice.,0
+1166,I find that Hyper isn't well supported on Windows.,0
+1167,"These are the BUILD file inside the created _tmp_ folder and the Dockerfile I am using:
+[Dockerfile.txt](
+[BUILD.txt](
+
+This is the error I get:
+[error_logs.txt](
+
+It seems to be a consistent error in all the Intel - Linux machines I've tried.",2
+1168,"So we can
+    923       # run the first trace but we should fail if variables are created.",2
+1169,"Additionally, I have been trying to make reproducible training possible
+from a checkpoint, both on CPU and GPU.",2
+1170,"That said, it should allow you to override e.g.",2
+1171,(Ancient choice was to XOR the line colors - which would be better than present.),0
+1172,"Additionally, even the advertised functionality does not work.",0
+1173,"Hey , 
+
+I think you've forgotten to set the channel before calling _fspecial_gaussian() inside the ssim_loss and ms_ssim_loss functions since _fspecial_gaussian() need number of channels.",0
+1174,Can anyone reopen?,2
+1175,Correct?,1
+1176,"Thanks,  Looking forward to activity on this.",0
+1177,Using Search sidebar to find all items in current file requires too much clicks.,0
+1178,"I disabled enhanced tracking protection and now I get a bunch of errors about IndexedDB, like:",2
+1179,My ideal print is what you would be the line of code as if the function call was generated to Python.,0
+1180,"Think this is related to the keybinding system, not the terminal",2
+1181,"Based on the stacktrace cuDNN is used (calling into cublas):
+
+so is this the same issue as  ?",2
+1182,How many types are we talking about here?,1
+1183,"Sets clearly has a long way to go - starting a new tab was a slow process of opening the new tab, waiting for edge to start (if it didn't crash) and then searching for the app you wanted to start (another powershell, duh).",0
+1184,"Thanks
+
+EDIT: I've just acknowledged that that must be a conscious decision to drop the support for GPU on Windows without relying on the Linux subsystem... such a bummer; I needed the DLL with GPU support as a dependency of another software.",0
+1185,I can see that this is implemented by [torcharrow]( maybe time to move some of its core structures to core?,2
+1186,-eph,0
+1187,Please reopen if you'd like to work on this further.,0
+1188,Especially since the provided methods (set_memory_growth and per_process_gpu_memory_fraction) are not sufficient enough to really release GPU Memory completely.,0
+1189,">
+> Please refer and come back if more details needed.",0
+1190,"Now, let's assume `mat1 = 2 * torch.eye(2, 2), mat2 = 3 * torch.eye(3, 3), alpha==beta==1`.",0
+1191,Thank you for your understanding and assistance.,0
+1192,Any help would be really appreciated.,1
+1193,"Sure, I could add translation functions to those cases, convert everything to UTF8 to preserve comments, but that is considerable additional work just to accommodate to a feature that stopped working in the text editor we were using.",0
+1194,"We surely can't expect users to think ""is fuzzy search enabled in this picker?",2
+1195,-rao-a I looked into this and this is because true fuzzy matching is not enabled for the picker.,0
+1196,<!-- validation-comment-start --><body>Hello there!,0
+1197,I recently switched from the IntelliJ world to VSCode and the fuzzy match algorithm of VSCode is slowly driving me insane.,0
+1198,"Please do the following to change the Delegate to GPU: 
+When the application is launched, the camera is activated.",0
+1199,Suppose `x` is a sparse 1D tensor with `nnz` elements and `x.to_dense()` is an `n`-dim vector.,0
+1200,"Perhaps your eyes/screen are different.
+!",2
+1201,"[Screenshot from 2023-07-19 11-28-39](
+
+
+Behaviour in TF 2.11 and below is that no dequantize/quantize ops appear, which is expected.",0
+1202,"When dealing with legacy software (and hardware), it's often not possible to convert your codebase to UTF8 because then it won't work.",0
+1203,I think I am going to get my lab to make the switch to Pytorch.,0
+1204,would you know?,1
+1205,"I certainly understand that such endeavour would be tricky and surely will have its portion of bugs to start with, but as the models keep on growing at a faster rate than gpu's memory it's very possible that model parallelism will become more of a norm than an oddity in the recent future.",2
+1206,"So by default, we would only pull related code when asked for via a command (""run tests for"" or ""implementations for"").",0
+1207,"In general, I mainly relied on the Python documentation: [multiprocessing]( for spawning and communicating with the subprocess wrapping the TF code, and [logging cookbook]( to implement logging from main process and subprocesses without conflicts.",0
+1208,"I can't speak on behalf of , but to me it sounds like most of the concerns are addressed by this migration.",0
+1209,"As I mentioned in my previous comment, have you evaluated using pipeline parallelism?",2
+1210,"Please also check if it is already covered by an existing one, like:
+- [Integrated terminal font issue (#35706)]( <!-- score: 0.448 -->
+<!-- potential_duplicates_comment -->",0
+1211,"Please change if required.
+
+!",0
+1212,"---
+<details><summary>This comment was automatically generated by <a href="" CI</a> (expand for details).</summary>Follow <a href="" link to opt-out</a> of these comments for your Pull Requests.",0
+1213,In the screenshot above I'd like to see only entries found  in Program.cs not other files.,0
+1214,`size_average`/`size_mean` would have been good but those are already used for something else.,0
+1215,"It's on my todo, but you can safely debug anyway if you think that happens.",0
+1216,"These should _return_ ranges and test items rather than adding to the `relatedCode` property, since the relations are point-in-time and should not be persisted and tracked like the `TestItem` property.",0
+1217,How?,1
+1218,"My thinking was - there must be an easier way...
+
+--------------
+
+And thank you for the PP suggestion.",2
+1219,"The ``nvidia-smi`` command results in driver version 530, which should clearly tell you that the GPU is present.",0
+1220,I finally realized this is probably the primary culprit.,2
+1221,Having a `std.const` on memrefs in the standard dialect would not imply any specific lowering.,0
+1222,"[Screenshot 2021-07-10 at 10 19 50](
+
+
+Still, to be entirely sure the instance was not crashing leaving this file around, you would probably have to check the file contents and do similar logic as Alex had to implement, otherwise it would only be a guess.",1
+1223,"For example, moving the terminal to a separate window could be just a second regular Code window with a terminal tab in it.",0
+1224,Can't find it in the docs...,1
+1225,"> It usually gets revealed for me, so this seems like a corner case.",1
+1226,Clicking twice restores the (faint) highlight.,0
+1227,(Would help unify use of integrated terminals between tasks and debug.),0
+1228,Hi!,0
+1229,"In my use case, even I unset the LD_LIBRARY_PATH variable, it stills cannot work.",0
+1230,"> Recall, in non-masked semantics, the ""sparsity pattern"" of a tensor (in terms of its indices set) does not define a mask because non-masked semantics is layout-agnostic.",0
+1231,",  , so we might want to revisit the whole thing.",2
+1232,"I would like to ask for the window size, sigma, K1, and K2 parameters be exposed for users to control.",0
+1233,"In particular when I say ""conditional logging"" I mean like a if rank==0
+then do some logging.",0
+1234,"Hi  
+
+Could you please try again as I was successfully able to install mediapipe model maker on ubuntu(colab).",2
+1235,The following code snippet didnt help :(,1
+1236,"When clicking through matches in the SEARCH panel, I expect some sort of visual hierarchy to help my eye navigate to the matching line and section.",0
+1237,"It usually gets revealed  for me, so this seems like a corner case.",1
+1238,"As I also said to amahendrakar:
+1.",0
+1239,"No
+### Source
+source
+### Tensorflow Version
+2.25.1
+### Custom Code
+Yes
+### OS Platform and Distribution
+Linux, Ubuntu 22.04.6
+### Mobile device
+_No response_
+### Python version
+Python 3.11
+### Bazel version
+N/A*
+### GCC/Compiler version
+11.2
+### CUDA/cuDNN version
+12
+### GPU model and memory
+Nvidia GT 1030 2gb
+### Current Behaviour?",0
+1240,"`
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+/tmp/ipykernel_11377/686337657.py in <module>
+----> 1 loaded_model = tf.keras.models.load_model('/tmp/model/probabilistic_model.h5')
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py in load_model(filepath, custom_objects, compile, options)
+    199         if (h5py is not None and
+    200             (isinstance(filepath, h5py.File) or h5py.is_hdf5(filepath))):
+--> 201           return hdf5_format.load_model_from_hdf5(filepath, custom_objects,
+    202                                                   compile)
+    203 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/saving/hdf5_format.py in load_model_from_hdf5(filepath, custom_objects, compile)
+    178       model_config = model_config.decode('utf-8')
+    179     model_config = json_utils.decode(model_config)
+--> 180     model = model_config_lib.model_from_config(model_config,
+    181                                                custom_objects=custom_objects)
+    182 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/saving/model_config.py in model_from_config(config, custom_objects)
+     57                     '`Sequential.from_config(config)`?')",0
+1241,"We would accept a PR implementing ""symmetric"" padding, compatible with that performed by NumPy's pad function, to PyTorch's existing torch.nn.functional.pad.",0
+1242,I also have same issue here,1
+1243,It would be a great help if the Tensorflow team and Keras team can support together as one team to solve this issue of saving a TF probabilistic_model as a 'TensorFlow SavedModel',0
+1244,Should this not be made the default in vscode or at least be configurable?,1
+1245,There is one and only one function used everywhere in `gradcheck` - it is the input function.,0
+1246,[Still There](,0
+1247,That guy seems to have implemented this as well.,0
+1248,"I eventually want to use the HLOToStd conversion pass (I dont know off the top of my head where it lives), so that we dont duplicate such patterns and bias towards using Standard Dialect -> ... conversions.",0
+1249,"The std.constant in these cases is isomorphic to xla_hlo.const (generates the same result type), and so as you point out, we could reuse the conversion pattern hlo -> lhlo.",0
+1250,"> `gradcheck` produces `True`, which means that both numeric and analytic Jacobians are incorrect, since analytic formula for grads wrt `self` is incorrect because it misses the projection step and/or, if not for the sparse semantics, it should include the subgradient generated by the part `alpha * (s != 0) * (mat1 @ mat2)`.",0
+1251,"(from  The procedure will be: 
+* Launch on all executors a process that will scan ports and reserve a free one
+* A master gathers ports numbers.",0
+1252,"COME ON PEOPLE
+THIS HAS EXISTED SINCE BEFORE COVID
+
+Why don't I have a bloody fonts menu!",0
+1253,"The change landed in cuDNN9, which is not yet available on PyPI.",0
+1254,Could you please provide the colab gist with the required dependencies to analyse the issue better.,2
+1255,Complex types are supported as a blackbox by falling back to eager.,0
+1256,"***>
+napisał(a):
+> The issue with the original repro is that it doesn't set the
+> reshuffle_each_iteration argument to shuffle
+> <
+> By default shuffle will reshuffle, so you get a different order each
+> iteration.",2
+1257,"The current implementation seems to require to have values between [0, 1] and [0, 255] and if the values are negative below error will raise so if you normalize the value before feeding them to ms_ssim loss function would be great.",2
+1258,"Hi  , this is not an issue with a pip installation but rather one from the libtensorflow libraries not being in the expected locaiton.",2
+1259,"You are right, `(1, 66)` makes more sense.",2
+1260,"If the example in the issue description is expected to fail, then in the case of the false positive result, one should determine if the numerical jacobian is wrong, if the analytical jacobian is wrong, or if `gradcheck` is misused.",2
+1261,"**
+
+Projects like  (tensorflow on yarn) will use it to implement the recommended way to create the cluster configuration.",0
+1262,"This is the console.log
+
+
+
+Note the series of",0
+1263,Then this could be used for fast hashtable construction  / keys hash computation.,0
+1264,Perhaps this is too verbose though.,1
+1265,I tried to build his module but gut stuck with linkage issues.,1
+1266,I believe this is a major bug.,2
+1267,It has also been provided neatly by pjpratik in the gist quoted in this reply.,0
+1268,I'm eagerly waiting a proper fix for this.,0
+1269,"and more
+
+my duplicated ticket #55861",0
+1270,"If `Sort` is defined in `sort.go` and `TestSort` is defined in `sort_test.go`, VSCode will already be fetching document symbols for highlighting, so it should be almost free for me to ask for the document symbols for both files and connect `TestSort` to `Sort`.",2
+1271,"Here are the privacy settings currently in use:
+
+<img width=""785"" alt=""Screen Shot 2022-03-23 at 9 07 27 AM"" src=""
+
+This is the only thing Safari is blocking:
+<img width=""352"" alt=""Screen Shot 2022-03-23 at 9 06 28 AM"" src=""
+
+Aside from Safari's own privacy protections, I do not have any 3rd party content blockers installed and I am not currently connected to a VPN.",0
+1272,"The search box is surrounded in red, a popup appears underneath it saying ""Unknown encoding: cp437"".",0
+1273,"To reproduce the issue, run the notebook/gist and then repeat the last 2 steps until a quantized operator without dequantize/quantize ops appear in the Netron window.",0
+1274,"First I have a larger monitor (31"" 4K) using the ""Dark+(default dark)"" color scheme.",0
+1275,"> Yes I can't change the workspace encoding to utf8 because file contents would be mangled
+
+I mean that you could convert the actual encodings of the files.",0
+1276,The editor does supply other visual cues for vertical place.,0
+1277,"It seems here we only add the log file for the debug case for debugging VSCode, but every user now will pay the price of slower startup even when not debugging VSCode.",0
+1278,We run into the same issue when using NamedTuples instead of ExtensionTypes,2
+1279,In the other intermediate cases you also see such undesired effects.,2
+1280,"**System information**
+- OS Platform and Distribution (e.g., Linux Ubuntu 16.04): Any
+- TensorFlow installed from (source or binary): source
+- TensorFlow version: 2.7.0
+- Python version: 3.7-3.10
+- Installed using virtualenv?",0
+1281,Have been distracted by many things around.,0
+1282,Could the node (inspector) DA more easily return the column attribute only when it is needed?,1
+1283,"The integrated terminal grows in functionality, to the point that it could soon become very useful standalone, as its *own app*.",0
+1284,Please share output of the command `nvidia-smi`.,2
+1285,"<img width=""762"" alt=""image"" src=""",0
+1286,"> Reply to this email directly, view it on GitHub
+> < or unsubscribe
+> <
+> .",0
+1287,"Before closing the ticket, It would be a great help if the Tensorflow team and Keras team can support together as one team to solve this issue of saving a TF probabilistic_model as a 'TensorFlow SavedModel'",0
+1288,> Thank you!,0
+1289,"As of now, we can only reduce the binary size by model, not using the list of ops.",2
+1290,I am facing the same issue with gcc 7.4.,1
+1291,"(In js-debug I haven't implemented logic to double check if the process ID is still running, but I could do so pretty easily if the need arises.)",0
+1292,Please don't take a dependency on the `vscode.lock` file existing.,0
+1293,"Thank you for your suggestion, unfortunately it did not work.",1
+1294,There are a few dependencies like numpy that need a specific version installation.,0
+1295,"It always returns the column, and chrome devtools always shows the column.",0
+1296,Check out this example.,0
+1297,"This will create an importable package, but without many extra features.",0
+1298,Fixed it in,0
+1299,Looks like it's time to prioritize a pad implementation.,0
+1300,"Well, take a look at the output; does it look good?",2
+1301,"Can you advise me on how to achieve
+this?",1
+1302,Complete details are shared with this link.,0
+1303,This is blocking the TensorFlow Rust release.,0
+1304,"Version: 1.56.2
+Commit: 054a9295330880ed74ceaedda236253b4f39a335
+Date: 2021-05-12T16:45:26.313Z
+Electron: 12.0.4
+Chrome: 89.0.4389.114
+Node.js: 14.16.0
+V8: 8.9.255.24-electron.0
+OS: Linux x64 5.4.0-73-generic",0
+1305,That seems to be a case of memory leak in each training.,2
+1306,", 
+
+Could you please confirm CUDA and cuDnn version you have installed ?",2
+1307,Thanks for the information :),0
+1308,"`
+_OperatorNotAllowedInGraphError            Traceback (most recent call last)
+/tmp/ipykernel_11377/1109926494.py in <module>
+----> 1 probabilistic_model.save('/tmp/model/probabilistic_model')
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py in save(self, filepath, overwrite, include_optimizer, save_format, signatures, options, save_traces)
+   2109     """"""
+   2110     # pylint: enable=line-too-long
+-> 2111     save.save_model(self, filepath, overwrite, include_optimizer, save_format,
+   2112                     signatures, options, save_traces)
+   2113 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/saving/save.py in save_model(model, filepath, overwrite, include_optimizer, save_format, signatures, options, save_traces)
+    148   else:
+    149     with generic_utils.SharedObjectSavingScope():
+--> 150       saved_model_save.save(model, filepath, overwrite, include_optimizer,
+    151                             signatures, options, save_traces)
+    152 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/keras/saving/saved_model/save.py in save(model, filepath, overwrite, include_optimizer, signatures, options, save_traces)
+     87   with K.deprecated_internal_learning_phase_scope(0):
+     88     with utils.keras_option_scope(save_traces):
+---> 89       saved_nodes, node_paths = save_lib.save_and_return_nodes(
+     90           model, filepath, signatures, options)
+     91 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/saved_model/save.py in save_and_return_nodes(obj, export_dir, signatures, options, raise_metadata_warning, experimental_skip_checkpoint)
+   1101 
+   1102   _, exported_graph, object_saver, asset_info, saved_nodes, node_paths = (
+-> 1103       _build_meta_graph(obj, signatures, options, meta_graph_def,
+   1104                         raise_metadata_warning))
+   1105   saved_model.saved_model_schema_version = constants.SAVED_MODEL_SCHEMA_VERSION
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/saved_model/save.py in _build_meta_graph(obj, signatures, options, meta_graph_def, raise_metadata_warning)
+   1288 
+   1289   with save_context.save_context(options):
+-> 1290     return _build_meta_graph_impl(obj, signatures, options, meta_graph_def,
+   1291                                   raise_metadata_warning)
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/saved_model/save.py in _build_meta_graph_impl(obj, signatures, options, meta_graph_def, raise_metadata_warning)
+   1205   checkpoint_graph_view = _AugmentedGraphView(obj)
+   1206   if signatures is None:
+-> 1207     signatures = signature_serialization.find_function_to_export(
+   1208         checkpoint_graph_view)
+   1209 
+
+~/tf2/lib/python3.8/site-packages/tensorflow/python/saved_model/signature_serialization.py in find_function_to_export(saveable_view)
+     97   # If the user did not specify signatures, check the root object for a function
+     98   # that can be made into a signature.",0
+1309,So ...,0
+1310,"Aren't we in control of 
+
+What I meant was that you can't really control what input the pass will receive.",0
+1311,Could be related to  which also wasn't an issue I dealt with (I'm not sure why it was necessary).,1
+1312,"Discussion of conversion of nested structures to columns:
+- 
+- 
+
+Maybe some simple nested schemas can be supported first:
+- array of dicts of primitive types
+- array of dicts with nested arrays of dicts of primitive types
+
+These might be enough to represent data annotation schemas of common datasets (?)",1
+1313,"It works for me in my DevEdition Firefox, but only works on reload in private browsing.",2
+1314,"However, ultimately we just want to know if there is a main process running from this user data dir, so I think having a lockfile is the cleaner option all around.",1
+1315,`f` assumes no sparse semantics and just treats sparse inputs as an optimization.,0
+1316,Selective building will include the necessary operators for your models.,0
+1317,Is there a way to manually arrange the terminals once debugging has started?,1
+1318,[CleanShot 2023-05-31 at 17 23 34](,0
+1319,"(This is on a 32"" 4K monitor.)",0
+1320,Simply centering the screen around the match was sufficient.,0
+1321,TF -> HLO and HLO -> TF is a different scenario - I assume you have many conversions there.,2
+1322,"When you are on a GH repository and press "".""",0
+1323,Can you have a look?,2
+1324,The Masking layer within the discriminator does not produce such a warning.,0
+1325,"> This is an idea I've thrown around a bit, I doubt we'll get time to work on it any time soon.",0
+1326,> How can I turn it off because it does something unexpected to me as a user?,1
+1327,> Conversion don't need to be one-way: for example we have a conversion from TF->HLO and from HLO->TF.,0
+1328,"As one of forms of representation (padding-less), NestedTensors / JaggedLayout can be useful for these string arrays .",0
+1329,"But then, again, `masked=False` in my opinion should compute the complete Jacobian (i.e.",2
+1330,"In this case though I don't want it to be tracked with a separate ID, I want it to invoke those individual tests as part of the tag ""rollup"" which might be scattered across different files.",2
+1331,"The search match is highlighted, but not obvious on a large visually busy screen.",0
+1332,what would you expect the correct behavior is here?,1
+1333,"Should I be considering that, or is that supposed to be left for later?",1
+1334,Hello,0
+1335,> > -varma any ideas on how to make this API compatible with gradient clipping?,1
+1336,that only understand a particular encoding.,0
+1337,And will certainly do so.,0
+1338,"Hi **** ,
+TensorFlow 2.16.1 introduced a new installation method for Linux that allows installing the necessary NVIDIA CUDA libraries through pip.",0
+1339,Thank you for the details.,0
+1340,I also find it unexpected that deleting `~/Library/Application\ Support/code-oss-dev` and `~/.vscode-oss-dev` no longer gives you a fresh OSS instance.,2
+1341,Also is there any other suggested way to resolve this problem?,1
+1342,"That should work unless this file needs to be executed in the main process, in a web worker or in the extension host.",0
+1343,"It also appears that ONNX / onnxrt supports some sort of string dtype and numpy-like string arrays:
+-  - indexing operator for a string array
+-  - map strings to indices
+-  - basic string ops
+
+Native support for string arrays is useful for embedding inside the models the vocabs and mapping token indices to strings",2
+1344,Can you confirm the commands you have used for cuda toolkit installation and path setting ?,2
+1345,> I was just digging into this as I start Advent of Code with ReScript which requires two scripts to run in parallel `npm run res:dev` and `npm run dev`.,0
+1346,"-roy is working on this
+
+To be precise here: -roy is working on overriding _existing_ operators, not defining new operators.",0
+1347,"Also if someone has experience and ideas wrt easier MP, we have been discussing this subject matter about the ongoing MP-implementation in `transformers` - t5 and gpt2 have already been ported to MP by  and we are trying to generalize the approach to other architectures.",2
+1348,It still hasn't been resolved?,2
+1349,Hi  .,0
+1350,> Is this not the case?,1
+1351,I would like to get reproducible results for datasets in which the data is shuffled.,0
+1352,"Hi , I was able to run your project on CPU, I tried to change the project to run on GPU by changing MainViewModel:31 from 0 to 1 (which is the constant for the GPU DELEGATE), that didn't seem to reproduce your issue.",2
+1353,this is very useful and important .,0
+1354,Thus closing as designed.,0
+1355,Indeed I was working on a problem where I had to have small batches and the above **effectively leads to a fluctuating learning rate which messes with learning rate schedulers**.,2
+1356,"I think I asked -varma about the above implementation and he said it's not tested with FSDP, whereas the one from the dist api is?",1
+1357,"If you don't care about history, you can wipe it with a rebase.",0
+1358,"In particular, the proposed approach allow values to be independent of other elements in the batch.",0
+1359,This is incredibly painful.,0
+1360,"Assuming that you meant clipping each gradient instead of each parameter, then I think this makes sense to me now!",0
+1361,"Have a quick pick control with these values `[""hello"", ""hello_there""]`
+
+Type `ht` or `hello_` -> `hello_there` will show up
+Type `he_` -> no results",0
+1362,Looking forward to some cross-pollination at this level of PyTorch.,0
+1363,"At the end of the video I was trying to scroll with mouse wheel - didn't work, then I pointed to the side that scrollbar has disappeared thus preventing any scrolling.",2
+1364,"However, `F.pad` has separate manually created C++ and python APIs so I think sidesteps these issues entirely.",0
+1365,If none are available it's no problem.,0
+1366,It is not readily clear to new developers.,1
+1367,"full basis) of the original function, not that of `func(densify(x))`, which is not the same as just `func`.",0
+1368,(Growing or shrinking refers here to number of terminals not UI boundaries which are assumed fixed.),0
+1369,Until documentation is corrected you can find it at,0
+1370,"I totally understand that the devil is in the detail and how could one figure out what that ""designated"" argument is, so that, say, we remain on gpu1 if the other arg is on cpu and not mistakenly copy data away from gpu.",1
+1371,I meant UTF8 as standart encoding.,0
+1372,"Hi 
+
+Thank you for your reply, and sorry for my late reply.",0
+1373,-eph for visibility and their information.,0
+1374,"### 🐛 Describe the bug
+Starting from torch version 2.2.0, I get a segmentation fault on a forward pass using `Conv1d`.",0
+1375,I think that nvidia-smi does not list GPU processes when used within Docker (as in my case),2
+1376,"It is just so much easier for `gradcheck` to assume that sparse is just an optimization layout, nothing more, nothing less.",0
+1377,> > When is this expected to be resolved?,2
+1378,"I tried commenting out ""search.useRipgrep"": false and ""search.useLegacySearch"": true but to no avail.",1
+1379,With other versions compatibility issues may arise.,1
+1380,"To repro:
+Open finder and Connect to Server
+open a file from the mapped SMB drive in VS Code
+disconnect the network
+return to VS Code
+VS Code crashes
+
+Expected behavior would be 'file no longer exists' or something similar",2
+1381,> > Suppose `x` is a sparse 1D tensor with `nnz` elements and `x.to_dense()` is an `n`-dim vector.,0
+1382,"That is, leave `reduction='mean'` as-is but add `reduction='truemean'` (name TBD) that divides by N unconditionally.",0
+1383,": Yes
+
+<!-- 🪓 If you answered No above, use 'Help: Start Extension Bisect' from Command Palette to try to identify the cause.",0
+1384,"Ctrl + F
+2.",0
+1385,"In this case `self != 0` although non-differentiable, it has a non-trivial subgradient.",0
+1386,It works on JetBrains Fleet.,0
+1387,-israyelyan Could you please reopen the issue?,2
+1388,"> On a side note, illegal memory access in Apex is definitely a bug, however, the fact that pytorch native functions work in this situation just masks that your default device is not what it should be.",0
+1389,"TF 1.0: `python -c ""import tensorflow as tf; print(tf.GIT_VERSION, tf.VERSION)""`
+2.",0
+1390,", I noticed that you were assigned to several issues, can I help you with this one?",0
+1391,"2. when value for a key doesn't exist, we can initialize it with different initial value.",0
+1392,The auto-close seems in error.,2
+1393,"still cannot resume the optimizer using 
+
+my_model.save('some-path', include_optimizer=True) and keras.models.load_model('some-path')
+
+since I would like to track the global steps using my_model.optimizer.iterations, but each time I load the model, the iterations reset to zero.",2
+1394,Thanks for the information.,0
+1395,Why is it no longer supported when it's needed very often?,1
+1396,"These are the steps I'm following:
+
+**1.",0
+1397,"As far as I can tell on windows there isn't a ""readdir"" that works on `\\pipe` and I don't want to duplicate that hashing logic in js-debug.",1
+1398,"I agree about mixing, I don't understand the comment about `IR generator`.",2
+1399,Resolving the issue because the test is not flaky anymore after 1850 reruns without any failures and the issue hasn't been updated in 14 days.,0
+1400,"But, it seems to have run, its just relying on code that is deprecated when running my G.A.N.",2
+1401,"## 🐛 Bug
+
+The application crashes during deconstruction when using Cuda.",2
+1402,I also experienced the same issue here.,1
+1403,This naming convention could be used to attach examples (which are a kind of test) to functions/etc.,0
+1404,"An open question is how to handle ""one to many"" situations in both directions.",1
+1405,How detailed should the logging be?,1
+1406,"After taking a picture, the attached screen will appear, where you can change the Delegate field circled in red to `GPU.` Then press the `RUN` button below.",0
+1407,"**
+
+Yes, the current API would be changed.",0
+1408,This concept is similar to the output of a `grep` command.,0
+1409,"This might be helpful
+
+
+and CC",2
+1410,"If including tracebacks, please include the full traceback.",0
+1411,"Creating one full pass and file for a std.const to hlo.const sounds needless, and more importantly,  getting back to the main question: what's the issue with having std.const to hlo.const in hlo to lhlo?",1
+1412,Please install cuda driver compatible for your GPU.,0
+1413,According  and  it is not advised to use `fs.watch` for network drive files.,0
+1414,"Perhaps that is too wild, but then may be there could be a context manager, so it can be pretty tightly controlled scope-wise.",2
+1415,Then I need to find the selected text (horizontal).,0
+1416,"Ho the unravel impl has an interesting history, let's see if we can revive this one as it will be less ambiguous (we just want to match numpy)",2
+1417,Hope this helps :) Thanks for looking into it!,0
+1418,Now suppose that `masked=False` is doing what is described in the paragraph above.,0
+1419,It will be closed if no further activity occurs.,0
+1420,I would absolutely love a system like yours.,0
+1421,This should also help with the export to proto (or does that have a rule for std.const to hlo.const?).,2
+1422,I'm interested in building Tensorflow within Rosetta on an M1 Macbook.,0
+1423,"Some legacy C++98 projects are in CP437 because the platform are related to that encoding (serial printers, segment displays, etc.",0
+1424,Could you take a second look and let me know?,2
+1425,"Please report bugs/suggestions to the (internal) <a href="" CI Users group</a>.",0
+1426,Sure.,0
+1427,">  What ""other ways"" did you mean in `potentially be presented with such an input in other ways, and so making -hlo-to-mlir-hlo generate hlo.const isn't a real solution.",2
+1428,Then I want to discuss a few things.,0
+1429,"I had already posted the issue link posted in Keras-team/keras, 19 days ago, 
+
+The link is shared below.",0
+1430,It's not a question of choosing between the two: you need both independently.,0
+1431,The instructions for the same can be found [here](,0
+1432,Please use Python 3.9 or [Mediapipe Model Maker]( as a workaround.,0
+1433,It wasn't doing that for me.,0
+1434,"So, even though I was around, I wasn't really around.",0
+1435,"Finally, if you can bring this tutorial to the attention of any hardware/system folks to whom this may be useful, I'd very much appreciate it.",0
+1436,"pip is marginally faster, in that it doesn't time out, but still barely ~60 kb/s on a fast connection.",0
+1437,btw maybe worth natively supporting apache arrow / arrow2 / hdf5 or expanding column-based mmap support as in  ?,1
+1438,"In the meantime, if there are any insights, workarounds, how to debug, or known issues that you can infer from the error message I've shared below, it would be immensely helpful.",1
+1439,I would also argue that the TF legalization should produce an HLO constant so that its output is closed in HLO.,2
+1440,"I think the overall issue is this where we fail to open IndexedDB:
+
+!",2
+1441,"> > Also, I am fine with adding this pattern from std.const to hlo.const
+> 
+> This makes sense to me as well: seems like a good application of transitive lowering here, isn't it?",0
+1442,thank you for your reply!,0
+1443,Good point!,0
+1444,"In order words, `torch.sparse.sampled_addmm` is defined for masked semantics where the mask is defined by the input tensor indices.",0
+1445,Please refer the [comment-1469004170] ( also.,0
+1446,"Compared to my solution, I only need to
+store/know the seed value to recreate the batches.",2
+1447,Hi .,0
+1448,-israyelyan I tried to replicate the issue using latest TF versions but colab is crashing [here]( Could you please find the attached gist and confirm the same?,2
+1449,"Then in the absence of domain/co-domain pojections `masked=True` should succeed and `masked=False` should fail, unless the sparse input/output spans the whole space.",0
+1450,- Generalise the implementation to correctly handle batches of matrices of the same size.,0
+1451,"Error message: INVALID_ARGUMENT: expected compatible input types, but input 1:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_INT32
+    }
+  }
+}
+ is neither a subtype nor a supertype of the combined inputs preceding it:
+type_id: TFT_OPTIONAL
+args {
+  type_id: TFT_PRODUCT
+  args {
+    type_id: TFT_TENSOR
+    args {
+      type_id: TFT_FLOAT
+    }
+  }
+}
+
+	while inferring type of node 'cond_18[/output/_21](",0
+1452,> * The model weights.,0
+1453,Very much appreciate you taking time to help.,0
+1454,maybe  has an idea?,2
+1455,Just had it today.,0
+1456,"We are aware of the limitations and problems of TextMate, and we are open to allow other types of tokenizers, but no work is planned in this area at the moment.",0
+1457,"> Like I said, my CuDNN version is version 12.",0
+1458,"VS Code could use this in the following way: if no column attribute is returned from the DA, VS Code shows only the line indicator (in the editor margin), and if a column attribute is provided VS Code shows a column indicator (in addition to the line indicator).",0
+1459,3. we can make the KV pairs have TTL.,0
+1460,", that's how I have it.",0
+1461,> any update yet on this issue yet?,1
+1462,I am unable to understand what exactly is their significance and are they imported keywords from somewhere?,1
+1463,"Take a look at this: 
+
+Not sure how this will work with dist-strat though; I will leave the question to .",2
+1464,Now with MultiWorkerMirroredStrategy we can't start the server upfront anymore but need to start the whole strategy which then starts the server which leaves a longer delay between port reservation and the port really taken.,0
+1465,So only the search should change.,0
+1466,"So if we start using PP it might be fairscale if pt>=1.8 restriction won't be accepted by the HF team, since it'd be easier to ask to install a 3rd party module than request users to upgrade to pt-1.8 - I could be wrong.",1
+1467,"[Screenshot from 2023-12-10 16-13-30](
+
+
+Second, the search-match highlight appears within a file, and disappears when moving from file-to-file.",0
+1468,"If you have any additional queries, you can post your issues on  Thanks!",0
+1469,can you provide a screenshot showing your request as I don't have Windows available right now.,0
+1470,You can't choose where you can get input from!,0
+1471,Request you to stick to tested configurations and let us know if the problem persists with those also.,2
+1472,", you can help us out by closing this issue if the problem no longer exists, or adding more information.",0
+1473,`copy` which reduces a lot of the complexity in the above writeup.,0
+1474,Please when considering this realise how currently painful it is with compound launch configs that launch multiple integrated terminals.,0
+1475,"> Also, I am fine with adding this pattern from std.const to hlo.const 
+
+This makes sense to me as well: seems like a good application of transitive lowering here, isn't it?",0
+1476,"Because it is not so trivial to write it in C++/Cuda, I implemented them simply by using torch operations.",0
+1477,"That way, if I write a test for a function, I can edit the function and run the test without changing context.",0
+1478,<!-- dr-ci-comment-end -->,0
+1479,"Yes, please!",0
+1480,"I think a minimal ""fix"" here would be to check that there is more than one CuDNN installation in the library search path and print a warning about it",0
+1481,-MSFT can you try to reproduce and investigate?,0
+1482,"> ,
+>
+> Can you please refer to similar issues   for installation and let us know if it help?",2
+1483,"As of the pythonhosted.org's speed, yes we cant do much.",0
+1484,I need this to run with just a subset of the tf_ops set since I have a bigger model that I need to optimize for a mobile app.,0
+1485,"> device_map = {
+        ""encoder"": {0: [0, 1, 2],
+                    1: [3, 4, 5],
+                    },
+        ""decoder"": {0: [0, 1, 2],
+                    1: [3, 4, 5],
+                    },
+    }
+
+In this example, GPU1 is idle when parts 0,1 and 2 of the encoder are running.",0
+1486,"Linking to symbols would be useful, since you wouldn't have to constantly update the location for add-on commands, but it could always be a dropdown menu on right-click for the test (maybe even a tree expansion)",0
+1487,"Monitored the speed downloading, not even 10kb.",0
+1488,"Build OpenMPI from source
+(Get OpenMPI-4.0.0 and compile using Intel Fortran Compiler.",0
+1489,I commit files with Windows-1252 encoding to a git repo.,0
+1490,"But when I replace the `py_function` with `tf.function`, the error went away.",2
+1491,I think it's worth moving a string list class like this in core.,2
+1492,"Users would reasonably expect that, for the same inputs:
+1.",0
+1493,"Unfortunately, using SO_REUSEPORT does not solve this issue.",2
+1494,"This is an interesting topic, here are some context FWIW:
+
+* TorchArrow starts with implementing those columns (`StringColumn` in your example, but also other nested data like `ListColumn/MapColumn`) backed by [Velox]( This is the current implementation in TorchArrow GitHub repo (essentially a pybind over [Velox Vector]( ).",0
+1495,This might help us isolating the root cause.,1
+1496,"Namely, it sometimes expands `self.indices` to full dimensions while producing a new sparse input `self_densified`.",0
+1497,I am attaching below some of the logs below where i have successfully able to detect the GPU with official documentation steps and with tetsed configurations.,0
+1498,"Incredulous, that I cant just right click and search the current *open, *focused document for a string ...",0
+1499,This only means that this implementation is only correct when `mask(x + perturb) == mask(x)`.,0
+1500,`size_normalized_mean` could be an option.,2
+1501,"I have a simple face detector SSD model, and training with Model.fit vs. GradientTape not only behaves different.",2
+1502,"This might indicate you are trying to use an unsupported feature._
+`
+
+**Workaround works with limited capability** as shown in [
+But this only saves the weights and not other details of the model.",2
+1503,Has there been any progress made on this?,1
+1504,we have to fix this (the heuristic).,0
+1505,"> I agree about mixing, I don't understand the comment about `IR generator`.",2
+1506,"Nope, doesn't work
+
+!",2
+1507,"Did look at the ""workbench.colorCustomizations"", ""editor.findMatchBackground"", ""findMatchHighlightBackground"", but not obviously useful.",2
+1508,"Here's my understanding of the current state of things:
+
+- The semantics token provider API lays the groundwork for mapping low-level tokens to high-level scopes for theming.",0
+1509,However this flag was removed in TF 2.11 and we are still running into the same problem there.,2
+1510,I appreciate your help.,0
+1511,Also I was thinking of a context menu option for tests.,0
+1512,"Changing the encoding of the source files is not an option because, among other reasons, they contain strings that work with certain legacy devices (serial printers, displays, etc.)",0
+1513,Let us make sure to up vote this issue so it gets noticed.,0
+1514,"While keeping the grads for `sampled_addmm` as is, and under the assumption of `masked=False` working as described above, one way to test it with `masked=False` could be:
+
+
+`wrapped_sampled_addmm` is now falls into the `Simpler` category.",0
+1515,"## 🚀 Feature
+
+**tldr**: 
+
+Figure out a way for pytorch to automatically switch arguments of pytorch operations to the device of the params involved in the operation.",0
+1516,"I think it's getting cleared when the gitlens decoration shows up, I'll figure out what to do about that...",1
+1517,That should work.,0
+1518,Thanks!,0
+1519,"> Yeah so we iterate over each parameter in the model and clip that to
+something.",0
+1520,Is this scenario achievable?,1
+1521,The fact that there are multiple possible options is a problem as we need to take the time to look at them in details to see what to do.,1
+1522,"Sure, since it is a long output, I attach it to a file (`LD_DEBUG=libs python sandbox/debug_th.py &> ld_debug_out.txt`):
+[ld_debug_out.txt](",0
+1523,"When I used the university network (HK) to download, it was very slow.",0
+1524,It should be a lighter repo.,0
+1525,"I don't quite agree with the following statement ""the rescaling by the weights ensures that the loss value for the important sample (assuming some weight are significantly larger than others) remains in a reasonable range, while samples with smaller weights gets much smaller values."".",0
+1526,"**System information**
+- TensorFlow version (you are using): 1.15 and >=2.0
+- Are you willing to contribute it (Yes/No): Yes
+
+**Describe the feature and the current behavior/state.",0
+1527,"(Ctrl-Shift-F)
+2.",0
+1528,"(Does not address the topic, here.)
+!",0
+1529,"from numba import cuda
+cuda.select_device(0)
+cuda.close()
+print('CUDA memory released: GPU0')",0
+1530,"I don't remember exactly, but I think the reason why I added that env variable export is that this is suggested in the cuda installation guide: 
+
+Do you know whether this is not recommended anymore?",1
+1531,"System information
+
+- Google Colab Notebook
+
+### 2.",0
+1532,"For example, doing a `fs.existsSync(""/Users/bpasero/Library/Application Support/code-oss-dev/1.59.0-main.sock"")` returns `true` for me which would be a safe way of figuring out if VSCode is running on POSIX.",0
+1533,"Getting this error, on all PyTorch installations.",2
+1534,"Build the project using Android Studio, install it on the device, and run it.",0
+1535,"My code can be a good starting point, you can give it a try.",0
+1536,OK great to hear that !,0
+1537,"The DAG might look like this
+
+Having such a DAG allows people to have a clear starting point of where compilation should start, and what packages need to be built sequentially.",0
+1538,"For example, we're adding pipeline parallelism to PyTorch:  (will be released in 1.8) and this API needs you to only place modules on different devices and the pipeline API under the hood takes care of moving the data across devices.",0
+1539,", happy this worked for you.",0
+1540,"The PP in PyTorch basically pulls in the PP work from fairscale, although if you'd like to test things out in PyTorch you can always use the nightly builds to use the current PP implementation in master.",0
+1541,"Same problem here, macOS 10.13 / CUDA 10.",2
+1542,"> 
+> From a general standpoint, I do agree with the handler approach, this way in the extension we might come up with a few simple rules that may help with basic inference.",0
+1543,Any updates on this?,1
+1544,: vscode.Location[]` on the `TestItem`.,0
+1545,I am around and should be fairly quick to respond to any questions or feedback.,0
+1546,"On Tue, Jul 27, 2021 at 10:30 AM Logan Ramos ***@***.",0
+1547,"Besides, once we are adopting `requestSingleInstanceLock` I think we can piggy back on the file that Chrome creates to signal the lock.",0
+1548,"However, it is likely that for a period of time one last build of Estimator would still be needed for TF.",2
+1549,"Like mentioned above, the ideal path is to support the post-accumulate-grad hook instead, and users can use that to _implement_ optimizer in backward.",0
+1550,"Well, I believe this is incorrect...",2
+1551,Those parameters (especially window size) are important for what exactly SSIM is measuring.,0
+1552,"Although, I am not at all sure whether my version works on other systems.",1
+1553,"> But `f(x)` and `g(x):=f(densify(x))` are different functions, right?",1
+1554,"wow great findings 👍 , now do you know any way to figure out whether a file path is a SMB share or not?",2
+1555,"**
+
+As a matter of fact, sparse models in recommend system may benefit with this feature a lot.",0
+1556,Cheers...,0
+1557,<br>If you are unable to remove the `Stale` label please contact a maintainer in order to do so.,0
+1558,The second label simply seems too long for that kind of matching to apply.,2
+1559,"#40829 has been marked as a duplicate, but I think they are 2 different concerns.",2
+1560,"It’s great VSCode has all of these fancy bells and whistles and more features than you can possibly need, but it seems to get the basics wrong when it comes to rendering the source code onto the screen.",0
+1561,"Hmm, you're correct, I guess that was a naive implementation that basically just extends the available gpu memory but isn't taking advantage of the extra hardware.",0
+1562,So when the process finishes the system kills it and releases the GPU resources automatically.,0
+1563,> #27878 is a related issue discussing context manager forcing created tensor to be on a specified device.,0
+1564,"],
+       [1.",0
+1565,"<br>If you want the bot to never mark this PR stale again, add the `no-stale` label.<br>`Stale` pull requests will automatically be closed after 30 days of inactivity.<br>",0
+1566,"Of course, other models may have more or less layers and they don't have to have the same number of layers in encoder and decoder.",0
+1567,I made it run after installing some extra libraries but that was not my goal.,0
+1568,"On a side note, illegal memory access in Apex is definitely a bug, however, the fact that pytorch native functions work in this situation just masks that your default device is not what it should be.",0
+1569,You have to start the servers upfront and propagate the cluster spec after the server initialization.,0
+1570,`aten::scaled_dot_product_attention'` is supported on latest pytorch.,0
+1571,"> Modification of inputs is wrong in general, ...
+> Sorry, what is the fundamental assumption of gradcheck?",2
+1572,"> pip3 install nvidia cudnn-cu11==8.6.0.163 ERROR: Could not find a version that satisfies the requirement nvidia (from versions: none) ERROR: No matching distribution found for nvidia
+
+Did you able to resolve the above error now ?",2
