@@ -16,8 +16,8 @@ response = req.get(url)
 pprint(response.json())
 
 # ==================== Get Started ====================
-# Requeirements
-token = "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"
+# Requirements
+token = "" # required!
 
 headers = {
     "Authorization": f"token {token}",
